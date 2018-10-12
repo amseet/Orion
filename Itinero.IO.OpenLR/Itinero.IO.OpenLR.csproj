@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="OpenLR" Version="1.1.0-pre02" />
+  </ItemGroup>
+
+</Project>
