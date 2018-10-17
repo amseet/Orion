@@ -15,7 +15,7 @@ namespace Orion
 {
     class Program
     {
-        static void Main(string[] args)
+        static void EnableLogging()
         {
             // enable logging.
             OsmSharp.Logging.Logger.LogAction = (o, level, message, parameters) =>
@@ -26,17 +26,30 @@ namespace Orion
             {
                 Console.WriteLine(string.Format("[{0}] {1} - {2}", o, level, message));
             };
+        }
+
+        static void Main(string[] args)
+        {
+            string map_path = "new-york-latest.osm.pbf";
+            string routerdb_path = "itinero.routerdb";
+            string TaxiTripData_path = "yellow_tripdata_2016-01.csv";
+
+            EnableLogging();
 
             // STAGING: setup a routerdb.
-            //Download.ToFile("http://files.itinero.tech/data/OSM/planet/europe/luxembourg-latest.osm.pbf", "luxembourg-latest.osm.pbf").Wait();
+            Console.WriteLine("Downloading Map Data");
+            Download.ToFile("https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf", map_path).Wait();
+
+            //Console.WriteLine("Downloading Taxi Trip Data");
+            //Download.ToFile("https://data.cityofnewyork.us/api/views/uacg-pexx/rows.csv", TaxiTripData_path).Wait();
 
             // build routerdb from raw OSM data.
             // check this for more info on RouterDb's: https://github.com/itinero/routing/wiki/RouterDb
             var routerDb = new RouterDb();
             Profile car;
-            if (File.Exists(@"itinero.routerdb"))
+            if (File.Exists(routerdb_path))
             {
-                using (var stream = File.OpenRead(@"itinero.routerdb"))
+                using (var stream = File.OpenRead(routerdb_path))
                 {
                     routerDb = RouterDb.Deserialize(stream);
                     // get the profile from the routerdb.
@@ -46,7 +59,7 @@ namespace Orion
             }
             else
             {
-                using (var sourceStream = File.OpenRead(@"C:\Users\seetam\Documents\Visual Studio 2015\Projects\Apollo\datasets\maps\new-york.osm.pbf"))
+                using (var sourceStream = File.OpenRead(map_path))
                 {
                     routerDb.LoadOsmData(sourceStream, Itinero.Osm.Vehicles.Vehicle.Car);
                    
@@ -58,7 +71,7 @@ namespace Orion
                     //routerDb.AddContracted(car);
                 }
 
-                using (var stream = new FileInfo(@"itinero.routerdb").Open(FileMode.Create))
+                using (var stream = new FileInfo(routerdb_path).Open(FileMode.Create))
                 {
                     routerDb.Serialize(stream, false);
                 }
@@ -66,7 +79,6 @@ namespace Orion
 
             // create router.
             var router = new Router(routerDb);
-
 
             // calculate route.
             var route = router.Calculate(car, new Coordinate(40.733178f, -73.987169f),
@@ -79,9 +91,7 @@ namespace Orion
             // get edge details.
             var edge = routerDb.Network.GetEdge(router.Resolve(car, new Coordinate(40.733178f, -73.987169f)).EdgeIdDirected());
             var oldattributes = routerDb.EdgeProfiles.Get(edge.Data.Profile);
-            var meta = routerDb.EdgeMeta.Get(edge.Data.MetaId);
-            
-
+            var meta = routerDb.EdgeMeta.Get(edge.Data.MetaId); 
 
             // create coder.
             var coder = new Coder(routerDb, new OsmCoderProfile());

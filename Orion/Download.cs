@@ -44,6 +44,34 @@ namespace Orion
                 using (var outputStream = File.OpenWrite(filename))
                 {
                     stream.CopyTo(outputStream);
+                    stream.Flush();
+                }
+            }
+        }
+
+        public static async Task GetAttachment(string url, string filename)
+        {
+            UriBuilder uriBuilder = new UriBuilder(url);
+
+            using (HttpClient client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(uriBuilder.ToString());
+                client.DefaultRequestHeaders.Accept.Clear();
+                HttpResponseMessage response = await client.GetAsync(uriBuilder.ToString());
+
+                if (response.IsSuccessStatusCode)
+                {
+                    System.Net.Http.HttpContent content = response.Content;
+                    var contentStream = await content.ReadAsStreamAsync(); // get the actual content stream
+                    using (var outputStream = File.OpenWrite(filename))
+                    {
+                        contentStream.CopyTo(outputStream);
+                        contentStream.Flush();
+                    }
+                }
+                else
+                {
+                    throw new FileNotFoundException();
                 }
             }
         }

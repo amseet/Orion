@@ -5,15 +5,17 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orion", "Orion\Orion.csproj", "{B4E410B7-33D0-472C-8F77-E1293B9558A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itinero", "Itinero\Itinero.csproj", "{D5F0F596-3DE7-4983-96B8-B08D7F259CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itinero", "Itinero\Itinero.csproj", "{D5F0F596-3DE7-4983-96B8-B08D7F259CC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itinero.IO.Osm", "Itinero.IO.Osm\Itinero.IO.Osm.csproj", "{153F2BF1-5CCF-46A3-8077-C89D97E98EEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itinero.IO.Osm", "Itinero.IO.Osm\Itinero.IO.Osm.csproj", "{153F2BF1-5CCF-46A3-8077-C89D97E98EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itinero.Geo", "Itinero.Geo\Itinero.Geo.csproj", "{D37A4B40-C9B0-4141-B803-7F8745C94A74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itinero.Geo", "Itinero.Geo\Itinero.Geo.csproj", "{D37A4B40-C9B0-4141-B803-7F8745C94A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itinero.IO.Shape", "Itinero.IO.Shape\Itinero.IO.Shape.csproj", "{1AF1B671-4B0F-491B-9A3C-2AF090F96ADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itinero.IO.Shape", "Itinero.IO.Shape\Itinero.IO.Shape.csproj", "{1AF1B671-4B0F-491B-9A3C-2AF090F96ADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itinero.IO.OpenLR", "Itinero.IO.OpenLR\Itinero.IO.OpenLR.csproj", "{72DC0070-30ED-409F-BFD0-AC541B8E28B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itinero.IO.OpenLR", "Itinero.IO.OpenLR\Itinero.IO.OpenLR.csproj", "{72DC0070-30ED-409F-BFD0-AC541B8E28B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitizer", "Digitizer\Digitizer.csproj", "{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{72DC0070-30ED-409F-BFD0-AC541B8E28B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72DC0070-30ED-409F-BFD0-AC541B8E28B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72DC0070-30ED-409F-BFD0-AC541B8E28B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
