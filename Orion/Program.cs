@@ -40,11 +40,7 @@ namespace Orion
             Console.WriteLine("Downloading Map Data");
             Download.ToFile("https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf", map_path).Wait();
 
-            //Console.WriteLine("Downloading Taxi Trip Data");
-            //Download.ToFile("https://data.cityofnewyork.us/api/views/uacg-pexx/rows.csv", TaxiTripData_path).Wait();
-
             // build routerdb from raw OSM data.
-            // check this for more info on RouterDb's: https://github.com/itinero/routing/wiki/RouterDb
             var routerDb = new RouterDb();
             Profile car;
             if (File.Exists(routerdb_path))
