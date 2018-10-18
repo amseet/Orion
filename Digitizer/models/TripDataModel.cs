@@ -32,7 +32,7 @@ namespace Digitizer.models
         
         public TripDataModel()
         {
-
+            //CSVAttribute.GetColumnPosition<TripDataModel>(nameof(nyc.Pickup_datetime));
         } 
     }
 }
