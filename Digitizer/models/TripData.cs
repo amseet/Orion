@@ -24,13 +24,13 @@ namespace Digitizer.models
         }
     }
 
-    public class TripDataModel
+    public class TripData
     {
 
         [CSV(ColumnPosition: 1)]
         public DateTime Pickup_datetime;
         
-        public TripDataModel()
+        public TripData()
         {
             //CSVAttribute.GetColumnPosition<TripDataModel>(nameof(nyc.Pickup_datetime));
         } 
