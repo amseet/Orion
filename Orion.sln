@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itinero.IO.Shape", "Itinero
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itinero.IO.OpenLR", "Itinero.IO.OpenLR\Itinero.IO.OpenLR.csproj", "{72DC0070-30ED-409F-BFD0-AC541B8E28B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitizer", "Digitizer\Digitizer.csproj", "{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitizer", "Digitizer\Digitizer.csproj", "{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orion.Web", "Orion.Web\Orion.Web.csproj", "{2C141EC1-5DFD-438B-BF21-E054B72C1E7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C141EC1-5DFD-438B-BF21-E054B72C1E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C141EC1-5DFD-438B-BF21-E054B72C1E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C141EC1-5DFD-438B-BF21-E054B72C1E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C141EC1-5DFD-438B-BF21-E054B72C1E7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

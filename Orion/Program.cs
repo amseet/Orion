@@ -27,8 +27,7 @@ namespace Orion
                 Console.WriteLine(string.Format("[{0}] {1} - {2}", o, level, message));
             };
         }
-
-        static void Main(string[] args)
+        static void RouteWithTraffic()
         {
             string map_path = "new-york-latest.osm.pbf";
             string routerdb_path = "itinero.routerdb";
@@ -58,7 +57,7 @@ namespace Orion
                 using (var sourceStream = File.OpenRead(map_path))
                 {
                     routerDb.LoadOsmData(sourceStream, Itinero.Osm.Vehicles.Vehicle.Car);
-                   
+
                     // get the profile from the routerdb.
                     // this is best-practice in Itinero, to prevent mis-matches.
                     car = routerDb.GetSupportedProfile("car");
@@ -77,17 +76,17 @@ namespace Orion
             var router = new Router(routerDb);
 
             // calculate route.
-            var route = router.Calculate(car, new Coordinate(40.733178f, -73.987169f),
-                new Coordinate(40.724283f, -73.992555f));
+            var route = router.Calculate(car, new Coordinate(40.79771f, -73.92004f),
+                new Coordinate(40.78929f, -73.92728f));
             var routeGeoJson = route.ToGeoJson();
 
             /** original path **/
             File.WriteAllText("route1.geojson", routeGeoJson);
 
             // get edge details.
-            var edge = routerDb.Network.GetEdge(router.Resolve(car, new Coordinate(40.733178f, -73.987169f)).EdgeIdDirected());
+            var edge = routerDb.Network.GetEdge(router.Resolve(car, new Coordinate(40.79771f, -73.92004f)).EdgeIdDirected());
             var oldattributes = routerDb.EdgeProfiles.Get(edge.Data.Profile);
-            var meta = routerDb.EdgeMeta.Get(edge.Data.MetaId); 
+            var meta = routerDb.EdgeMeta.Get(edge.Data.MetaId);
 
             // create coder.
             var coder = new Coder(routerDb, new OsmCoderProfile());
@@ -97,7 +96,7 @@ namespace Orion
             attributes.AddOrReplace("maxspeed", "5 mph");
 
             var testEdges = new Dictionary<string, IAttributeCollection>();
-            testEdges.Add(coder.EncodeClosestEdge(new Coordinate(40.7326f, -73.98769f)), attributes);
+            testEdges.Add(coder.EncodeClosestEdge(new Coordinate(40.79771f, -73.92004f)), attributes);
 
             // TEST: decode edges and augment routerdb.
             foreach (var pair in testEdges)
@@ -110,12 +109,17 @@ namespace Orion
             router = coder.Router;
 
             // calculate route.
-            route = router.Calculate(car, new Coordinate(40.733178f, -73.987169f),
-                 new Coordinate(40.724283f, -73.992555f));
+            route = router.Calculate(car, new Coordinate(40.79771f, -73.92004f),
+                new Coordinate(40.78929f, -73.92728f));
             routeGeoJson = route.ToGeoJson();
 
             /** modified path **/
             File.WriteAllText("route2.geojson", routeGeoJson);
+        }
+        static void Main(string[] args)
+        {
+            RouteWithTraffic();
+            Console.ReadKey();
         }
     }
 }

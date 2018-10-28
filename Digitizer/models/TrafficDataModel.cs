@@ -6,7 +6,10 @@ namespace Orion.Models
 {
     public struct TrafficAttributes
     {
-        long ID;
+        public int id;
+        public float speed;
+        public int travel_timel;
+         
     }
 
     public class TrafficDataModel : BaseModel<TrafficAttributes>

@@ -1,0 +1,72 @@
+﻿@model Orion.Web.Models.TripDataModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TripDataModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Pickup_Datetime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pickup_Datetime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Dropoff_Datetime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Dropoff_Datetime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Passenger_Count)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Passenger_Count)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Trip_Distance)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Trip_Distance)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Pickup_Longitude)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pickup_Longitude)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Pickup_Latitude)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pickup_Latitude)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Dropoff_Longitude)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Dropoff_Longitude)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Dropoff_Latitude)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Dropoff_Latitude)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Fare_Amount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Fare_Amount)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.TripId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

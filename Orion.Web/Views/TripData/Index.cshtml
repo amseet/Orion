@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Orion.Web.Models.TripDataModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Pickup_Datetime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dropoff_Datetime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Passenger_Count)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Trip_Distance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pickup_Longitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pickup_Latitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dropoff_Longitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dropoff_Latitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fare_Amount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pickup_Datetime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dropoff_Datetime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passenger_Count)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trip_Distance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pickup_Longitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pickup_Latitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dropoff_Longitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dropoff_Latitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fare_Amount)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TripId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TripId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TripId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

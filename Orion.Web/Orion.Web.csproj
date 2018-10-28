@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Itinero.Geo\Itinero.Geo.csproj" />
+    <ProjectReference Include="..\Itinero.IO.OpenLR\Itinero.IO.OpenLR.csproj" />
+    <ProjectReference Include="..\Itinero.IO.Osm\Itinero.IO.Osm.csproj" />
+    <ProjectReference Include="..\Itinero\Itinero.csproj" />
+  </ItemGroup>
+
+</Project>

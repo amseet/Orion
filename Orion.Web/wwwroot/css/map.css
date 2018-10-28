@@ -1,0 +1,7 @@
+  #mapid {
+            height: 720px;
+        }
+
+div.bootstrap-datetimepicker-widget.dropdown-menu.bottom{
+    z-index: 9999 !important;
+}
