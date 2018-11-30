@@ -1,5 +1,6 @@
   #mapid {
             height: 720px;
+            width: auto;
         }
 
 div.bootstrap-datetimepicker-widget.dropdown-menu.bottom{

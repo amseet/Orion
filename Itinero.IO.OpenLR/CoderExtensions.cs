@@ -130,10 +130,10 @@ namespace Itinero.IO.OpenLR
         /// <summary>
         /// Encodes the edge that the given location resolves on.
         /// </summary>
-        public static string EncodeClosestEdge(this Coder coder, Itinero.LocalGeo.Coordinate location)
+        public static string EncodeClosestEdge(this Coder coder, Itinero.LocalGeo.Coordinate location, float searchDistanceInMeter = 50)
         {
             return coder.Encode(coder.BuildEdge(
-                coder.Router.Resolve(coder.Profile.Profile, location).EdgeIdDirected()));
+                coder.Router.Resolve(coder.Profile.Profile, location, searchDistanceInMeter).EdgeIdDirected()));
         }
     }
 }

@@ -1,0 +1,523 @@
+Uid	User_Id	Feature	Comment	Sentiment	Pos	Neg	Nut
+0	amzn1.account.AFHV4HRLNDQPEVF7LSMHRUWOGMFQ	Storage	"Good memory card"	Positive	0.95192	0.009535304	0.03854461
+1	amzn1.account.AHKZJEWLFOAHLMKLT6JMBALTOIFQ	Storage	"Came quickly and no issues thus far with the memory card."	Positive	0.9807469	0.01094925	0.008303811
+2	amzn1.account.AFH4ZCPV7MO2UGARNIF6RCSUSXFQ	Storage	"This was a gift for a friend and they tell me the SD card works well."	Positive	0.9804614	0.001376152	0.01816255
+3	amzn1.account.AF3HVM7QBQIWEHXSQVKTJH6ILT7Q	Storage	"Amazing memory for my dash cam"	Positive	0.9915301	0.0002143241	0.008255612
+4	amzn1.account.AHPHJ4L3RBHUEE36VP5UNW76IZFQ	Storage	"dependable,reliable sd card"	Neutral	0.4009333	0.0107175	0.5883492
+5	amzn1.account.AGX3HTY6SIVJVKX4OEUB7L7RBLCA	Storage	"Fully satisfied with this memory card."	Positive	0.9890906	0.0005643786	0.01034493
+6	amzn1.account.AHU6DACD7I77LEL2FAOARLD3EKTA	Storage	"These new A1 microsd card are amazing, thanks to SanDisk we get lots of storage and reasonable price."	Positive	0.997727	5.132009E-05	0.002221753
+7	amzn1.account.AH7AOBBYS6YRU7YVTTKT2MFA4NGA	Storage	"With a SurfaceBook, even with 1TB, this 400 GB card is very usefull"	Neutral	0.4613159	0.03889619	0.4997879
+8	amzn1.account.AGOWBGUXAHCKLNGW5GFBYLBGD6VA	Storage	"Owning a great golf course gives great power, so does micro Sd card ."	Positive	0.8714901	0.005439896	0.12307
+9	amzn1.account.AH33CPF6PAO753ES44VHGB5AIF6Q	Storage	"Good enough speeds for a micro sd"	Positive	0.9553975	0.002865534	0.04173694
+10	amzn1.account.AER2V6KWQEJZZU7GOCXAJC7JU4SA	Storage	"Great SD card for additional memory on compatible phones."	Positive	0.9945868	0.0002516716	0.005161452
+11	amzn1.account.AF7EHG7JS2WY4XXS4YEIMOAIQUQA	Storage	"SanDisk, a manufacturer of high quality memory cards, that you can depend on."	Neutral	0.4572381	0.0751184	0.4676436
+12	amzn1.account.AHAZ2TSD3ICBXORYWKFUEYL46OSA	Storage	"I decided to get a known and trusted brand of memory card this time and boy, am I ever glad I did."	Positive	0.7555044	0.01517045	0.2293252
+13	amzn1.account.AHX3TBVMZEN47T2FTXPMW33R7I5Q	Storage	"Excellent microsd card from brand you can trust."	Positive	0.9917939	0.0003401418	0.007865924
+14	amzn1.account.AG66NN3W6UY5UKLPUJEBRZHW4N5Q	Storage	"One of the best SD cards you can get."	Positive	0.982052	0.001355758	0.01659217
+15	amzn1.account.AGBX3A7HIBXLV6X6XMFCYHORJZYA	Storage	"Used the 400 GB MicroSD for a Nintendo Switch console and it works brilliantly!"	Positive	0.9928411	0.0011473	0.006011543
+16	amzn1.account.AFBTQO2QEHTGXTDQ7VBCEIRX755Q	Storage	"Needed an SD card for my phone and this worked well and seems to be good quality so far no issues or complaints."	Positive	0.9984443	4.430784E-05	0.001511449
+17	amzn1.account.AEOLT2PMSXDHIFKODSJNOWWOQ5WQ	Storage	"The MicroSD card works perfectly"	Positive	0.9806026	0.00195893	0.01743845
+18	amzn1.account.AFBKVFI7N7FYM67DFHXDW76IC7BQ	Storage	"I needed a basic memory card and this does the trick!"	Positive	0.9416394	0.002635594	0.05572493
+19	amzn1.account.AEN53D7EBVXLQAALCSLRE4HUBJHQ	Storage	"Got this micro SD to boost storage on a tablet."	Positive	0.5950989	0.03439267	0.3705085
+20	amzn1.account.AHMMODDTPKYYPSPLZJXE4RT66NUA	Storage	"What can i say it's a memory card"	Neutral	0.2726317	0.1686141	0.5587543
+21	amzn1.account.AFRR2NM6LB7YMWFV722QH2ZHDKAQ	Storage	"Fastest memory card I could find that works with my go pro"	Positive	0.659892	0.01195881	0.3281491
+22	amzn1.account.AEUVXVGSYHLPNVGBIQQCCZS2BROQ	Storage	"Great 128gb mini sd card!"	Positive	0.9522042	0.0004299499	0.04736578
+23	amzn1.account.AGG5GPXS732LVHRWPP3IEDQRXZ5A	Storage	"An economic Micro sd for devices that need portable storage."	Neutral	0.2661768	0.03984598	0.6939772
+24	amzn1.account.AFWFAJTQUDLLQLSMROQFGOJMBZHA	Storage	"With a name like SanDisk, you can't go wrong when it comes to Memory Cards."	Positive	0.8658728	0.06446642	0.0696608
+25	amzn1.account.AEEYSVV46JESNZGHYMY56MNO6GUQ	Storage	"You can't go wrong with any Sandisk memory product"	Positive	0.8499091	0.09588257	0.05420823
+26	amzn1.account.AFPZP6DCX65VV2RTLIQ5OMGLI5JA	Storage	"I bought this SD card to expand memory for a Nintendo Switch."	Neutral	0.03377666	0.02387195	0.9423513
+27	amzn1.account.AHUBE3JD24EFA5EMNLUL26JP7QYQ	Storage	"Very happy with my 200gb sd card."	Positive	0.9970013	9.42383E-05	0.002904336
+28	amzn1.account.AFYQIHCYQ4SJG632NIQR5GH4KQPA	Storage	"Very good 200gb microsd card."	Positive	0.989719	0.0004819806	0.009799019
+29	amzn1.account.AGVYEJUWW2N4OJGVGLEKCB3JO33Q	Storage	"sandisk micro sd card what do you want me to say more ."	Positive	0.5180964	0.01485999	0.4670435
+30	amzn1.account.AGC6TXYNRFRWAPH4QZ6I5EPTVOFA	Storage	"The large capacity of this micro SD card allowed for me to install my entire game library on one card, with lots of room for new games."	Positive	0.6219456	0.005195681	0.3728587
+31	amzn1.account.AFHTF3OF7J3YU3H6C4SZFVLFGMOA	Storage	"It’s SD card it work, let see after 1 year 3 year if it still works?"	Neutral	0.2564541	0.1009184	0.6426274
+32	amzn1.account.AEZ26UZENDAZ67CZSZWMNXACFM4A	Storage	"Just needed a bigger micro SD card for storage of 4k hdr pictures and videos."	Neutral	0.1327307	0.08588872	0.7813805
+33	amzn1.account.AEVAGJXQR6DGKOPDKGUUTJ4HZCJA	Storage	"Bought this Micro sd card for my switch and works perfect without any other instructions just put it in."	Positive	0.9814057	0.002466499	0.01612782
+34	amzn1.account.AEWO7OJFH2GHX2YA3IWKDBIDOYXA	Storage	"Just another SD card that works flawlessly in my tablet."	Positive	0.967268	0.00706068	0.02567117
+35	amzn1.account.AGXJOZA6GFDOQ2ZELSLXXX5FGHWQ	Storage	"Transferring my data on to the sd card was pretty fast and it was the cheapest 128gb sd card on amazon as far as I saw."	Positive	0.837733	0.03507115	0.1271958
+36	amzn1.account.AHMMODDTPKYYPSPLZJXE4RT66NUA	Storage	"Durability I mean I didn't try to break it but it's as durable as any other memory card lol"	Positive	0.9264291	0.004360793	0.0692101
+37	amzn1.account.AHSBOJZVX2WQHGHOKB2I4JDUBVYQ	Storage	"Works, it’s a memory card"	Positive	0.610963	0.02806164	0.3609754
+38	amzn1.account.AEAWVMOOPFWIF7IIDM3RTRISAWKQ	Storage	"My tablet uses the 64GB card with NO problem!"	Positive	0.9098262	0.009146777	0.081027
+39	amzn1.account.AFWFAJTQUDLLQLSMROQFGOJMBZHA	Storage	"Make sure to buy your SD cards directly from a Amazon warehouse (1st Party)"	Neutral	0.1125209	0.008942347	0.8785369
+40	amzn1.account.AFI4I7YTIHWAGS7FED2ZWTKG4MYQ	Storage	"without it failing get this Sandisk card"	Negative	0.03028597	0.9035713	0.06614269
+41	amzn1.account.AEI5JISOFIMDJS5KNV5BP3HNLN2Q	Storage	"Just an sd card but works great"	Positive	0.854887	0.003036696	0.1420762
+42	amzn1.account.AGCBQH2ALZXQR6GIAKSV2TC7QHHQ	Storage	"It's an SD card that works as it should."	Positive	0.9227785	0.005750299	0.07147107
+43	amzn1.account.AFJLNRCTTP4YQX2XTG4FAAYDMPOA	Storage	"it sure is a 128 GB micro sd card"	Neutral	0.1121583	0.02284993	0.8649917
+44	amzn1.account.AH5DCKYCBYPKUXZUW4CLCN4RZSJQ	Storage	"I purchased two 128GB of these Micro SD cards."	Neutral	0.1236504	0.02533998	0.8510095
+45	amzn1.account.AE4LF4F7PPZTODMJLHV4SJZOPRYA	Storage	"I got this microSD card for expanded storage for my tablet."	Neutral	0.1375176	0.01726824	0.8452142
+46	amzn1.account.AG6ILU2AOYSOKORHN7PT6W2AXA2A	Storage	"I got a new phone and this micro SD card seemed like good value."	Positive	0.9736297	0.009339675	0.01703061
+47	amzn1.account.AFDT7X5K2PPOFUKY76DEWCG7XOOQ	Storage	"A lot of people received fake SD cards out there, so I'm lucky I got a genuine one."	Positive	0.5148083	0.1690084	0.3161832
+48	amzn1.account.AFDGGJLJMC7TR2CAZTIOIBKWYMCQ	Storage	"As expected , not much to say its a sd card"	Neutral	0.1354807	0.4170768	0.4474425
+49	amzn1.account.AHRAHT3MCGVUQV6RXDQUGINTC2SQ	Storage	"Memory card , what needs to be said"	Neutral	0.02084719	0.2031358	0.776017
+50	amzn1.account.AHP5D5XIKDOCK7KLVNX5RWTR6SUQ	Storage	"Sandisk is one of the top micro sd brands."	Positive	0.9187652	0.01186311	0.06937164
+51	amzn1.account.AE4LF4F7PPZTODMJLHV4SJZOPRYA	Storage	"An sd card adapter also came in the packaging which is always helpful but in this case, I did not need it."	Positive	0.7963806	0.0164595	0.1871599
+52	amzn1.account.AGC6TXYNRFRWAPH4QZ6I5EPTVOFA	Storage	"Previously I had been using a 16gb micro SD card, which was barely enough to store 2 big games."	Negative	0.159291	0.50062	0.340089
+53	amzn1.account.AGTG7QMSKJ7U7U5RCIHADTDMCGVA	Storage	"Make sure to format the SD Card from DashCam and everything should work."	Negative	0.3305865	0.3561473	0.3132662
+54	amzn1.account.AHDEZ7FIYGUQJKD7RBHD4K6SRA4A	Storage	"I bought 2 SD card which 256GB."	Neutral	0.05463776	0.02309203	0.9222701
+55	amzn1.account.AE4AJDMJ24E2NEZQE4I2ZHB27UMA	Storage	"Ordered a new 16 GB card, got a used 128 GB card in a Ziploc sandwich bag and no original packaging."	Neutral	0.06906278	0.2228762	0.7080609
+56	amzn1.account.AEAWVMOOPFWIF7IIDM3RTRISAWKQ	Storage	"Used Guiformat to get Fat32 on card to use in a tablet that says it can only use a 32GB card."	Neutral	0.02873731	0.04890256	0.9223602
+57	amzn1.account.AE57RI45UEIT2L5CKUFFSUZLQW5Q	Storage	"Replaced no name that failed after a year with this sd card."	Negative	0.1244827	0.6097402	0.2657771
+58	amzn1.account.AGTG7QMSKJ7U7U5RCIHADTDMCGVA	Storage	"I was getting “Pls Insert SD Card” even before I format it from my Computer."	Neutral	0.158162	0.0221259	0.819712
+59	amzn1.account.AFWFAJTQUDLLQLSMROQFGOJMBZHA	Storage	"I know there's a whole wack of fake SD Cards on the net here (even affecting Amazon themselves)."	Negative	0.01042438	0.8913147	0.0982609
+60	amzn1.account.AHJ5FCUFQK47RDY3Y62RSJLK7GQQ	Storage	"I have bought cheap micro sd card in past and they have a been fake and I was unable to use them in my phone or even tablet."	Negative	0.05574549	0.6377808	0.3064737
+61	amzn1.account.AE4LF4F7PPZTODMJLHV4SJZOPRYA	Storage	"- I had to reformat the microSD card to NTFS before using"	Neutral	0.01575002	0.4336303	0.5506197
+62	amzn1.account.AHHWCI3WKHW2POUGFMAXIA66KZBA	Storage	"I wish I could have the same memory."	Negative	0.1742181	0.5784543	0.2473277
+63	amzn1.account.AESR7Y37UCX2DX5O4EZVYF4ZURBA	Storage	"It's an sd card, nobody should have to write a review but it keeps pinging me to make one, thanks Jeff Bezos."	Negative	0.031654	0.9161631	0.05218272
+64	amzn1.account.AHCT5F3QCAKQWKFN5R4AF24KVIJQ	Storage	"I contacted Sandisk about the warranty that comes with every authentic Sandisk SD card, unfortunately they informed me that this is not an authentic Sandisk."	Negative	0.0004640971	0.9822318	0.01730407
+65	amzn1.account.AG6UKEAFOBWKEX5NJRU2Q7Y6QDHA	Storage	"I bought 2 SD cards for my dash cam , today October 8th , 2018 I realize that ether one is working, thanks that I checked otherwise I don’t want even think get into a car accident and check my dashcam and get a surprise that SD card error."	Neutral	0.04590912	0.3706664	0.5834244
+66	amzn1.account.AHL4J6ND5HTCIPADDZ3NYJ2Q7OVQ	Storage	"The 200gb SD card doesnt work."	Negative	0.003929751	0.9631881	0.03288222
+67	amzn1.account.AE4DHBPWTOONDOL7EFGLZUXKHQRA	Storage	"Showed a 128GB card was under 2mb."	Neutral	0.01896938	0.06134969	0.919681
+68	amzn1.account.AHCT5F3QCAKQWKFN5R4AF24KVIJQ	Storage	"Around a month ago it started giving me all kinds of error, "micro sd can not be detected" and "corrupted data"."	Neutral	0.008844656	0.393247	0.5979084
+69	amzn1.account.AEEYAFQI6Q4JV4JSL4IKZHZ2XCAQ	Storage	"the sandisk sd card does not work."	Negative	0.001619285	0.9847579	0.0136228
+70	amzn1.account.AEJQXKU6HCFY6F5TVIGINYXNRLRQ	Storage	"The sd card starts corrupting data at 32gbs."	Negative	0.01091401	0.5196848	0.4694012
+71	amzn1.account.AHQ4D2PMFS3DEVRAL46UN3ZNIO5Q	Memory	"Great price for that much storage."	Positive	0.9990627	5.476516E-05	0.0008824846
+72	amzn1.account.AFWFAJTQUDLLQLSMROQFGOJMBZHA	Memory	"Great Price/GB ratio and solid performance."	Positive	0.9968373	3.996598E-05	0.003122811
+73	amzn1.account.AGEEDZKSFNG4FP7HEPC6TBCHSUXA	Memory	"Works great, holds lots of pictures and videos for my phone"	Positive	0.9993529	1.360622E-05	0.0006335832
+74	amzn1.account.AFPPRVIFVAEE64MFY6OVJHFQI3KQ	Memory	"It's Sandisk and it provides 64 gigabytes at a reasonable price."	Positive	0.8692728	0.07078221	0.05994494
+75	amzn1.account.AHY4WIVDJJZVKM26WPY3SORRIXIA	Memory	"128 gb is a great size for phones and consoles like the Nintendo switch."	Positive	0.9644864	0.0004414096	0.03507225
+76	amzn1.account.AGTMA4SBWBSOCAH4YXHNZN7LFU6A	Memory	"Great price for the storage capacity."	Positive	0.9991799	4.813459E-05	0.0007719363
+77	amzn1.account.AGEOPCGXNOXGBHAG3GRAJXGOP2AA	Memory	"Used this for local storage in a Wyze cam, works great."	Positive	0.9836516	0.0007177778	0.01563072
+78	amzn1.account.AF3HVM7QBQIWEHXSQVKTJH6ILT7Q	Memory	"Amazing memory for my dash cam"	Positive	0.9915301	0.0002143241	0.008255612
+79	amzn1.account.AE4LF4F7PPZTODMJLHV4SJZOPRYA	Memory	"Overall, I would make this purchase again as it came at a great value for 200GB storage."	Positive	0.9673112	0.0100488	0.02263997
+80	amzn1.account.AHU6DACD7I77LEL2FAOARLD3EKTA	Memory	"These new A1 microsd card are amazing, thanks to SanDisk we get lots of storage and reasonable price."	Positive	0.997727	5.132009E-05	0.002221753
+81	amzn1.account.AGPRHXU2HMTJDGAOGLIT4AFC6EZQ	Memory	"I am so happy to have the extra space for storage on my Samsung Note cell phone."	Positive	0.9967038	0.000161008	0.003135219
+82	amzn1.account.AH7AOBBYS6YRU7YVTTKT2MFA4NGA	Memory	"With a SurfaceBook, even with 1TB, this 400 GB card is very usefull"	Neutral	0.4613159	0.03889619	0.4997879
+83	amzn1.account.AHAZ2TSD3ICBXORYWKFUEYL46OSA	Memory	"I decided to get a known and trusted brand of memory card this time and boy, am I ever glad I did."	Positive	0.7555044	0.01517045	0.2293252
+84	amzn1.account.AHFTXFMSEV5ZPTSOV3BFCOR56ZYQ	Memory	"Storage space is exactly as advertised!"	Positive	0.998322	0.001110892	0.0005671988
+85	amzn1.account.AEXGPFMYDTO5ETB5KBXZD7SUWQEA	Memory	"Device does not actually support 400GB of memory, but closer to 366 GB (366 000 000 000 bytes)."	Negative	0.0278222	0.6428435	0.3293343
+86	amzn1.account.AGCVRMQRBXGRCQE46KPOUU2W72UQ	Memory	"Instant memory for my computer!"	Positive	0.980944	0.006247893	0.01280815
+87	amzn1.account.AGBX3A7HIBXLV6X6XMFCYHORJZYA	Memory	"Used the 400 GB MicroSD for a Nintendo Switch console and it works brilliantly!"	Positive	0.9928411	0.0011473	0.006011543
+88	amzn1.account.AFBKVFI7N7FYM67DFHXDW76IC7BQ	Memory	"I needed a basic memory card and this does the trick!"	Positive	0.9416394	0.002635594	0.05572493
+89	amzn1.account.AEN53D7EBVXLQAALCSLRE4HUBJHQ	Memory	"Got this micro SD to boost storage on a tablet."	Positive	0.5950989	0.03439267	0.3705085
+90	amzn1.account.AGU5XECYTASK3OKP4C7BQQQGG6QQ	Memory	"I had a 16GB, then 32, 64 and now 128GB."	Neutral	0.05322063	0.0257978	0.9209816
+91	amzn1.account.AF7EHG7JS2WY4XXS4YEIMOAIQUQA	Memory	"When shopping for memory cards for any of my devices, as well as USB Thumb drives SanDisk is the first one I look at."	Neutral	0.3896431	0.1948724	0.4154843
+92	amzn1.account.AHMMODDTPKYYPSPLZJXE4RT66NUA	Memory	"What can i say it's a memory card"	Neutral	0.2726317	0.1686141	0.5587543
+93	amzn1.account.AF7EHG7JS2WY4XXS4YEIMOAIQUQA	Memory	"Can't go wrong with choosing a memory solution from this Manufacturer."	Positive	0.7245694	0.1060418	0.1693887
+94	amzn1.account.AFNH6CMMHAU4UPJZWL4WNFYGGI2A	Memory	"I use it as offload storage on my laptop, works like a dream and is 50% of the size of my primary storage."	Positive	0.6928311	0.004664637	0.3025042
+95	amzn1.account.AE7WZRBOV6SAORABW3RJPJVGYMZQ	Memory	"Decent price for that many GB !"	Positive	0.9932388	0.0008205215	0.005940623
+96	amzn1.account.AHDDU3JQMTPYTC37OOSHIU45OHKA	Memory	"Really great storage not like the fake storage you see for a lower price."	Positive	0.8590603	0.06952155	0.07141815
+97	amzn1.account.AGG5GPXS732LVHRWPP3IEDQRXZ5A	Memory	"An economic Micro sd for devices that need portable storage."	Neutral	0.2661768	0.03984598	0.6939772
+98	amzn1.account.AEEYSVV46JESNZGHYMY56MNO6GUQ	Memory	"You can't go wrong with any Sandisk memory product"	Positive	0.8499091	0.09588257	0.05420823
+99	amzn1.account.AHZPXQSF7BEKNNENXDWWW5THGHBA	Memory	"Bought it for extra storage on my Nintendo Switch."	Neutral	0.2092251	0.03785805	0.7529169
+100	amzn1.account.AGX57YC6XXZ6ORW2STAMALDHOCDQ	Memory	"Bought to expand memory for Nintendo Switch."	Neutral	0.06486088	0.05847606	0.876663
+101	amzn1.account.AF5VOZERROH3NFWNXCDB36RA3URA	Memory	"I use it for storing pictures on my Go Pro, move files from one PC to another."	Neutral	0.3513128	0.02081954	0.6278677
+102	amzn1.account.AGST3CYVRIVLI2MZG7SENYG7D6OA	Memory	"Turns my 64gb s9+ into a powerhouse for entertainment with 400 extra gb of storage."	Neutral	0.3671649	0.01194955	0.6208856
+103	amzn1.account.AEBHLYUXDXTREZ3BKVHUII5FIR3Q	Memory	"The size of gbs and the space for saving pics and videos!"	Positive	0.630655	0.04870775	0.3206373
+104	amzn1.account.AG6EZCHQBH4SWUJFDUBYRPM4TLNA	Memory	"I needed a bit more memory in my phone and this did the trick."	Positive	0.9758556	0.001984945	0.02215937
+105	amzn1.account.AEXGPFMYDTO5ETB5KBXZD7SUWQEA	Memory	"Which means that this is the physical limit for storage capacity."	Neutral	0.2017474	0.1459187	0.652334
+106	amzn1.account.AHSBOJZVX2WQHGHOKB2I4JDUBVYQ	Memory	"Works, it’s a memory card"	Positive	0.610963	0.02806164	0.3609754
+107	amzn1.account.AG57AAWLXX7BUSNFUROUX3XSSJCA	Memory	"It’s Sandisk, what else do you need"	Neutral	0.2097681	0.296493	0.4937389
+108	amzn1.account.AGKRGLFKOEQ6WEIMOYIDCJNH7GPA	Memory	"Surface tested 120 GB."	Neutral	0.1169465	0.03452313	0.8485304
+109	amzn1.account.AHMSPMFULA5ZZVIR23XRH6O3LWAA	Memory	"I am using this one as the external storage for my lenovo thinkpad laptop."	Neutral	0.3598735	0.01227555	0.6278509
+110	amzn1.account.AGOUK7QJS5L5YDRNNGEXJXJKSDBQ	Memory	"This memory chip should meet our needs for years to come."	Negative	0.2669078	0.5896069	0.1434854
+111	amzn1.account.AGEM5UV4K4R74R7Q5DSUTNSMFXTA	Memory	"For the amount of GB, you won't find a better deal."	Positive	0.7608635	0.1787148	0.06042185
+112	amzn1.account.AH6ARO6AJVDVSJ7KCBWJFPMC23KQ	Memory	"Real 64gb too."	Neutral	0.2612006	0.3161467	0.4226527
+113	amzn1.account.AGOGDRB22NPEZVSQY23SYK54X3RQ	Memory	"My phone accepted the expanded memory and it is operating as normal."	Positive	0.7406934	0.01494185	0.2443648
+114	amzn1.account.AFRY5WO6BU2DMSRUZHU3IX7H2ZJA	Memory	"I have been using sandisk solid state storage in my cameras for around 15 years and have never had one fail on me."	Neutral	0.3320303	0.1026503	0.5653194
+115	amzn1.account.AFQLEELYVTLT4CKTTR5NA7DBC45A	Memory	"Provides plenty of additional storage for my tablet."	Positive	0.9973936	0.0001245008	0.002481892
+116	amzn1.account.AHFCNMBI7PPWDOSFT5IXETXMDFPA	Memory	"I used this card for a 221 GB retropie image on my raspberry pie 3."	Neutral	0.04897691	0.006850763	0.9441724
+117	amzn1.account.AFRMGOZOU7SDIVGHGSQSQ3ML43HA	Memory	"Massive storage space."	Positive	0.4828728	0.07182766	0.4452996
+118	amzn1.account.AH4QB2R6L53REYL4OYXVFVHHBQOQ	Memory	"I so far have no problems with it 64 gb."	Positive	0.9817396	0.004354603	0.01390586
+119	amzn1.account.AFGFGB6LOTOAY3FZA3ZR5IXUDB4A	Memory	"The usable storage is around 185GB."	Neutral	0.312675	0.2863256	0.4009993
+120	amzn1.account.AFDT7X5K2PPOFUKY76DEWCG7XOOQ	Memory	"Also, if you have the 200 GB card the actual usable space will be 183 GB."	Neutral	0.09985824	0.4158434	0.4842983
+121	amzn1.account.AEPM3KIOVOTNHL4Q4FRTOCSDSTUA	Memory	"Note that you have to re-format the card to use GPT Boot Record or you won't be able to copy large files to it."	Neutral	0.04506547	0.2477878	0.7071468
+122	amzn1.account.AFLIUJDCQL4VMDAA57D34WFLWKLQ	Memory	"When I insert the card in my cell phone, the storage space indicated 119 gb."	Neutral	0.1102266	0.09870048	0.7910729
+123	amzn1.account.AFPRMELOAMYAQQQGJ46Q3WY7UUZQ	Memory	"Other cards 128 GB working fine on the same device."	Neutral	0.2639424	0.1246079	0.6114497
+124	amzn1.account.AE4AJDMJ24E2NEZQE4I2ZHB27UMA	Memory	"Ordered a new 16 GB card, got a used 128 GB card in a Ziploc sandwich bag and no original packaging."	Neutral	0.06906278	0.2228762	0.7080609
+125	amzn1.account.AHPGL2D5HZAK6IAI3ZV24HR7HI7Q	Memory	"I had the same experience before when I bought usb flash drive from eBay,the capacity was 64gb but it would only take up to 2gb files."	Neutral	0.03844015	0.3227121	0.6388478
+126	amzn1.account.AHDMUCKH74HQ6RUF3XHGDMAZEMZA	Memory	"Hard to believe that you can get 200GB of storage on something the size of a coin."	Negative	0.05017636	0.7247162	0.2251074
+127	amzn1.account.AHMSPMFULA5ZZVIR23XRH6O3LWAA	Memory	"For the 200 gb, one gets 182 gb only."	Negative	0.1556241	0.4275812	0.4167946
+128	amzn1.account.AHHWCI3WKHW2POUGFMAXIA66KZBA	Memory	"I wish I could have the same memory."	Negative	0.1742181	0.5784543	0.2473277
+129	amzn1.account.AFLIUJDCQL4VMDAA57D34WFLWKLQ	Memory	"It's missing almost 10 gb??"	Negative	0.04161017	0.7737743	0.1846155
+130	amzn1.account.AHKY3RUBEIUGUMBVCVZVBWIKZRFQ	Memory	" but this most recent purchase in August for use in a car dash cam has ended up having a memory failure in less than three months."	Negative	0.1441894	0.7081575	0.1476531
+131	amzn1.account.AFPEGSGBF4L4CUHSQSPKLWVCXKWA	Memory	"Fake, only gives 32gb of storage"	Negative	0.01432909	0.8837407	0.1019302
+132	amzn1.account.AE4DHBPWTOONDOL7EFGLZUXKHQRA	Memory	"Showed a 128GB card was under 2mb."	Neutral	0.01896938	0.06134969	0.919681
+133	amzn1.account.AFE6KLWDPE3NLQ3ICYX7NGPCA63Q	Product Reliability	"good and reliable"	Positive	0.9833449	0.001652061	0.01500317
+134	amzn1.account.AG2GTNDCFLJEIW2RXB4LKRN7L5GA	Product Reliability	"Worked fine in my phone."	Positive	0.9604843	0.002509372	0.03700637
+135	amzn1.account.AENVBLPMT4SV2VDORGI7YDE3NSOQ	Product Reliability	"Good quality,reliable"	Positive	0.9936474	0.0004819354	0.005870691
+136	amzn1.account.AFPZP6DCX65VV2RTLIQ5OMGLI5JA	Product Reliability	"Working great so far."	Positive	0.9945967	0.0003832682	0.005019899
+137	amzn1.account.AEAJJEMS2YXJCVWEAPCNCKSPPPRA	Product Reliability	"Long lasting and works perfectly with no issues."	Positive	0.9980319	0.0001812262	0.001786889
+138	amzn1.account.AHYJLXI3Q4DDOPCJUDZMQGQIMDSA	Product Reliability	"Nothing to say, everything is working perfectly!"	Positive	0.950604	0.006707337	0.04268865
+139	amzn1.account.AE6YOZQK4UQA6LN3BIGFLPOBPF5A	Product Reliability	"Seems to work perfectly fine after a month of use."	Positive	0.9924679	0.002114675	0.005417415
+140	amzn1.account.AE5OAB34BZGVEBVTS7L4J2LKSRLQ	Product Reliability	"Have no issues with it, has been working great since installed in my dashcam."	Positive	0.9976001	0.0003818929	0.002018083
+141	amzn1.account.AECYQXBMEGWBKKPEE773BYSQM7WQ	Product Reliability	"Working fine for the past few weeks."	Positive	0.7196402	0.03817243	0.2421875
+142	amzn1.account.AGMG6W524DTWALD7BKZ3RYZHZRXA	Product Reliability	"Can’t go wrong with SanDisk"	Neutral	0.2804904	0.2902271	0.4292826
+143	amzn1.account.AH47WRDERGMLXB5242BHDKZRF34Q	Product Reliability	"No issues after months of usage."	Positive	0.7789398	0.09888618	0.122174
+144	amzn1.account.AE64LFBJNRNOIYOSTDP2ABQZSBOA	Product Reliability	"No issues works great."	Positive	0.7436467	0.1803163	0.07603699
+145	amzn1.account.AETYXOI3TYPKHUMZGLFLVGULLYZA	Product Reliability	"has been using SanDisk for years, always satisfied."	Positive	0.9870222	0.001158665	0.01181919
+146	amzn1.account.AEEPDP2DINCVKTBJWKJBJJUQ627A	Product Reliability	"No problems with it so far (2 months)."	Positive	0.9151	0.02969671	0.05520325
+147	amzn1.account.AFEQQW7NODGQLMLI73DWPYANSW6Q	Product Reliability	"worked as it should"	Positive	0.9679478	0.006095084	0.02595713
+148	amzn1.account.AFEETRSRUIU7VICCE4N3LLNKPWPA	Product Reliability	"Only had it a couple weeks but, it’s working perfectly thus far."	Positive	0.9175912	0.0128273	0.0695815
+149	amzn1.account.AEM2L2ZKPZ42FRLPYKPGHFKGNOLA	Product Reliability	"Worked as expected."	Positive	0.9770646	0.004262304	0.01867307
+150	amzn1.account.AFB526CHUEW44FG6XSXTRPP5O2GA	Product Reliability	"Worked as expected"	Positive	0.9557005	0.010287	0.03401241
+151	amzn1.account.AEJA6XG73UZHCLTH33WSDJSD7LTQ	Product Reliability	"This has been a reliable card - boo issues - arrived in good time"	Positive	0.9324531	0.01103045	0.05651656
+152	amzn1.account.AEOF7RNQSAHP4BPKRMBHJYBPL2FQ	Product Reliability	"Been using this card inside the console for over a month now and had no trouble so far."	Positive	0.9552715	0.02707283	0.01765567
+153	amzn1.account.AEHDC656YUF6RSV54ZG7T4DGJQKA	Product Reliability	"Working fine after couple months as I expected."	Positive	0.7647358	0.05489314	0.1803711
+154	amzn1.account.AFBKVFI7N7FYM67DFHXDW76IC7BQ	Product Reliability	"Been running it 24/7 for several months without issue."	Positive	0.6897082	0.10795	0.2023418
+155	amzn1.account.AHMMODDTPKYYPSPLZJXE4RT66NUA	Product Reliability	"But so far it been good no writing or reading issues"	Positive	0.7576278	0.1263368	0.1160354
+156	amzn1.account.AEAJJEMS2YXJCVWEAPCNCKSPPPRA	Product Reliability	"Ive been using Sandisk products for years."	Neutral	0.2958437	0.04138879	0.6627675
+157	amzn1.account.AFA66TOM47Z5LYEIULPI5P4DO2IA	Product Reliability	"Worked just like I thought it would."	Positive	0.9031659	0.0272376	0.06959648
+158	amzn1.account.AG6ILU2AOYSOKORHN7PT6W2AXA2A	Product Reliability	"It's working as expected."	Positive	0.9572345	0.007532044	0.03523355
+159	amzn1.account.AGX57YC6XXZ6ORW2STAMALDHOCDQ	Product Reliability	"Working as expected!"	Positive	0.9212937	0.01778989	0.06091641
+160	amzn1.account.AF2SFG5UYEOTS3C4EFYQDLAMPG7A	Product Reliability	"Will update after some time"	Neutral	0.1439685	0.08197458	0.7740569
+161	amzn1.account.AEBPRQXZ4XFJVXAR2GFITNUMA3OA	Product Reliability	"Used for a 1080p dashcam for a couple of month now."	Neutral	0.1335551	0.1227815	0.7436633
+162	amzn1.account.AEUERN2RS7W25VOAQMF7RA7PQYIA	Product Reliability	"I bought this for my wife's phone a few months back."	Neutral	0.08900241	0.04409318	0.8669043
+163	amzn1.account.AFG4H7S24WUZNF6N6HEZS3IM2NMQ	Product Reliability	"It's SanDisk."	Neutral	0.2296382	0.2522415	0.5181203
+164	amzn1.account.AGCAATGQRDPHZ2JOLHQUXNCU6QNQ	Product Reliability	"Working good so far"	Positive	0.9896609	0.0006714961	0.009667577
+165	amzn1.account.AHF5Q3DTEYIEXWBM2M5NJLGW66ZA	Product Reliability	"Just got this and seems to be working fine."	Positive	0.9651636	0.004657666	0.03017865
+166	amzn1.account.AGXMOBV4W72QDYINEPGDXP726RMQ	Product Reliability	"This card worked (apparently) great for a few months."	Positive	0.9295129	0.01648843	0.05399861
+167	amzn1.account.AHXBOBZ63MUOE4ZPECAO3JRVEGPQ	Product Reliability	"I purchased a Kingstone card and it worked fine on the same device."	Positive	0.9181148	0.01408732	0.06779772
+168	amzn1.account.AHCT5F3QCAKQWKFN5R4AF24KVIJQ	Product Reliability	"Bought this 6 months ago."	Neutral	0.09379023	0.03531751	0.8708923
+169	amzn1.account.AG44AHD3GGGPCPNCAHU4XM76EVEA	Product Reliability	"This replaced a low-cost part that made quite a lot of errors and was delivered same-day."	Negative	0.2425739	0.5167629	0.2406632
+170	amzn1.account.AHIUCFVDIGTQW6QXY4ABOKGE4MTQ	Product Reliability	"Burned out and does not work ."	Negative	0.001085785	0.9870848	0.01182945
+171	amzn1.account.AHLNNCL3CO3ALVSYAR2AISFFDUUQ	Product Reliability	"Worked for a month then crashed."	Negative	0.02960372	0.8644723	0.1059239
+172	amzn1.account.AHCJIFF2B76JU7QRYG7PVX5OKQ5A	Product Reliability	"card or camera seems defective in that data was uploaded twice and downloaded three times and, already, the card seems unreadable?"	Negative	5.397609E-05	0.9962456	0.003700532
+173	amzn1.account.AG6UKEAFOBWKEX5NJRU2Q7Y6QDHA	Product Reliability	"2 months life."	Neutral	0.1333537	0.1051784	0.7614679
+174	amzn1.account.AHDEZ7FIYGUQJKD7RBHD4K6SRA4A	Product Reliability	"One of them is broken after just a week."	Negative	0.01018024	0.9029256	0.0868942
+175	amzn1.account.AEVIAFURIAXFKXHSBXIQIQAVTGQQ	Product Reliability	"This card was faulty for me."	Negative	0.0005384607	0.990288	0.009173549
+176	amzn1.account.AHH6FJVJW5UPEEWKHFAPJSCHCRNA	Product Reliability	"worked for a few months, then stopped working."	Negative	0.006968001	0.9469543	0.0460777
+177	amzn1.account.AHSWKXMYHT52HCXMJTR66BGV3IGQ	Product Reliability	"Unfortunately card stopped working after 4 months of use."	Negative	9.980607E-05	0.9971028	0.002797265
+178	amzn1.account.AHFMTISZ62P7AALZQQJ4OJNXKNMA	Product Reliability	"Stopped working in my dashcam within a week"	Negative	0.0005203308	0.9898286	0.009651059
+179	amzn1.account.AFPRMELOAMYAQQQGJ46Q3WY7UUZQ	Product Reliability	"Worked fine first day of use, next day my device was saying error reading card, had to reformat it, getting errors everytime now."	Negative	0.01562966	0.8503718	0.1339986
+180	amzn1.account.AEGUZINEPEXWI4RQ3JKDQTEPSSZA	Product Reliability	"Both stopped working after 6 month of use."	Negative	0.001201469	0.9916005	0.007198047
+181	amzn1.account.AGYZPJ4WNEVQPJJMD6LMLZYLQIIA	Product Reliability	"Has gone bad after 3 months."	Negative	0.01699129	0.9261611	0.0568476
+182	amzn1.account.AG6UKEAFOBWKEX5NJRU2Q7Y6QDHA	Product Reliability	"I try to used in another devices but same doesn’t work."	Negative	0.01985659	0.5786272	0.4015161
+183	amzn1.account.AHLZPWGY6ZVOA26P4BQPG7KXEDSA	Product Reliability	"corrupt  from the beginning, no help from seller, garbage"	Negative	0.0004452578	0.9828488	0.01670591
+184	amzn1.account.AHL4J6ND5HTCIPADDZ3NYJ2Q7OVQ	Product Reliability	"Unfortunately I bought this several months ago and only got around to using it now, so returning isnt an option."	Negative	0.0001230028	0.9937999	0.006077236
+185	amzn1.account.AGAQKXQ4WNRXQF5RVPJHTMTHBJ3Q	Product Reliability	"I don't know if that is user error or a product defect."	Negative	0.03244117	0.6364495	0.3311094
+186	amzn1.account.AFRSTYBILOOQDOXTOQRBUCRDCXEQ	Product Reliability	"In less than a year the card just failed on me."	Negative	0.002582765	0.9680327	0.02938457
+187	amzn1.account.AG725IVC6YHZTHCGKB73B6IXZBUQ	Product Reliability	"Tested it right out of the package and it got corrupted."	Negative	0.0189026	0.9341561	0.04694125
+188	amzn1.account.AEGUZINEPEXWI4RQ3JKDQTEPSSZA	Product Reliability	"Is it supposed to work only for 6 months?"	Neutral	0.07248812	0.2870319	0.64048
+189	amzn1.account.AFNBQDPGUWIVVIEMYQ3UAT3HP3NA	Product Reliability	"I found its unusable because I use to formate card on my first day and I found I can't formate it."	Negative	0.001537525	0.9721181	0.02634431
+190	amzn1.account.AFRSTYBILOOQDOXTOQRBUCRDCXEQ	Product Reliability	"I should have suspected something when certain files failed to write to the card."	Negative	0.02163704	0.6600139	0.3183492
+191	amzn1.account.AEBVDPEKRMD44VQP3SOG4XAM6Q4A	Product Reliability	"Product failed very quickly."	Negative	0.003113048	0.9901902	0.006696693
+192	amzn1.account.AFMY3JVGZVFHYFIH4EGOOZRKFDGQ	Product Reliability	"Its not working"	Negative	0.00852895	0.9419468	0.04952438
+193	amzn1.account.AFK5ATHQKMYADAZKIYT7JO545P4Q	Price	"Nice quality and good price"	Positive	0.9991472	3.057525E-05	0.0008221498
+194	amzn1.account.AE7CVKPA2FHHQOLBL5FUV4GGLSEA	Price	"Good price, good brand"	Positive	0.9984961	5.597514E-05	0.001448094
+195	amzn1.account.AEAWVMOOPFWIF7IIDM3RTRISAWKQ	Price	"Well worth the cost."	Positive	0.9920731	0.00116636	0.006760573
+196	amzn1.account.AGPZ2XKKTPU7YT2OY75LOWV4XXPA	Price	"Love the price."	Positive	0.9974611	0.000233677	0.002305226
+197	amzn1.account.AHZPXQSF7BEKNNENXDWWW5THGHBA	Price	"Good price and works as intended."	Positive	0.9982533	5.430898E-05	0.001692488
+198	amzn1.account.AF27SY7BDMWI5K3N4WIBR4US6NYA	Price	"Good price, big enough for Switch"	Positive	0.9967824	0.0001545746	0.003062962
+199	amzn1.account.AH2DCLL4TEHB7O35FO52HRHKF6DQ	Price	"Great product, packaging, price is good value"	Positive	0.9995326	9.668749E-07	0.0004664827
+200	amzn1.account.AFL2KOQONZ2FQOM2WYSV2UL5ZVOQ	Price	"Really great for its price."	Positive	0.9992663	3.73794E-05	0.0006963008
+201	amzn1.account.AEAVD7IQPO3WTQAR4VRJXL6UCPKA	Price	"Its great quality product for the price"	Positive	0.9994851	3.853204E-05	0.0004762461
+202	amzn1.account.AEYECKGKUDGCGDWYVERHQPKGO3DQ	Price	"Price is VERY good and it's Brand name is recognizable!"	Positive	0.9997829	4.418265E-05	0.0001729459
+203	amzn1.account.AFPPRVIFVAEE64MFY6OVJHFQI3KQ	Price	"It's Sandisk and it provides 64 gigabytes at a reasonable price."	Positive	0.8692728	0.07078221	0.05994494
+204	amzn1.account.AGXQL5WRTCFRUGIPDLTEYNPQHOMQ	Price	"Good value and excellent price."	Positive	0.9995362	1.011104E-05	0.0004537641
+205	amzn1.account.AHWTALLI456OQWHLQ2JQNAXAMSMQ	Price	"Works with my phone (s5) and was a good price"	Positive	0.9990044	3.834499E-05	0.0009571795
+206	amzn1.account.AE3BUC64WZXE5SEU3AONX2SGVFJQ	Price	"Great size for a great price."	Positive	0.9994628	9.647531E-06	0.0005276547
+207	amzn1.account.AG6EZCHQBH4SWUJFDUBYRPM4TLNA	Price	"Great product at a great price."	Positive	0.9996943	5.280998E-06	0.0003003702
+208	amzn1.account.AFBG4WY75STHRKJI35FC3YPHKDPA	Price	"Best quality and reliability on the market."	Positive	0.9938679	0.0001793443	0.005952752
+209	amzn1.account.AES4KQUDFNO52UPLHIUBL4M7ND5A	Price	"As advertised and the price cannot be beat"	Positive	0.9734523	0.01994901	0.006598783
+210	amzn1.account.AGRR44J2HE3P4MC5DOG3YJX3RTWA	Price	"Great value for your money!"	Positive	0.9973564	0.00029394	0.002349738
+211	amzn1.account.AH33CPF6PAO753ES44VHGB5AIF6Q	Price	"Got it at a great price."	Positive	0.9974396	0.0003161837	0.002244177
+212	amzn1.account.AGF4RJQDFRLRPDOMSBNDYRTP6IXQ	Price	"Very pleased with both quality and price."	Positive	0.9997748	7.438141E-06	0.0002177847
+213	amzn1.account.AH76PNY5AMLGHBEJ4JT3P3PZYQOA	Price	"Nice to have so much storage for a reasonable price."	Positive	0.9976787	0.0003278492	0.001993471
+214	amzn1.account.AFZGDSOA5MBP2E7NBCIP4HABIOIA	Price	"A good deal, standard quality product at a discount price."	Positive	0.9703153	0.001167002	0.02851769
+215	amzn1.account.AF33SS7C2QSQ5JQ5CNLABTPKUCQA	Price	"It's a SanDisk at a good price - what more is there to say."	Positive	0.9794289	0.004849609	0.0157214
+216	amzn1.account.AEIFJM77UJ2KIBN3J4CWRVXW3F7Q	Price	"I had low expectations given the price, but this thing works great in my Note 8!"	Positive	0.938289	0.001550722	0.06016026
+217	amzn1.account.AFDKMV7QYUXZFSOB2RFF4I2OFFOQ	Price	"Can't go wrong with this product and its price."	Positive	0.9935851	0.002647937	0.003766988
+218	amzn1.account.AFQ326XGXZMV7FOXMK5JMXLI2UXA	Price	"Good price too!"	Positive	0.9973024	0.0002932716	0.0024043
+219	amzn1.account.AFEC2IDIERQMJSKPGWEKYQWWPMIQ	Price	"Excellent value and quality."	Positive	0.9990048	4.971686E-05	0.0009456142
+220	amzn1.account.AGUHUKGUC7TPXLXAUCTCKEHR6ZSQ	Price	"Good price I thought."	Positive	0.9955406	0.000322243	0.004137277
+221	amzn1.account.AGMX5LMFYZPCSM5LEFRRV7UQF4RQ	Price	"Such a good product for what it's worth!"	Positive	0.9992902	8.80525E-05	0.0006217841
+222	amzn1.account.AFUOLTJFBMJR7Z5VJXVGIVDHYYHQ	Price	"It is beyond worth its value!"	Positive	0.9938447	0.001002702	0.005152733
+223	amzn1.account.AG44AHD3GGGPCPNCAHU4XM76EVEA	Price	"256GB part at a fair price."	Neutral	0.1322369	0.02033751	0.8474256
+224	amzn1.account.AFBZWLJ3QPPXVCZWKORYDOUZXK5Q	Price	"I only just received these, but I'm happy with how quickly they arrived and the price."	Positive	0.9985273	8.951176E-05	0.00138324
+225	amzn1.account.AGCDEHT7OIY7AJAXORUPOEJLJHCQ	Price	"What I Expected price was good"	Positive	0.9777591	0.01189377	0.010347
+226	amzn1.account.AGOWBGUXAHCKLNGW5GFBYLBGD6VA	Price	"Private jets cost a lot of money ."	Neutral	0.03239892	0.1895904	0.7780107
+227	amzn1.account.AFXDKKJZ7YOMAWIRW43IGCVYGMWA	Price	"Like I said, it’s the same thing, just for a lower cost."	Neutral	0.1845136	0.2207354	0.5947511
+228	amzn1.account.AGKTWPGQMLHIKGWAVH6QWPGOWKRA	Price	"Great product for the price"	Positive	0.9983865	0.0001534839	0.001459942
+229	amzn1.account.AFQLEELYVTLT4CKTTR5NA7DBC45A	Price	"Very competitive price!"	Positive	0.9922652	0.00289688	0.004837872
+230	amzn1.account.AE3ZCRXEH5ASQCCSRO3XMUP2QIQQ	Price	"I found with this product the price was perfect"	Positive	0.9968835	0.0003860227	0.002730442
+231	amzn1.account.AHFCNMBI7PPWDOSFT5IXETXMDFPA	Price	"At $93.00 +gst it was a fair deal and suits my needs."	Positive	0.8964364	0.01352998	0.09003362
+232	amzn1.account.AGMX5LMFYZPCSM5LEFRRV7UQF4RQ	Price	"I don't think you can find a product that does this much for this price!"	Positive	0.971202	0.01790512	0.01089289
+233	amzn1.account.AHISP33FSBTMWCBKYKGPFJBCN6IQ	Price	"But the price always goes up and down very often."	Positive	0.5568566	0.3178412	0.1253021
+234	amzn1.account.AFMQPT5WXYX35E6CCJFBHHTYH26Q	Price	"Great price but quality is low"	Neutral	0.1937082	0.009010006	0.7972818
+235	amzn1.account.AFIEXRJKTFFSZ637TNRANK3FNR6A	Price	"First, it's a little less than 200 go (180go)."	Neutral	0.2523554	0.3168634	0.4307812
+236	amzn1.account.AH3ZSW4JLDGUWDA5SXEMKI4WD4BQ	Price	"Do NOT waste your money."	Negative	0.006135078	0.9700857	0.02377919
+237	amzn1.account.AEJIRSRH7SMSOEV6YBTLG6F7H26A	Overall performance	"Fast and reliable, works perfectly."	Positive	0.9987227	4.306691E-05	0.001234198
+238	amzn1.account.AGM5LIU7YEFHMIMHRXNW7H5MORAQ	Overall performance	"got here super fast & works amazing"	Positive	0.989237	0.0005793671	0.01018364
+239	amzn1.account.AFWFAJTQUDLLQLSMROQFGOJMBZHA	Overall performance	"Great Price/GB ratio and solid performance."	Positive	0.9968373	3.996598E-05	0.003122811
+240	amzn1.account.AEFG4HQ64N3GJQ74HIS6AWZMBNBQ	Overall performance	"fast copy speed,good quality."	Positive	0.9886183	0.0004798475	0.01090182
+241	amzn1.account.AFPPRVIFVAEE64MFY6OVJHFQI3KQ	Overall performance	"It's Sandisk and it provides 64 gigabytes at a reasonable price."	Positive	0.8692728	0.07078221	0.05994494
+242	amzn1.account.AENVBLPMT4SV2VDORGI7YDE3NSOQ	Overall performance	"Good quality,reliable"	Positive	0.9936474	0.0004819354	0.005870691
+243	amzn1.account.AFUM2OZT2WLMR65MKKJJCUFACXXA	Overall performance	"Great product, did the job perfectly"	Positive	0.9995207	3.445832E-06	0.0004758711
+244	amzn1.account.AHCNR4HNSXVBEGDTPQR3PANDODSQ	Overall performance	"Works seamlessly, fast shipping and great price"	Positive	0.9997804	3.857076E-06	0.0002158538
+245	amzn1.account.AEZZYTEHB3JQ5EQB6LKMO26XQFYA	Overall performance	"The transfer speeds are pretty good."	Positive	0.990352	0.0009109334	0.008737024
+246	amzn1.account.AGGXPVJBWUOO5USQUE73ICQCCXCQ	Overall performance	"Excellent , fast card."	Positive	0.9964631	0.000161523	0.003375413
+247	amzn1.account.AHWFOBQYJ3PO5BCYHU3OTJN5RJ4A	Overall performance	"Card is very fast and works well with my dash cam."	Positive	0.9920455	0.0001645215	0.00779006
+248	amzn1.account.AEZZYTEHB3JQ5EQB6LKMO26XQFYA	Overall performance	"I use it for my dash cam in car and it gives good performance."	Positive	0.9916821	0.0001105235	0.008207422
+249	amzn1.account.AFA66TOM47Z5LYEIULPI5P4DO2IA	Overall performance	"It has fast transferring speeds."	Positive	0.7208053	0.194459	0.08473572
+250	amzn1.account.AFLO77KINRGZYVYPQXYBSV4PRINA	Overall performance	"Very fast and reliable."	Positive	0.9867269	0.001931189	0.01134176
+251	amzn1.account.AFI4I7YTIHWAGS7FED2ZWTKG4MYQ	Overall performance	"Haha stores lots, it's a very reliable card."	Positive	0.9234723	0.001667336	0.07486036
+252	amzn1.account.AECYZQ6G5MSRLDQEPB35UR2MW5UQ	Overall performance	"This is real life speeds for this card so i'm happy."	Positive	0.9813895	0.0001838959	0.01842658
+253	amzn1.account.AF5VOZERROH3NFWNXCDB36RA3URA	Overall performance	"great product for the price, access speed to SD seems to be great, just as expected"	Positive	0.997171	8.577327E-06	0.00282049
+254	amzn1.account.AGFKRVO4BOVQNZ4YYDS2OHGVPEQQ	Overall performance	"This was a very good price, the card seems quite fast (although I haven't tested it)."	Positive	0.9913599	0.0001490339	0.008491104
+255	amzn1.account.AGJIBGXOTK7GFV5G7DDAUKSO776Q	Overall performance	"Work perfect la came fast"	Positive	0.9947162	0.0003245306	0.004959171
+256	amzn1.account.AFHVXZKKNN5UHRGGHCOS3SGW3KSQ	Overall performance	"Similar speeds to my Samsung +EVO"	Neutral	0.04820961	0.02431813	0.9274722
+257	amzn1.account.AFX7ALLZQUNCDBJ5HFFBWPKRLJOA	Overall performance	"Using it with Wyzecam so does the job."	Positive	0.9790694	0.0007010211	0.02022963
+258	amzn1.account.AH3LB4MKOPVCK3HHMDBUJMEDAVTQ	Overall performance	"Fast when plugged into pc for transfers"	Neutral	0.3528244	0.1915565	0.455619
+259	amzn1.account.AE3QWDW4PJAWX32TLQYRO3QMPM2A	Overall performance	"Cannot attest to durability as I've only had this product for few months, it's working great and at fast speeds."	Positive	0.9803262	0.002517239	0.0171566
+260	amzn1.account.AGWAYMFWU4E2YADZETQTU4SP5OUA	Overall performance	"Very fast card."	Positive	0.9434331	0.006397242	0.05016953
+261	amzn1.account.AFR64KBZQFKBI3ODA425LZYATRNQ	Overall performance	"It's a fast Sandisk."	Positive	0.8968631	0.03314515	0.06999169
+262	amzn1.account.AEAJJEMS2YXJCVWEAPCNCKSPPPRA	Overall performance	"Gets the job done as intended."	Positive	0.9547163	0.007187338	0.03809646
+263	amzn1.account.AHMJJJJBYK6MH3A6BAYPFBLZWBYQ	Overall performance	"No need to comment too much on SanDisks, great quality and speed that stands out from the rest."	Positive	0.9857802	0.0007226824	0.01349715
+264	amzn1.account.AHWH6M2V3BBINO7YGJ72ZW7ZRNAQ	Overall performance	"Does the job."	Positive	0.966754	0.003803283	0.0294429
+265	amzn1.account.AFZ5UD6QAKMSDCZNH7OWIIF4WW6A	Overall performance	"And for photos and videos, it's fast!"	Positive	0.974324	0.002260579	0.02341532
+266	amzn1.account.AFGXDK46JKETXLZ7HLLMSD3FJSJQ	Overall performance	"Havent tested speeds but it's fast and cheap."	Positive	0.8118387	0.1081654	0.07999592
+267	amzn1.account.AEBY6SRU4N6O5ZEEUB3TN5OQUA3Q	Overall performance	"Good card fast writing speed"	Positive	0.9877706	0.0006849649	0.01154445
+268	amzn1.account.AHZI5HQ3ZNU53JHCF77SUKITES3Q	Overall performance	"Does the job!"	Positive	0.9859874	0.001890711	0.01212192
+269	amzn1.account.AHFCNMBI7PPWDOSFT5IXETXMDFPA	Overall performance	"The write speed was quite low at around 15 MB/sec."	Neutral	0.1178444	0.1639166	0.7182391
+270	amzn1.account.AF4W6R3JE2IR7D7XU2Q7Z6HVRJ7Q	Overall performance	"Very small size but speed is relatively low, approx 70-80M"	Neutral	0.07868487	0.02706232	0.8942528
+271	amzn1.account.AEQODZWNQIOC5ENE3RRQCK3AAGIQ	Overall performance	"Bought one of this and another 80MB/s SDHC, turns out this writing speed at around 20MB/s, and the other one 30 MB/s."	Neutral	0.1904684	0.06314588	0.7463858
+272	amzn1.account.AHA3347GVYOX2HIQ4P7CPOG2HORQ	Overall performance	"Very slow uploading speed took 15 minutes to upload a 3-minute Avi video to YouTube directly from the computer using this card which is 32 gigabyte 98 Mbps number 10."	Neutral	0.04084322	0.06540826	0.8937485
+273	amzn1.account.AFZJKZ7IEGMOZ4OXJGX5HUK2PMUQ	Overall performance	"The card is so slow it is practically useless."	Negative	0.0002037878	0.9962313	0.003565008
+274	amzn1.account.AG2GTNDCFLJEIW2RXB4LKRN7L5GA	Device Compatibility	"Worked fine in my phone."	Positive	0.9604843	0.002509372	0.03700637
+275	amzn1.account.AF2T3LNP2BQWC3X2CE6ZURFP32JA	Device Compatibility	"Product exactly as advertised!Very satisfied ,works perfectly in my Samsung smart phone."	Positive	0.9999604	1.280009E-06	3.8243E-05
+276	amzn1.account.AEYECKGKUDGCGDWYVERHQPKGO3DQ	Device Compatibility	"Plugged into my new cell phone and it's working perfectly!"	Positive	0.9971707	0.0001383012	0.002691051
+277	amzn1.account.AHLOZ22L5Q536E2RHW3C4V65LDYQ	Device Compatibility	"works great with my LG Phone"	Positive	0.997922	7.434947E-05	0.002003661
+278	amzn1.account.AEOT7YMMMSDIBMKSCM73UZKIN4UA	Device Compatibility	"this will work fine for my mobile phone"	Positive	0.947539	0.003049685	0.04941139
+279	amzn1.account.AHINGN4KYSNHYBIRQKEQ7JFF2HXQ	Device Compatibility	"Added a great deal of extra storage to my Samsung A8 2018 phone."	Positive	0.9473484	0.001828209	0.05082349
+280	amzn1.account.AFKYOPP4S4BJ4TDN246FCWO2PE2Q	Device Compatibility	"Decent size card for a decent price for my android phone"	Positive	0.9474429	0.005827521	0.04672946
+281	amzn1.account.AH3LB4MKOPVCK3HHMDBUJMEDAVTQ	Device Compatibility	"Fast when plugged into pc for transfers"	Neutral	0.3528244	0.1915565	0.455619
+282	amzn1.account.AHUBE3JD24EFA5EMNLUL26JP7QYQ	Device Compatibility	"Popped it into my switch and after a small update it recognized it right away."	Positive	0.8891906	0.06326789	0.04754159
+283	amzn1.account.AEPM3KIOVOTNHL4Q4FRTOCSDSTUA	Device Compatibility	"I'm using it in my Microsoft surface and it works."	Positive	0.9504751	0.00189184	0.04763305
+284	amzn1.account.AHMSPMFULA5ZZVIR23XRH6O3LWAA	Device Compatibility	"I am using this one as the external storage for my lenovo thinkpad laptop."	Neutral	0.3598735	0.01227555	0.6278509
+285	amzn1.account.AHMMODDTPKYYPSPLZJXE4RT66NUA	Device Compatibility	"I used it for a raspberry pi 3"	Neutral	0.05463126	0.0184897	0.926879
+286	amzn1.account.AH76PNY5AMLGHBEJ4JT3P3PZYQOA	Device Compatibility	"This card really sped up the file access on my phone and tablet."	Positive	0.8287514	0.06325303	0.1079955
+287	amzn1.account.AGBGOSVIQNBIVEXWKLOCYJ7ZBCCA	Device Compatibility	"Fonctionne parfaitement avec mon MacBook Pro"	Neutral	0.06568206	0.001738723	0.9325792
+288	amzn1.account.AHAFLWEH6U26L6OCLSFGBH66R6UA	Device Compatibility	"This product is used music use on my cell phone"	Neutral	0.4126152	0.02874106	0.5586438
+289	amzn1.account.AFCQ66VPXBFKT2ORJBPJGT5F5XQQ	Device Compatibility	"got an extra 64gb on my mac for very cheap !"	Positive	0.7430117	0.09984319	0.1571452
+290	amzn1.account.AF2D3RKGPCW7Z5VCHSBGSPQBDGCA	Device Compatibility	"Easy to install, used for smart phone"	Positive	0.9974155	0.0002847731	0.002299633
+291	amzn1.account.AHFCNMBI7PPWDOSFT5IXETXMDFPA	Device Compatibility	"The card was recognized by my RPi3 and works quite well."	Positive	0.9935149	0.0005090945	0.005976085
+292	amzn1.account.AHXBOBZ63MUOE4ZPECAO3JRVEGPQ	Device Compatibility	"I purchased a Kingstone card and it worked fine on the same device."	Positive	0.9181148	0.01408732	0.06779772
+293	amzn1.account.AEVKGZCPKGUNCT62NYAINLQVLA4Q	Device Compatibility	"Not completely used in different devices"	Negative	0.05615534	0.7970395	0.1468052
+294	amzn1.account.AGAQKXQ4WNRXQF5RVPJHTMTHBJ3Q	Device Compatibility	"I am experiencing issues with hooking up to my network."	Negative	0.07325794	0.6504087	0.2763334
+295	amzn1.account.AGYZPJ4WNEVQPJJMD6LMLZYLQIIA	Device Compatibility	"Not recognized by several diff  readers / equipment."	Negative	0.007617882	0.8396198	0.1527623
+296	amzn1.account.AHPDPW64YG4VIT2CY67UZPALE2LA	Device Compatibility	"However, when inserted, both cards are not being identified on both PC and mac."	Negative	0.01590339	0.5461364	0.4379602
+297	amzn1.account.AHL4J6ND5HTCIPADDZ3NYJ2Q7OVQ	Device Compatibility	"Data appears to transfer to the card but it doesn't end up on it."	Negative	0.1902659	0.640004	0.16973
+298	amzn1.account.AG6UKEAFOBWKEX5NJRU2Q7Y6QDHA	Device Compatibility	"I try to used in another devices but same doesn’t work."	Negative	0.01985659	0.5786272	0.4015161
+299	amzn1.account.AGF4EMCYZHJGAGFIJUNQZ75TPOYQ	Device Compatibility	"Also i download videos directly from the phone, when it is saving to this specific card it fails moat of the time ans i have to retry it."	Negative	0.01885177	0.7423483	0.2387999
+300	amzn1.account.AGTZ2MCTJ4NECN4DAFJVR6GLRV3A	Device Compatibility	"It just wouldnt read in any of the devices i tried"	Negative	0.0156019	0.9351583	0.04923986
+301	amzn1.account.AGX57YC6XXZ6ORW2STAMALDHOCDQ	Delivery	"Fast and precise delivery!"	Positive	0.9985051	9.420265E-05	0.001400823
+302	amzn1.account.AG2EX5TN2WGIZVCNX72KAFNJJELA	Delivery	"Like always, the transaction was very easy and the item was delivered in 2 days."	Positive	0.988618	0.00403168	0.007350315
+303	amzn1.account.AFLO77KINRGZYVYPQXYBSV4PRINA	Delivery	"Delivery was fast and the quality is as described."	Positive	0.9996595	2.762664E-05	0.0003127612
+304	amzn1.account.AFKKGIP3IVQMHHDC2MWND2QVTNWA	Delivery	"Arrived as advertised and works very well"	Positive	0.9995729	0.0001318991	0.0002952074
+305	amzn1.account.AHP5D5XIKDOCK7KLVNX5RWTR6SUQ	Delivery	"This was a great price and relatively quick delivery."	Positive	0.9995365	1.912334E-05	0.0004443956
+306	amzn1.account.AE7ZZOORHLRJ6LVQGRZ7ZAN2DM2Q	Delivery	"Delivered on time and quality is good."	Positive	0.9975666	0.0002379384	0.00219552
+307	amzn1.account.AGB4RXHIBUCFICSZU5SJHFAVTTIQ	Delivery	"Price was right and merchandise arrived as promised."	Positive	0.9981427	0.0006918971	0.001165361
+308	amzn1.account.AFOTDZAVTMSWBU7LXIMJ7AGOF4HQ	Delivery	"Product as advertised and fast shipping - thank you."	Positive	0.9965208	0.0004309432	0.003048264
+309	amzn1.account.AEU2R3QGBBMP2S5C5CTQXTSIVKAQ	Delivery	"shipped next day and works excellently"	Positive	0.9985794	0.0002805658	0.001140045
+310	amzn1.account.AF3N4OZOAQVJGRNGQN6B3WUYXTFA	Delivery	"Product delivered quickly, and as advertised, at a good price."	Positive	0.9997482	5.789194E-05	0.000193941
+311	amzn1.account.AHAZ3N46ZYOOQCPMRAK7PHIIFD2Q	Delivery	"Delivery was very fast!"	Positive	0.9947087	0.00217252	0.003118855
+312	amzn1.account.AHFTXFMSEV5ZPTSOV3BFCOR56ZYQ	Delivery	"Came earlier than it was meant to!"	Positive	0.8933486	0.008925446	0.09772589
+313	amzn1.account.AEGW5Q44YYKK5R5L5DLPKXKSTNMQ	Delivery	"Fest delivery and good product"	Positive	0.9954134	0.0008960052	0.0036907
+314	amzn1.account.AGXOSBVYUE6X5CGECH4IDYAWH34Q	Delivery	"Received products as described and by promise date."	Positive	0.6485998	0.01966715	0.3317331
+315	amzn1.account.AEHLWWOPCSUBDOI5VJSV6H5BRJQQ	Delivery	"Was cheap and delivered fast."	Positive	0.8499992	0.1291398	0.02086104
+316	amzn1.account.AE2EJIAQTCZKNQLPR73DAIU7VB7Q	Delivery	"Recieved what expected"	Positive	0.6122959	0.2195893	0.1681148
+317	amzn1.account.AE4N7SBFS2H7PGKOJYYRMNCHSQ4Q	Delivery	"Came on time."	Positive	0.6900073	0.06469034	0.2453025
+318	amzn1.account.AGNCMBCX4EX2YBPXNW2KRCDXRPZQ	Delivery	"Arrived on time and it works."	Positive	0.9893524	0.003311974	0.007335681
+319	amzn1.account.AH5IIRTHOHDV66J7GATE2HBZOL6A	Delivery	"Shipping gratuit super rapide!"	Positive	0.6058838	0.001647985	0.3924682
+320	amzn1.account.AHGONQCNXJ5LYIAYRPQC2COP5CRQ	Delivery	"As ordered/expected."	Positive	0.6752	0.07589488	0.2489051
+321	amzn1.account.AGOFFNK7PCV7ISUJ6WZEOPI3C5VQ	Marketplace	"Fast shipping & great products"	Positive	0.999005	6.392046E-05	0.0009310552
+322	amzn1.account.AFOTDZAVTMSWBU7LXIMJ7AGOF4HQ	Marketplace	"Product as advertised and fast shipping - thank you."	Positive	0.9965208	0.0004309432	0.003048264
+323	amzn1.account.AEU2R3QGBBMP2S5C5CTQXTSIVKAQ	Marketplace	"shipped next day and works excellently"	Positive	0.9985794	0.0002805658	0.001140045
+324	amzn1.account.AH5DCKYCBYPKUXZUW4CLCN4RZSJQ	Marketplace	"No complaints about using Amazon, Classy Outfit (the seller), the price (Bestbuy was at least $20 more) , the shipping, or the product itself."	Positive	0.7761402	0.1215279	0.102332
+325	amzn1.account.AE6VH35Y2M37TPPIONGRCN4EFRPA	Marketplace	"Many purchases with this seller and always satisfied."	Positive	0.9978181	0.0004645113	0.001717341
+326	amzn1.account.AEBQB7EGLLB5KHHY73YEJ76TGF7A	Marketplace	"Real and works as described amongst so many fakes on amazon."	Positive	0.8843648	0.03238137	0.08325387
+327	amzn1.account.AGTG7QMSKJ7U7U5RCIHADTDMCGVA	Marketplace	"Received the order earlier than expected in Western Canada."	Positive	0.7501214	0.01837455	0.231504
+328	amzn1.account.AGXOSBVYUE6X5CGECH4IDYAWH34Q	Marketplace	"Received products as described and by promise date."	Positive	0.6485998	0.01966715	0.3317331
+329	amzn1.account.AHJ5FCUFQK47RDY3Y62RSJLK7GQQ	Marketplace	"Thank you Amazon!!"	Positive	0.9898506	0.002009017	0.008140313
+330	amzn1.account.AE4N7SBFS2H7PGKOJYYRMNCHSQ4Q	Marketplace	"Came on time."	Positive	0.6900073	0.06469034	0.2453025
+331	amzn1.account.AELJBFFFIE4UHBYZFVQPZNUSYV4Q	Marketplace	"Got it on sale."	Neutral	0.4090585	0.02481166	0.5661299
+332	amzn1.account.AH5IIRTHOHDV66J7GATE2HBZOL6A	Marketplace	"Shipping gratuit super rapide!"	Positive	0.6058838	0.001647985	0.3924682
+333	amzn1.account.AEQSF662D26EYFYPXTH2SKALOJGA	Marketplace	"Product was as expected."	Positive	0.9315177	0.03350279	0.03497957
+334	amzn1.account.AHJU5LRVZZGRODQZNOYY4YTBGSEA	Marketplace	"Its good product and i got it on sale."	Positive	0.9986051	5.995159E-05	0.001334858
+335	amzn1.account.AGF54C6MC7XHQN43FOAEGNXGZ2DQ	Marketplace	"Ordered from Amazon but invoice shows from MDG Bear Ltd, and a stick on label of Made in Taiwan, decided not to waste more time on this possibly fake memory card, just returned it"	Negative	0.0009746852	0.9650895	0.03393585
+336	amzn1.account.AHCT5F3QCAKQWKFN5R4AF24KVIJQ	Marketplace	"When I contacted Amazon, they told me to contact the seller, but even they couldn't locate any contact information from this seller."	Negative	0.02963322	0.9350241	0.03534265
+337	amzn1.account.AHLZPWGY6ZVOA26P4BQPG7KXEDSA	Marketplace	"corrupt  from the beginning, no help from seller, garbage"	Negative	0.0004452578	0.9828488	0.01670591
+338	amzn1.account.AFNBQDPGUWIVVIEMYQ3UAT3HP3NA	Marketplace	"Really poor product on the top you can't return this product to seller."	Negative	0.0001310299	0.9978181	0.0020507
+339	amzn1.account.AH5DCKYCBYPKUXZUW4CLCN4RZSJQ	Setup	"They came a day ahead of time, were easy to install in each tablet, and they have both been working great so far."	Positive	0.9984332	9.267468E-05	0.001474138
+340	amzn1.account.AHMMODDTPKYYPSPLZJXE4RT66NUA	Setup	"Install easy lol"	Positive	0.930907	0.002805376	0.06628767
+341	amzn1.account.AGQR3CN2NIWSPE6C3NN6KEDPYG6Q	Setup	"Simple to install and great price"	Positive	0.9984539	0.0001850576	0.001361082
+342	amzn1.account.AE6U6T7J4S6IASMIYRCEWLVMNIXA	Setup	"Easy to install and easy to use"	Positive	0.9990717	8.777371E-05	0.0008404133
+343	amzn1.account.AEERWCUEELMEMFM4YVU6OB2VXBWQ	Setup	"It is very easy to install and use,  it is my second unit for the family"	Positive	0.9989059	9.160942E-05	0.001002507
+344	amzn1.account.AHSKLWV7GBXUTNHH5T4RI5AECYKQ	Setup	"Easy to install."	Positive	0.9947681	0.0007452454	0.004486643
+345	amzn1.account.AE6YOZQK4UQA6LN3BIGFLPOBPF5A	Setup	"Easy to install"	Positive	0.9845154	0.003188704	0.0122958
+346	amzn1.account.AGC2NRUPU42DLG4VFSWMXPOZHR5A	Setup	"Best investment yet, easy to install and works perfectly!"	Positive	0.996233	6.809071E-05	0.003698893
+347	amzn1.account.AGTT3PHAVS2ZKN3MRA7MRQASNW6Q	Setup	"Set it up very easy with the software provided at the apple store."	Positive	0.9849177	0.001521891	0.01356032
+348	amzn1.account.AGQNAA4K4MQXMRXFRFV7BWNYVAHQ	Setup	"Using it on my Nintendo Switch with no problems at all, easy install and ups my 32GB internal to now 160GB."	Positive	0.9952087	0.0005743537	0.004216994
+349	amzn1.account.AHMSPMFULA5ZZVIR23XRH6O3LWAA	Setup	"Was easy to install, and is fast (although i diubt, as far as advertised, i got a spread of 30mbps)."	Positive	0.9849957	0.0004971639	0.01450729
+350	amzn1.account.AE2UWUMP3D7J5CH4TJBQVQNVD4MQ	Setup	"NO PROBLEM WITH THE INSTALLATION."	Positive	0.909288	0.038922	0.05178996
+351	amzn1.account.AGOUK7QJS5L5YDRNNGEXJXJKSDBQ	Setup	"Was easy to install and set up."	Positive	0.998168	0.0001305496	0.001701392
+352	amzn1.account.AE4LF4F7PPZTODMJLHV4SJZOPRYA	Setup	"It was easy to plug in and use immediately."	Positive	0.9989409	0.0001433185	0.0009156687
+353	amzn1.account.AFQLEELYVTLT4CKTTR5NA7DBC45A	Setup	"Easy to install and works well."	Positive	0.999474	2.336441E-05	0.0005026633
+354	amzn1.account.AF2D3RKGPCW7Z5VCHSBGSPQBDGCA	Setup	"Easy to install, used for smart phone"	Positive	0.9974155	0.0002847731	0.002299633
+355	amzn1.account.AG4DVL4AT5SE5FLJMWFIWRI5QSAA	Setup	"Installation was effortless."	Positive	0.9968486	0.000270793	0.002880603
+356	amzn1.account.AFERGNTPINDJZ4RN2AQSSKXLTPJA	Fit	"Used it for Car Dash Cam, works flawlessly."	Positive	0.9952844	0.0002553975	0.004460249
+357	amzn1.account.AGEEDZKSFNG4FP7HEPC6TBCHSUXA	Fit	"Works great, holds lots of pictures and videos for my phone"	Positive	0.9993529	1.360622E-05	0.0006335832
+358	amzn1.account.AFG33WSYVZSQIJKWXKKGHC3VPIUQ	Fit	"Put it in my dash cam, working great!"	Positive	0.9817645	0.0006111832	0.01762441
+359	amzn1.account.AEDLSEEGYAPAHVKL7OMKGDNHOZFQ	Fit	"Great for dash cams!"	Positive	0.9947803	0.0005094777	0.004710236
+360	amzn1.account.AGDTGHPELTWKCGQLBPVK2I6NTIOA	Fit	"works great with Papago dash cam."	Positive	0.9943281	9.499686E-05	0.005576966
+361	amzn1.account.AFQHYEFLYOXAAXHUWNJPJ7PGT4HA	Fit	"I'm impressed and highly recommend to anyone who's trying to get a reliable dash cam."	Positive	0.9993997	5.123195E-05	0.0005491219
+362	amzn1.account.AGGEGBATOEFU265BLERNGB2ELRNA	Fit	"Bought it for my galaxy s7, works perfectly!"	Positive	0.9819617	0.0005717861	0.01746655
+363	amzn1.account.AETYXUMGIOXOIS373G45ERXMZ73Q	Fit	"Perfect fit with Galaxy S7"	Positive	0.97939	0.0002098591	0.02040026
+364	amzn1.account.AG3PZ5P36FT4GT4GLIGNMBYXTGRA	Fit	"Unlike dirt cheap knockoffs this card actually can hold nearly 200GB."	Negative	0.1627034	0.7230058	0.1142907
+365	amzn1.account.AF6FJU3I5TF6ZN3WMPFLIEN6IUUQ	Fit	"Works as expected in the dash can."	Positive	0.9911039	0.0006278993	0.008268313
+366	amzn1.account.AGWAHZIONQAH47MUL2MYJUE5E6KA	Fit	"I am using it with a dash cam and it is working as it should."	Positive	0.9822995	0.0003797242	0.01732071
+367	amzn1.account.AF7OQJOGU4PWS7A3J3RY5PV5D7MA	Fit	"ski helmet vedio"	Neutral	0.1546137	0.004829364	0.8405569
+368	amzn1.account.AGGFKRGWVIIIAKRC3ISAPKH7GYWQ	Fit	"Bought this for my dash cam."	Neutral	0.08244335	0.008860835	0.9086958
+369	amzn1.account.AG6RUDFCEYRPSCIW3KQWNGPEBCOQ	Fit	"Insert it in the slot, and snap!"	Positive	0.9329381	0.005282851	0.06177909
+370	amzn1.account.AGNXXRJDNKNRT2P47YYZ5OICFQ6A	Fit	"Worked great in my helmet mounted camera."	Positive	0.9978591	5.305394E-05	0.002087867
+371	amzn1.account.AHKRNTUYYJHRWTNF5PPE5I3FDDLA	Fit	"Please notice, that it won't work in most of dash cams."	Negative	0.004130295	0.8815856	0.1142841
+372	amzn1.account.AHMMODDTPKYYPSPLZJXE4RT66NUA	Ease of Use	"Install easy lol"	Positive	0.930907	0.002805376	0.06628767
+373	amzn1.account.AHORSUACQRB4KMVB36MLZOPFTEEA	Ease of Use	"Easy to use and instal works well for many purposes"	Positive	0.9993199	5.543121E-05	0.00062474
+374	amzn1.account.AGQR3CN2NIWSPE6C3NN6KEDPYG6Q	Ease of Use	"Simple to install and great price"	Positive	0.9984539	0.0001850576	0.001361082
+375	amzn1.account.AE6U6T7J4S6IASMIYRCEWLVMNIXA	Ease of Use	"Easy to install and easy to use"	Positive	0.9990717	8.777371E-05	0.0008404133
+376	amzn1.account.AEERWCUEELMEMFM4YVU6OB2VXBWQ	Ease of Use	"It is very easy to install and use,  it is my second unit for the family"	Positive	0.9989059	9.160942E-05	0.001002507
+377	amzn1.account.AHSKLWV7GBXUTNHH5T4RI5AECYKQ	Ease of Use	"Easy to install."	Positive	0.9947681	0.0007452454	0.004486643
+378	amzn1.account.AE6YOZQK4UQA6LN3BIGFLPOBPF5A	Ease of Use	"Easy to install"	Positive	0.9845154	0.003188704	0.0122958
+379	amzn1.account.AGC2NRUPU42DLG4VFSWMXPOZHR5A	Ease of Use	"Best investment yet, easy to install and works perfectly!"	Positive	0.996233	6.809071E-05	0.003698893
+380	amzn1.account.AGTT3PHAVS2ZKN3MRA7MRQASNW6Q	Ease of Use	"Set it up very easy with the software provided at the apple store."	Positive	0.9849177	0.001521891	0.01356032
+381	amzn1.account.AF6FJU3I5TF6ZN3WMPFLIEN6IUUQ	Ease of Use	"Easy to format in less then 30 seconds."	Positive	0.9888999	0.002281809	0.008818211
+382	amzn1.account.AGOUK7QJS5L5YDRNNGEXJXJKSDBQ	Ease of Use	"Was easy to install and set up."	Positive	0.998168	0.0001305496	0.001701392
+383	amzn1.account.AE4LF4F7PPZTODMJLHV4SJZOPRYA	Ease of Use	"It was easy to plug in and use immediately."	Positive	0.9989409	0.0001433185	0.0009156687
+384	amzn1.account.AEPM3KIOVOTNHL4Q4FRTOCSDSTUA	Ease of Use	"The card is pretty straight forward."	Positive	0.8130478	0.05642535	0.1305268
+385	amzn1.account.AFQLEELYVTLT4CKTTR5NA7DBC45A	Ease of Use	"Easy to install and works well."	Positive	0.999474	2.336441E-05	0.0005026633
+386	amzn1.account.AF2D3RKGPCW7Z5VCHSBGSPQBDGCA	Ease of Use	"Easy to install, used for smart phone"	Positive	0.9974155	0.0002847731	0.002299633
+387	amzn1.account.AG4DVL4AT5SE5FLJMWFIWRI5QSAA	Ease of Use	"Easy to use."	Positive	0.991798	0.0008156498	0.007386237
+388	amzn1.account.AH47WRDERGMLXB5242BHDKZRF34Q	Camera	"Glad I bought this version of SD for my slr camera it's fast and Durable."	Positive	0.9947392	0.0001018762	0.005158898
+389	amzn1.account.AE5LCIP7X3F5TCOUUXKUZIOASWDQ	Camera	"The cameras works perfectly."	Positive	0.9956946	0.0002590037	0.004046242
+390	amzn1.account.AGXHFC5GYPQMDQJHNFCW4DVYXUJQ	Camera	"I liked the fact that it can format with pictures from other cameras."	Positive	0.9911078	0.0005236822	0.008368615
+391	amzn1.account.AG2DM3FIJONKPUVVDV6D5S6454NQ	Camera	"it's awesome dash cam with rear view camera"	Positive	0.9866238	0.0001542376	0.01322198
+392	amzn1.account.AGIFSGUG34EBNPS45OTRCHVBPJVA	Camera	"Using in my camera, so far no problem"	Positive	0.9569191	0.003993933	0.03908696
+393	amzn1.account.AGDFLB6J5LGNVZV5XEG7YCWOVLSA	Camera	"Quality product for use in GoPro"	Positive	0.8936594	0.01060252	0.09573807
+394	amzn1.account.AF53STLD4ORBOS4FYBBOMBQKSCFQ	Camera	"Security monitor / camera recording"	Neutral	0.09336495	0.04150292	0.865132
+395	amzn1.account.AEOWCE2YE2YNLKE5VOCNQMEWXFJQ	Camera	"Used it for my security camera back up."	Neutral	0.2963457	0.05045304	0.6532013
+396	amzn1.account.AFZ5UD6QAKMSDCZNH7OWIIF4WW6A	Camera	"And for photos and videos, it's fast!"	Positive	0.974324	0.002260579	0.02341532
+397	amzn1.account.AER2V6KWQEJZZU7GOCXAJC7JU4SA	Camera	"I've used SanDisk for photography over the years and have found their brand to be a quality product"	Positive	0.4824046	0.1601987	0.3573966
+398	amzn1.account.AHEY2MIOEJOYIPICA3XVDLGG6ASQ	Camera	"I’m using with my dash camera,"	Neutral	0.1587509	0.009727906	0.8315212
+399	amzn1.account.AHFCNMBI7PPWDOSFT5IXETXMDFPA	Camera	"The claimed 90 MB/sec may be achievable for photography."	Neutral	0.3983328	0.008842509	0.5928246
+400	amzn1.account.AGF4EMCYZHJGAGFIJUNQZ75TPOYQ	Camera	"Also i notice when i take pictures with multiple shoots, it fails most of the time because of the speed of the card when it saves to the phone perfect."	Negative	0.2127139	0.6694982	0.1177878
+401	amzn1.account.AHQ23KPADHQ2ISZLRV5XQTBZ43UA	Camera	"One is still working but my camera rejected the other."	Neutral	0.06957109	0.3480906	0.5823383
+402	amzn1.account.AE4DHBPWTOONDOL7EFGLZUXKHQRA	Camera	"Took it out of camera and put in card reader."	Positive	0.4757171	0.07246103	0.4518218
+403	amzn1.account.AGF4EMCYZHJGAGFIJUNQZ75TPOYQ	Camera	"So maybe i will just put this on my sigital camera instead."	Neutral	0.04599702	0.1013129	0.85269
+404	amzn1.account.AGTT3PHAVS2ZKN3MRA7MRQASNW6Q	Software Platform	"Set it up very easy with the software provided at the apple store."	Positive	0.9849177	0.001521891	0.01356032
+405	amzn1.account.AFHVXZKKNN5UHRGGHCOS3SGW3KSQ	Software Platform	"Loads apps fast on my amazon tablet."	Positive	0.9865981	0.00446736	0.008934507
+406	amzn1.account.AHJ5FCUFQK47RDY3Y62RSJLK7GQQ	Software Platform	"This item is 100% real, speeds are fantastic AND my android doesn't reject it!"	Positive	0.9995758	1.489286E-05	0.0004092815
+407	amzn1.account.AFKYOPP4S4BJ4TDN246FCWO2PE2Q	Software Platform	"Decent size card for a decent price for my android phone"	Positive	0.9474429	0.005827521	0.04672946
+408	amzn1.account.AFBBXCOQFAS35IP7QCV56MLOY5XA	Software Platform	"Formatted in extFAT, run the firmware version 5.1.0 on your Switch and absolutely no problem."	Positive	0.7103973	0.1523844	0.1372182
+409	amzn1.account.AE5LCIP7X3F5TCOUUXKUZIOASWDQ	Software Platform	"The best part about the system is the software ."	Positive	0.9192207	0.00325707	0.07752219
+410	amzn1.account.AG4SRRU5BIAZFUTMJL32LILI7XIA	Software Platform	"Ran H2testw, no errors correct size."	Negative	0.00815728	0.9405791	0.05126366
+411	amzn1.account.AE3X2GDMH4QXRNXJIIOJAJUD7JAA	Software Platform	"Great product wish it had a better OS but thats MicroSD for ya."	Positive	0.5094371	0.006275441	0.4842874
+412	amzn1.account.AFTOR4W5EMVTE5BAQ555JN2FJC6Q	Software Platform	"INSTALLED THEM IN GRANDCHILDRENS SAMSUNG PHONES SEEMS TO WORK JUST AS ADVERTISED"	Positive	0.7998335	0.07153243	0.1286339
+413	amzn1.account.AHH2CMNPV4D4HBA4YWBQMJ63NJXQ	Software Platform	"les vidéos en HD sont excellents ."	Neutral	0.1774108	0.002085347	0.8205038
+414	amzn1.account.AGF4EMCYZHJGAGFIJUNQZ75TPOYQ	Software Platform	"I had the 64gb version, and it was way faster than this and they are."	Positive	0.9570984	0.01479019	0.02811139
+415	amzn1.account.AEVR67PLFATSSKNENCQHWK7T5HDA	Software Platform	"I wish more codesmiths would make their apps so that they can be stored on the external card."	Negative	0.06589009	0.5062413	0.4278686
+416	amzn1.account.AFPRMELOAMYAQQQGJ46Q3WY7UUZQ	Software Platform	"Worked fine first day of use, next day my device was saying error reading card, had to reformat it, getting errors everytime now."	Negative	0.01562966	0.8503718	0.1339986
+417	amzn1.account.AGAQKXQ4WNRXQF5RVPJHTMTHBJ3Q	Software Platform	"I don't know if that is user error or a product defect."	Negative	0.03244117	0.6364495	0.3311094
+418	amzn1.account.AHCT5F3QCAKQWKFN5R4AF24KVIJQ	Software Platform	"Around a month ago it started giving me all kinds of error, "micro sd can not be detected" and "corrupted data"."	Neutral	0.008844656	0.393247	0.5979084
+419	amzn1.account.AGTEZE3TIW3MOKRFNFNCEB7L7ZFQ	Product As Described	"Just as advertised."	Positive	0.9112487	0.02993305	0.05881836
+420	amzn1.account.AHJ4QVLMV7TUTS7LRGCWEU66MPNQ	Product As Described	"Just as advertised!"	Positive	0.9644882	0.01368106	0.02183061
+421	amzn1.account.AG5PXVLE6E5CZRO7M5I6OCG3CSHA	Product As Described	"exactly as described!"	Positive	0.9907507	0.000585786	0.00866353
+422	amzn1.account.AEUVXVGSYHLPNVGBIQQCCZS2BROQ	Product As Described	"Came exactly as described and is authentic!"	Positive	0.9986797	6.516505E-05	0.001255072
+423	amzn1.account.AGKRGLFKOEQ6WEIMOYIDCJNH7GPA	Product As Described	"Good product as described."	Positive	0.9983358	0.0001275953	0.001536697
+424	amzn1.account.AE72QCE6PWVXZUGMBO43TZONLLMA	Product As Described	"Works as advertised."	Positive	0.9932896	0.001662474	0.005047955
+425	amzn1.account.AHAC25ED3KLFIQWFUGW2KCJU3O6A	Product As Described	"Works as stated"	Positive	0.8976328	0.02000609	0.08236121
+426	amzn1.account.AGV3FUTHVQLCP7ZYNEQFHWBTHWZQ	Product As Described	"It works just as advertised."	Positive	0.9969976	0.0009754939	0.002026845
+427	amzn1.account.AHALMPV5NZ5QHXTBSEWAFTACFCOQ	Product As Described	"work as described"	Positive	0.8618338	0.01556861	0.1225977
+428	amzn1.account.AFMGQ56RA52QPC7HTMSSRPI6OELQ	Product As Described	"Product as described."	Positive	0.8546001	0.01669244	0.1287075
+429	amzn1.account.AGA3S7XH2BOYIYH46UQWW2OJX4SQ	Product As Described	"Works as advertised"	Positive	0.9852178	0.004197106	0.01058525
+430	amzn1.account.AG5TW2ZE6OE5NLZDXQ7CXIIPKJDQ	Product As Described	"Works as described."	Positive	0.9901769	0.0009812712	0.008841828
+431	amzn1.account.AE4DHBPWTOONDOL7EFGLZUXKHQRA	Product As Described	"Tried to take a picture."	Neutral	0.03354435	0.3690934	0.5973622
+432	amzn1.account.AFCSWFMCE2664QFTGIC7JW33DKZA	Product As Described	"Iuno how or what happened but no picture got saved ."	Neutral	0.0085396	0.4288558	0.5626046
+433	amzn1.account.AGEOPCGXNOXGBHAG3GRAJXGOP2AA	Storage	"Used this for local storage in a Wyze cam, works great."	Positive	0.9836516	0.0007177778	0.01563072
+434	amzn1.account.AELGHLIBGRKQ6QIMRTQOWJUFUWHQ	Storage	"It has more than enough space and I would buy it again"	Positive	0.9949804	0.002559967	0.002459701
+435	amzn1.account.AHFTXFMSEV5ZPTSOV3BFCOR56ZYQ	Storage	"Storage space is exactly as advertised!"	Positive	0.998322	0.001110892	0.0005671988
+436	amzn1.account.AFBBXCOQFAS35IP7QCV56MLOY5XA	Storage	"I've purchased this card to extend my Nintendo Switch space and it works well!"	Positive	0.9833746	0.001754962	0.01487042
+437	amzn1.account.AFHWBCCFOSWMLBVTDPODGU2NE5SQ	Storage	"Love the large capacity"	Positive	0.9874519	0.002053017	0.01049506
+438	amzn1.account.AEBHLYUXDXTREZ3BKVHUII5FIR3Q	Storage	"The size of gbs and the space for saving pics and videos!"	Positive	0.630655	0.04870775	0.3206373
+439	amzn1.account.AEEZDIHZPWV62PM44O3R2DYLT2QQ	Storage	"Only time will tell how it holds up."	Neutral	0.1556796	0.1212853	0.723035
+440	amzn1.account.AGCN3BQHH5U4YXJA6Z6P6VUOR4YQ	Storage	"Cheap chunk of big storage for my phone."	Negative	0.004094507	0.9872492	0.008656366
+441	amzn1.account.AH33CPF6PAO753ES44VHGB5AIF6Q	Storage	"My pc has this much space and I can’t fill it up."	Positive	0.8829432	0.04611313	0.07094357
+442	amzn1.account.AG6RUDFCEYRPSCIW3KQWNGPEBCOQ	Storage	"Insert it in the slot, and snap!"	Positive	0.9329381	0.005282851	0.06177909
+443	amzn1.account.AFRMGOZOU7SDIVGHGSQSQ3ML43HA	Storage	"Massive storage space."	Positive	0.4828728	0.07182766	0.4452996
+444	amzn1.account.AFGFGB6LOTOAY3FZA3ZR5IXUDB4A	Storage	"The usable storage is around 185GB."	Neutral	0.312675	0.2863256	0.4009993
+445	amzn1.account.AHDMUCKH74HQ6RUF3XHGDMAZEMZA	Storage	"Hard to believe that you can get 200GB of storage on something the size of a coin."	Negative	0.05017636	0.7247162	0.2251074
+446	amzn1.account.AEY4ENBSQ2SODN62KVTIWNURLTLA	Gaming	"Games load quick on my Switch and have had no issues."	Positive	0.9816214	0.009203166	0.009175445
+447	amzn1.account.AEHLWWOPCSUBDOI5VJSV6H5BRJQQ	Gaming	"Freed up enough space on my phone so I can download more games and music."	Positive	0.7954345	0.007280456	0.1972851
+448	amzn1.account.AHLTOWTGLD2RSIQFZF44MKKGU7MA	Gaming	"Bought one for my hacked switch and BAM i got every game now for free!"	Positive	0.8098742	0.07022276	0.119903
+449	amzn1.account.AGILWIB2UNBVCQRSUMVBG4MMBRFQ	Gaming	"Tons of space for my Nintendo Switch games now."	Positive	0.6735402	0.06700657	0.2594532
+450	amzn1.account.AGM6TQN53HEOXLEXVG35MFOVGY2Q	Gaming	"Games load pretty quickly and was easy to install."	Positive	0.9970163	0.001257179	0.001726485
+451	amzn1.account.AGC6TXYNRFRWAPH4QZ6I5EPTVOFA	Gaming	"Games stored on the card run perfectly."	Positive	0.8854501	0.0110442	0.1035057
+452	amzn1.account.AHDDU3JQMTPYTC37OOSHIU45OHKA	Gaming	"Got it on a sale now my Nintendo switch is living happily with more memory for games thanks."	Positive	0.9889477	0.001251956	0.009800255
+453	amzn1.account.AFDHFOS5N63SOF7ON2VGJQKEX7QA	Gaming	"Lot of storage space now for games"	Positive	0.5237946	0.2977324	0.178473
+454	amzn1.account.AFYQIHCYQ4SJG632NIQR5GH4KQPA	Gaming	"Its inside my Nintendo Switch and fully loaded of games, and it works perfect!!!"	Positive	0.9990351	9.349608E-05	0.0008714854
+455	amzn1.account.AFFW4CXIXVFPA2XWOE2DJBXEX4ZQ	Gaming	"Filled it with games and put it in my raspberry pi."	Positive	0.7734326	0.02292071	0.2036467
+456	amzn1.account.AFYG4H2JOVFB5IRPTWMMK47CT34Q	Gaming	"Using this card on a Raspberry pie for retro gaming."	Neutral	0.1897671	0.01273619	0.7974967
+457	amzn1.account.AHVSOETMZTVPT4NPCAI36EXVKO4A	Gaming	"Not sure if this card makes games load slower or if the switch is just slow lol"	Negative	0.01217466	0.8341853	0.1536401
+458	amzn1.account.AHHSD4MGZHMVEFPP6KCSQELYCYEA	Original Product	"Great price, genuine product."	Positive	0.9984961	6.288751E-05	0.00144108
+459	amzn1.account.AEUVXVGSYHLPNVGBIQQCCZS2BROQ	Original Product	"Came exactly as described and is authentic!"	Positive	0.9986797	6.516505E-05	0.001255072
+460	amzn1.account.AHLTOWTGLD2RSIQFZF44MKKGU7MA	Original Product	"these are genuine ppl!"	Positive	0.7488043	0.03091785	0.220278
+461	amzn1.account.AEBEILULVV3XYBKGVI46IBT25Y2A	Original Product	"This is the original!"	Positive	0.7900597	0.03140956	0.1785306
+462	amzn1.account.AG4SRRU5BIAZFUTMJL32LILI7XIA	Original Product	"Very happy it was not a Chinese knockoff."	Positive	0.7979353	0.1298161	0.07224858
+463	amzn1.account.AFEETRSRUIU7VICCE4N3LLNKPWPA	Original Product	"Authentic item not a knock off."	Positive	0.6500723	0.1797158	0.170212
+464	amzn1.account.AHLTOWTGLD2RSIQFZF44MKKGU7MA	Original Product	"Not a fake knockoff!"	Negative	0.129123	0.7849306	0.0859465
+465	amzn1.account.AG725IVC6YHZTHCGKB73B6IXZBUQ	Original Product	"It was a fake card."	Negative	0.007497564	0.9539227	0.03857959
+466	amzn1.account.AH6ZEAUO2R7POCNMD4RUZZTYY4KA	Original Product	"this is a fake card  (INVALID)"	Negative	0.002750773	0.9577209	0.03952834
+467	amzn1.account.AHPGL2D5HZAK6IAI3ZV24HR7HI7Q	Original Product	"So that one was fake the same as this one."	Negative	0.02359398	0.6528494	0.3235566
+468	amzn1.account.AEHLWWOPCSUBDOI5VJSV6H5BRJQQ	Apps	"Freed up enough space on my phone so I can download more games and music."	Positive	0.7954345	0.007280456	0.1972851
+469	amzn1.account.AGTT3PHAVS2ZKN3MRA7MRQASNW6Q	Apps	"Set it up very easy with the software provided at the apple store."	Positive	0.9849177	0.001521891	0.01356032
+470	amzn1.account.AHHSD4MGZHMVEFPP6KCSQELYCYEA	Apps	"Works great in my Samsung Galaxy s7"	Positive	0.9939857	8.379742E-05	0.005930542
+471	amzn1.account.AFHVXZKKNN5UHRGGHCOS3SGW3KSQ	Apps	"Loads apps fast on my amazon tablet."	Positive	0.9865981	0.00446736	0.008934507
+472	amzn1.account.AEVR67PLFATSSKNENCQHWK7T5HDA	Apps	"For me it is enough storage to hold a few movies and many many many pictures and I move just about every app that I possibly can over to it I wish I could move them all to it but I can't darn it."	Negative	0.2298147	0.6174989	0.1526864
+473	amzn1.account.AE5LCIP7X3F5TCOUUXKUZIOASWDQ	Apps	"The best part about the system is the software ."	Positive	0.9192207	0.00325707	0.07752219
+474	amzn1.account.AFUOLTJFBMJR7Z5VJXVGIVDHYYHQ	Apps	"I installed this as extra storage for my Surface Go and I use it to run games, movies, and all sorts of software."	Neutral	0.3228052	0.01340731	0.6637875
+475	amzn1.account.AEVR67PLFATSSKNENCQHWK7T5HDA	Apps	"I wish more codesmiths would make their apps so that they can be stored on the external card."	Negative	0.06589009	0.5062413	0.4278686
+476	amzn1.account.AHY4WIVDJJZVKM26WPY3SORRIXIA	Build Quality	"It is relatively fast and the card itself seems very durable"	Positive	0.9969516	0.0002801459	0.002768322
+477	amzn1.account.AGF4RJQDFRLRPDOMSBNDYRTP6IXQ	Build Quality	"Only improvement I would recommend is for it to come a small plastic protective case."	Positive	0.7168466	0.1549164	0.128237
+478	amzn1.account.AF4W6R3JE2IR7D7XU2Q7Z6HVRJ7Q	Build Quality	"Nice and durable."	Positive	0.9967608	0.000174448	0.003064822
+479	amzn1.account.AHVPUKIH3X2EAYXLYJ4TAFNTDDXQ	Build Quality	"Pretty solid product."	Positive	0.992042	0.001059764	0.006898292
+480	amzn1.account.AG4LVRZZANRFVYCFRF2XT7ZKHOHA	Build Quality	"Get back to me in ten years regarding durability."	Neutral	0.3660203	0.05545244	0.5785274
+481	amzn1.account.AGDCVI4DFETKDXC6F4YMOKLQDDVA	Build Quality	"Pay attention when getting the card out, the peel-off plastic rips easily and is stuck to the bottom of the card where the leads are."	Negative	0.02115399	0.8015518	0.1772943
+482	amzn1.account.AG6UKEAFOBWKEX5NJRU2Q7Y6QDHA	Build Quality	"No recommend it careful"	Negative	0.01250057	0.8942039	0.0932956
+483	amzn1.account.AE5LCIP7X3F5TCOUUXKUZIOASWDQ	Picture	"The picture is very sharp."	Positive	0.821456	0.06263535	0.1159086
+484	amzn1.account.AFQHYEFLYOXAAXHUWNJPJ7PGT4HA	Picture	"Very good video quality indeed."	Positive	0.9973837	0.000102158	0.00251423
+485	amzn1.account.AHFCNMBI7PPWDOSFT5IXETXMDFPA	Picture	"If you are planning on using it for HD video capture, you may want to spend a bit more for the much faster SDSQXA1-256G-GN6MA (~$160.00)."	Neutral	0.1359527	0.03364293	0.8304043
+486	amzn1.account.AE4DHBPWTOONDOL7EFGLZUXKHQRA	Picture	"Tried to take a picture."	Neutral	0.03354435	0.3690934	0.5973622
+487	amzn1.account.AFCSWFMCE2664QFTGIC7JW33DKZA	Picture	"Iuno how or what happened but no picture got saved ."	Neutral	0.0085396	0.4288558	0.5626046
+488	amzn1.account.AESK6WXFBTXJC26QBWTOKVH735OQ	Video Playback	"fantastic nice video"	Positive	0.9961208	0.0002682302	0.00361095
+489	amzn1.account.AFQHYEFLYOXAAXHUWNJPJ7PGT4HA	Video Playback	"Very good video quality indeed."	Positive	0.9973837	0.000102158	0.00251423
+490	amzn1.account.AGJK4JSQSY4WFNCZQWMJIBVMAQQA	Video Playback	"Affords 9999 pix / 3hrs of video"	Neutral	0.2343705	0.003864775	0.7617647
+491	amzn1.account.AFI4I7YTIHWAGS7FED2ZWTKG4MYQ	Video Playback	"When you want to store pictures or videos' music etc."	Neutral	0.2009318	0.1879798	0.6110885
+492	amzn1.account.AEVIAFURIAXFKXHSBXIQIQAVTGQQ	Returns	"Not happy and got a refund."	Negative	0.001083553	0.9927998	0.006116667
+493	amzn1.account.AHL4J6ND5HTCIPADDZ3NYJ2Q7OVQ	Returns	"Unfortunately I bought this several months ago and only got around to using it now, so returning isnt an option."	Negative	0.0001230028	0.9937999	0.006077236
+494	amzn1.account.AHXBOBZ63MUOE4ZPECAO3JRVEGPQ	Returns	"I am outside the return window and now I am stuck with a bad card and 50Cad wasted."	Negative	0.00279748	0.9560113	0.04119121
+495	amzn1.account.AFNBQDPGUWIVVIEMYQ3UAT3HP3NA	Returns	"Really poor product on the top you can't return this product to seller."	Negative	0.0001310299	0.9978181	0.0020507
+496	amzn1.account.AEPM3KIOVOTNHL4Q4FRTOCSDSTUA	Codecs	"Note that you have to re-format the card to use GPT Boot Record or you won't be able to copy large files to it."	Neutral	0.04506547	0.2477878	0.7071468
+497	amzn1.account.AHLNNCL3CO3ALVSYAR2AISFFDUUQ	Codecs	"Won’t format properly."	Negative	0.06933101	0.4882674	0.4424015
+498	amzn1.account.AEBVDPEKRMD44VQP3SOG4XAM6Q4A	Codecs	"Can’t even format it."	Positive	0.4685735	0.1607336	0.370693
+499	amzn1.account.AEVIAFURIAXFKXHSBXIQIQAVTGQQ	Codecs	"Tried two different file systems by formatting."	Neutral	0.04350552	0.338347	0.6181475
+500	amzn1.account.AH4UEFYXS4EUYZNRDLTXNW4P3X6Q	Parts & Accessories	"I use it for remote surveillance camera at home and does the work perfect."	Positive	0.9903256	0.0002085022	0.009465875
+501	amzn1.account.AGNXXRJDNKNRT2P47YYZ5OICFQ6A	Parts & Accessories	"No issues with looped recording."	Positive	0.8223542	0.09303573	0.08461012
+502	amzn1.account.AG5VLPCLZBLO34NITTGRKLSKLINQ	Parts & Accessories	"Upon arrival removed disk from packaging, disk is unreadable."	Negative	0.002406099	0.9754004	0.02219359
+503	amzn1.account.AG3PZ5P36FT4GT4GLIGNMBYXTGRA	Cleaning	"Unlike dirt cheap knockoffs this card actually can hold nearly 200GB."	Negative	0.1627034	0.7230058	0.1142907
+504	amzn1.account.AGMX5LMFYZPCSM5LEFRRV7UQF4RQ	Cleaning	"First of all the packaging was very clean, which made a good first impression."	Positive	0.9729018	0.00710199	0.01999624
+505	amzn1.account.AGDCVI4DFETKDXC6F4YMOKLQDDVA	Cleaning	"You need to carefully scratch the leads clean with your finger nail otherwise the device won't read your card."	Negative	0.03851051	0.4934926	0.4679968
+506	amzn1.account.AFIEXRJKTFFSZ637TNRANK3FNR6A	Sound	"It's perfect, works rapidly and so far all the songs sound perfectly."	Positive	0.9994746	1.307003E-05	0.0005123043
+507	amzn1.account.AHK7OMJQO4S2UIC7RHBDC3EMCM6A	Sound	"Lots of room to store my music."	Positive	0.911829	0.006112892	0.08205811
+508	amzn1.account.AFI4I7YTIHWAGS7FED2ZWTKG4MYQ	Sound	"When you want to store pictures or videos' music etc."	Neutral	0.2009318	0.1879798	0.6110885
+509	amzn1.account.AH2DCLL4TEHB7O35FO52HRHKF6DQ	Packing	"Great product, packaging, price is good value"	Positive	0.9995326	9.668749E-07	0.0004664827
+510	amzn1.account.AFZJKZ7IEGMOZ4OXJGX5HUK2PMUQ	Packing	"I wish I had kept the packaging."	Positive	0.5241519	0.2543692	0.2214788
+511	amzn1.account.AG7Z7S4KSX3S45RVEFIOAUWNNQGQ	Lagging	"Continuous recording without fail."	Positive	0.8926314	0.04411987	0.06324865
+512	amzn1.account.AGE5BB36PCGPAYVVWQVVRGTDJF3Q	Lagging	"It causes delay."	Negative	0.006144061	0.947392	0.04646393
+513	amzn1.account.AF2SFG5UYEOTS3C4EFYQDLAMPG7A	Ports	"Bought this to use in a portable media streamer, and it worked great with the included adapter."	Positive	0.9970894	0.0001624927	0.002748079
+514	amzn1.account.AH3LB4MKOPVCK3HHMDBUJMEDAVTQ	Ports	"Fast when plugged into pc for transfers"	Neutral	0.3528244	0.1915565	0.455619
+515	amzn1.account.AFQHYEFLYOXAAXHUWNJPJ7PGT4HA	Video Recording	"Very good video quality indeed."	Positive	0.9973837	0.000102158	0.00251423
+516	amzn1.account.AEAIGDZUKSPIEJQ37VX3KGHNJUZQ	Comfort	"This is hands down the best product."	Positive	0.9931206	0.001417586	0.005461778
+517	amzn1.account.AFBBXCOQFAS35IP7QCV56MLOY5XA	Firmware	"Formatted in extFAT, run the firmware version 5.1.0 on your Switch and absolutely no problem."	Positive	0.7103973	0.1523844	0.1372182
+518	amzn1.account.AGAWJ3KCOMZPSZXUD6ZUHYS6JHQA	For Fun	"Fun fun fun"	Positive	0.9936106	0.0001938018	0.006195703
+519	amzn1.account.AEERWCUEELMEMFM4YVU6OB2VXBWQ	Capacity	"It is very easy to install and use,  it is my second unit for the family"	Positive	0.9989059	9.160942E-05	0.001002507
+520	amzn1.account.AFBZWLJ3QPPXVCZWKORYDOUZXK5Q	For Travel	"These will definitely be useful on our next vacation."	Positive	0.9925459	0.0008043682	0.006649761
+521	amzn1.account.AG2DM3FIJONKPUVVDV6D5S6454NQ	Front Camera	"it's awesome dash cam with rear view camera"	Positive	0.9866238	0.0001542376	0.01322198

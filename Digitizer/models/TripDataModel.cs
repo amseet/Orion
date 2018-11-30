@@ -4,6 +4,11 @@ using System.Text;
 
 namespace Orion.Models
 {
+    public struct Location
+    {
+        float longitude;
+        float latitude;
+    }
     public struct TripAttributes
     {
         public DateTime pickup_datetime, dropoff_datetime;

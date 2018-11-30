@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Orion.Web.Models;
+using Orion.DB;
+using Orion.DB.Models;
 
 namespace Orion.Web.Views
 {
@@ -21,8 +22,7 @@ namespace Orion.Web.Views
         // GET: TripData
         public async Task<IActionResult> Index()
         {
-            //await _context.TripData.ToListAsync()
-            return View(RoutingService.Service.simpleroute());
+            return View(await _context.TripData.ToListAsync());
         }
 
         // GET: TripData/Details/5

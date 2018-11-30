@@ -1,0 +1,257 @@
+Uid	User_Id	Feature	Comment	Sentiment	Pos	Neg	Nut
+0	amzn1.account.AFO54EKY4NCU7WXAVM4MAZQFFROQ	Software Platform	"Google's product suite is extremely smart and integrates with everything seamlessly."	Positive	0.9913852	0.0001418334	0.008472892
+1	amzn1.account.AFIARUWXGYEVO6XVOJ6MJGKHDLLA	Software Platform	"The Samsung Galaxy has a great camera and it being an android phone is a plus."	Positive	0.989075	0.0002429334	0.01068208
+2	amzn1.account.AH4WHA4RYFLB7B7JXX6DTJ2PYB5A	Software Platform	"Coming from an Galaxy S7, this was a major upgrade."	Positive	0.482887	0.048049	0.4690641
+3	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Software Platform	"Applications stay in memory for what seems like forever"	Negative	0.2521813	0.4028559	0.3449628
+4	amzn1.account.AFYZQXDBOOPFI6DJ2ZFRXKNQ45DA	Software Platform	"Rest of the functionality is standard easy to use android."	Positive	0.862997	0.009741557	0.1272615
+5	amzn1.account.AF6LLAURAKV3HA6YTNZON3OPPQNA	Software Platform	"Android has come leaps and bounds up in quality, presentation, looks and a overall solid ecosystem in the 4 years since I bought my previous phone!"	Positive	0.9959024	0.0003877178	0.003709807
+6	amzn1.account.AFO54EKY4NCU7WXAVM4MAZQFFROQ	Software Platform	"I switched from an iPhone 6 and am seriously impressed with the hardware and software."	Positive	0.9954605	0.0009480861	0.003591458
+7	amzn1.account.AF6LLAURAKV3HA6YTNZON3OPPQNA	Software Platform	"The built in switching app got my contacts and some things over"	Positive	0.4905269	0.1242451	0.385228
+8	amzn1.account.AFYZQXDBOOPFI6DJ2ZFRXKNQ45DA	Software Platform	"I am a Samsung fan and even though there will be a new one shortly, this was a great deal during the amazon sale."	Positive	0.977243	0.0009687432	0.02178826
+9	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Software Platform	"Thankfully touchwiz now has alot of extra settings that allow it to behave more like "stock" android which is nice."	Positive	0.9328444	0.002069727	0.0650858
+10	amzn1.account.AGJK65UL7A6VQ574WQFOWW6BKPLA	Software Platform	"I don't really use voice-activated features like Samsung's "Bixby"."	Negative	0.002547454	0.7116598	0.2857927
+11	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Software Platform	"The beauty of android is customization ."	Positive	0.812448	0.002223886	0.1853281
+12	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Software Platform	"They need better support with regular updates without delays behind all other Android devices."	Negative	0.2596203	0.6714978	0.06888189
+13	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Software Platform	"So far no regrets, great phone and don't miss my X much at all (I was a 7 year iOS user)."	Positive	0.9827276	0.001994683	0.01527767
+14	amzn1.account.AFKPNOS4CZTZR3Y77UCYHPHTLIAQ	Software Platform	"Great phone, but still the same reason I left Android for iOS."	Neutral	0.1928538	0.01098059	0.7961656
+15	amzn1.account.AHPCVK6PZIM2BGG73XQZ3FR5BJFA	Software Platform	"Loved the phone, but yeah Samsung ui still sucks."	Neutral	0.01200925	0.03494864	0.9530421
+16	amzn1.account.AGURXUED6SKJ4DIJT3CXNWPXTJYA	Software Platform	"compare to Samsung (because I've not owned any other smart phone that is not a Samsung - except for a Nokia 630 or a BlackBerry)."	Neutral	0.02811196	0.1797313	0.7921568
+17	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Software Platform	"-the phone has very good speed apps load very fast"	Positive	0.9957195	0.0008464176	0.003434046
+18	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Software Platform	"Samsung used to be so cool with how customize-able it was - now it's just like the iphones."	Positive	0.6179982	0.06194193	0.3200598
+19	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Software Platform	"I gotta go to the app to change the notifications, then to the settings to do that as well."	Neutral	0.178976	0.09238322	0.7286407
+20	amzn1.account.AGINOKUWWEHPKSX64QCUUSE7FV5A	Software Platform	"Specs are specs and no annoying in ur face bloatware from Samsung."	Positive	0.5029981	0.4477222	0.04927984
+21	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Software Platform	"Oneattributed to Google itself would be their recent decision to not allow users to download the Google Launcher for newer phones."	Neutral	0.01131688	0.1744584	0.8142248
+22	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Software Platform	"One attributed to Samsung would be the inability to remap the bixby button to do anything else."	Neutral	0.005529223	0.1458224	0.8486484
+23	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Software Platform	"Not sure why other Android makers are removing this."	Negative	0.04887506	0.5768247	0.3743003
+24	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Software Platform	"My complaints with the phone so far are mainly software related."	Negative	0.07007588	0.7693608	0.1605633
+25	amzn1.account.AEGUT7AXDVD3SGU26YUFPY5234KA	Software Platform	"I give it a 5 but would like to see some more innovations, eg., an S9+ app that can be used on the computer for answering emails, texts, etc."	Neutral	0.3325126	0.09455574	0.5729316
+26	amzn1.account.AGJK65UL7A6VQ574WQFOWW6BKPLA	Software Platform	"However, a very quick search online told me how to disable it entirely."	Neutral	0.3010335	0.3376534	0.3613131
+27	amzn1.account.AGHJNSX5CTZV6LGGAV7ODPXDIK4Q	Software Platform	"Being a stock android user, I had to install third party launcher immediately and disabled some duplicate apps from Samsung as I use the same services from Google."	Neutral	0.01732197	0.4435461	0.5391319
+28	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Software Platform	"Due to the lack of update support I give this phone a 4/5."	Neutral	0.09090496	0.4185479	0.490547
+29	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Software Platform	"I hate Samsung Bixby so i completely disabled it."	Negative	0.004024549	0.9162738	0.07970175
+30	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Software Platform	"I also can't customize my apps like I used to."	Negative	0.02176761	0.9319276	0.0463048
+31	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Software Platform	"No stupid bixby, no edged screens, no finicky buttons, no constant changing of app permissions/notifications and no excessive options that just don't work."	Negative	0.0457103	0.9138793	0.04041042
+32	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Software Platform	"It's SO stupid and you have to make a Samsung account just to disable it."	Negative	0.0006284778	0.9738192	0.02555234
+33	amzn1.account.AGZVHDYBAFHYPI6A34347J47KKVA	Display Clarity	"Beautiful screen,  and great battery life"	Positive	0.998672	1.767034E-05	0.0013104
+34	amzn1.account.AF6LLAURAKV3HA6YTNZON3OPPQNA	Display Clarity	"Solid build,gorgeous screen (omg!"	Positive	0.9907377	0.000465033	0.008797266
+35	amzn1.account.AFM4MGT3QBU3GCIKJIC2VSBTNLJA	Display Clarity	"Super fast, great camera, awesome screen, a lot of memory and good battery."	Positive	0.9993352	6.906508E-06	0.0006578607
+36	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Display Clarity	"dr Great experience and great functionality once you've passed the learning curve, with a beautiful screen and great audio."	Positive	0.997902	2.193764E-05	0.002076042
+37	amzn1.account.AE3AL6VUMKKGIMC3WHOXVGSIQWXQ	Display Clarity	"The notchless screen, great performance,  camera, everything is great."	Positive	0.9976312	1.723421E-05	0.002351592
+38	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Display Clarity	"I bought this device because I use my phone for content consumption and I had heard that Samsung has some of the most beautiful screens."	Positive	0.8171098	0.01603252	0.1668577
+39	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Display Clarity	"The curved screen is beautiful, too, and edge lighting for notifications offers a great experience."	Positive	0.9968923	5.097637E-05	0.003056751
+40	amzn1.account.AE2AUBVYWCJGUCNCFX5RPFM2DWFQ	Display Clarity	"Great phone, with a very nice display that is 10bit colour"	Positive	0.9987979	1.516706E-05	0.001186947
+41	amzn1.account.AFO54EKY4NCU7WXAVM4MAZQFFROQ	Display Clarity	"The screen is clear and very high resolution with great colours."	Positive	0.99102	0.0005820863	0.008397903
+42	amzn1.account.AEETAKUZJX376RQBXVWBMV5F4TFQ	Display Clarity	"The camera's quality is insane, and shows nicely on the screen, right away, after taking pictures/videos ."	Positive	0.995644	0.001694918	0.002661143
+43	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Display Clarity	" and the display itself is just second to none in terms of clarity and colour reproduction."	Negative	0.1221118	0.8135321	0.0643561
+44	amzn1.account.AE2AUBVYWCJGUCNCFX5RPFM2DWFQ	Display Clarity	" great for watching youtube or whatever in bed with nice deep blacks, and movies have smaller black bars than a regular 16:9 screen as this is a 18.5:9 display which is closer to the movie standard filming ratio."	Positive	0.9741975	0.0006135918	0.02518884
+45	amzn1.account.AGJK65UL7A6VQ574WQFOWW6BKPLA	Display Clarity	"I'm loving the screen size too."	Positive	0.9911764	0.0004587154	0.008365002
+46	amzn1.account.AGURXUED6SKJ4DIJT3CXNWPXTJYA	Display Clarity	"The dual cameras, improved speakers, and the awesome display were reason for me to get the S9+ even though the S7's are still rocking in 2018."	Positive	0.9479284	0.002554492	0.04951713
+47	amzn1.account.AH4WHA4RYFLB7B7JXX6DTJ2PYB5A	Display Clarity	"The camera is where I saw the most improvement however everything is an improvement overall such as the stereo speakers, better battery life, brighter screen, etc."	Positive	0.9439971	0.00298277	0.05302012
+48	amzn1.account.AGIW2DEJWZCXWXIRH2I3DV6RL5NA	Display Clarity	"- display really pops"	Positive	0.7147844	0.0247895	0.260426
+49	amzn1.account.AE2AUBVYWCJGUCNCFX5RPFM2DWFQ	Display Clarity	"Also if you put your phone in a dash mount in your car the screen on this this can get very bright even when in peak daylight conditions which makes it ideal for using google maps or just using it walking around."	Positive	0.9935634	0.001519633	0.004917002
+50	amzn1.account.AGURXUED6SKJ4DIJT3CXNWPXTJYA	Display Clarity	"I do not know how the Pixels, the iPhones, the LGs, the Sony's, etc."	Neutral	0.06378885	0.1225308	0.8136804
+51	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Display Clarity	"The screen on this device is incredible."	Positive	0.9934755	0.002016846	0.004507601
+52	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Display Clarity	"It is definitely the best screen on the market right now."	Positive	0.9983836	7.605732E-05	0.001540277
+53	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Display Clarity	"-screen is super clear, colors are great, it has very deep blacks,and vibrant colors with hdr 10"	Positive	0.999084	6.956962E-06	0.000909054
+54	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Display Clarity	"too big or too small for the current resolution)."	Negative	0.1026537	0.5711274	0.326219
+55	amzn1.account.AGIW2DEJWZCXWXIRH2I3DV6RL5NA	Display Clarity	"- my fat palms keep accidentally pressing things on the curved edges of the screen"	Negative	0.1180712	0.5013002	0.3806287
+56	amzn1.account.AEHCXAC65WMN7HKEKOP6DIPE6GXA	Display Clarity	"I am returning mine due to screen touch issue, some of edge area is not responding correctly like the rest area on the screen."	Negative	0.0008073878	0.9857963	0.01339639
+57	amzn1.account.AGZVHDYBAFHYPI6A34347J47KKVA	Battery Life	"Beautiful screen,  and great battery life"	Positive	0.998672	1.767034E-05	0.0013104
+58	amzn1.account.AEK2TOT6JSECL7WILRYK4JUWXIXA	Battery Life	"Great battery life."	Positive	0.9940223	0.0005542519	0.005423411
+59	amzn1.account.AEKRFEQDS3FFPPVPLL3SD6HLMX3Q	Battery Life	"Great phone, super sleek, great battery life and features abound."	Positive	0.9993073	3.195207E-06	0.0006895935
+60	amzn1.account.AGIW2DEJWZCXWXIRH2I3DV6RL5NA	Battery Life	"- battery life last about two days"	Neutral	0.1769643	0.1733107	0.649725
+61	amzn1.account.AF6LLAURAKV3HA6YTNZON3OPPQNA	Battery Life	"The battery lasts a long time too!"	Positive	0.986148	0.007471958	0.006379904
+62	amzn1.account.AGJK65UL7A6VQ574WQFOWW6BKPLA	Battery Life	"I'm a little bummed about losing the stylus and removable battery, but otherwise I am very impressed with the device so far."	Neutral	0.08236671	0.01351734	0.9041159
+63	amzn1.account.AGFN57BW7GNCTUUGP3J7JDD2Y2DQ	Battery Life	"Battery life could be way better but still a huge upgrade over the S7"	Neutral	0.2236347	0.0786944	0.6976709
+64	amzn1.account.AE2AUBVYWCJGUCNCFX5RPFM2DWFQ	Battery Life	"Battery is life is pretty average, but I've gotten used to carrying my battery bank even with my old G4, pretty much all smartphones if you even moderately use them will die before the day is over."	Neutral	0.1756751	0.3450843	0.4792405
+65	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Battery Life	"I would rate this phone a 8.5/10, will bump up to 9/10 if battery life improves."	Neutral	0.1325033	0.4059	0.4615968
+66	amzn1.account.AFV5A7HBHFLRKRGG25QLRG7PZNCQ	Battery Life	"The first day I got it the battery life last almost 3 days."	Positive	0.7073842	0.08938072	0.2032351
+67	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Battery Life	"Battery life is good, no issues after initial hiccups."	Positive	0.9609949	0.00281011	0.03619502
+68	amzn1.account.AFV5A7HBHFLRKRGG25QLRG7PZNCQ	Battery Life	"It's been about a month and the battery now lasts for about a day."	Positive	0.8649893	0.03441477	0.100596
+69	amzn1.account.AEDDQXGCQCT2S5GPWM6NSP2TQNWQ	Battery Life	"Battery life is better then I expected but not as good as I would like"	Neutral	0.1015991	0.1249769	0.773424
+70	amzn1.account.AEZPGLW2BMRN4AA37D4JKMLEIX5Q	Battery Life	"Old Post :This Phone still does everything just has to wireless charge now."	Positive	0.8548546	0.01088844	0.134257
+71	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Battery Life	"will update on battery after a couple weeks of use."	Neutral	0.2576998	0.2088446	0.5334557
+72	amzn1.account.AGVAQY26SMU7MSSSQQWV2QL3BMFA	Battery Life	"The battery keeps going dead when not in use ."	Negative	0.03765164	0.9195793	0.04276911
+73	amzn1.account.AF5SKTRIQY6OISO747ERK67NMUXA	Battery Life	"But battery really heats up and die quickly."	Positive	0.6108701	0.2998979	0.089232
+74	amzn1.account.AHQYH54XYFUKMFYGNRAR5TWNSJKA	Battery Life	"- Battery life not so good"	Negative	0.06029731	0.794875	0.1448276
+75	amzn1.account.AGDY4LKPTENY45RYACWOZA4D4HMA	Battery Life	"Be aware of the battery life on this phone, phone was dead after ~ 5 hours and 20 mins, started using this phone from 9 am at 100% to 0% at 2:20 pm."	Negative	0.04276953	0.7463779	0.2108526
+76	amzn1.account.AHBPLKXC4HHCRMGEYE6JMQ7YB5TQ	Battery Life	"Horrible battery life !"	Negative	0.009637049	0.9731326	0.01723043
+77	amzn1.account.AGNU47MQGV5AHMQ44IXI2SCR3TDQ	Battery Life	"Sure there are some features here and there but battery life is just bad."	Negative	0.008333845	0.7504493	0.2412169
+78	amzn1.account.AGNU47MQGV5AHMQ44IXI2SCR3TDQ	Battery Life	"Battery life is just terrible."	Negative	0.002803251	0.9653364	0.03186035
+79	amzn1.account.AFO54EKY4NCU7WXAVM4MAZQFFROQ	Apps	"Google's product suite is extremely smart and integrates with everything seamlessly."	Positive	0.9913852	0.0001418334	0.008472892
+80	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Apps	"Applications stay in memory for what seems like forever"	Negative	0.2521813	0.4028559	0.3449628
+81	amzn1.account.AFO54EKY4NCU7WXAVM4MAZQFFROQ	Apps	"I switched from an iPhone 6 and am seriously impressed with the hardware and software."	Positive	0.9954605	0.0009480861	0.003591458
+82	amzn1.account.AF6LLAURAKV3HA6YTNZON3OPPQNA	Apps	"The built in switching app got my contacts and some things over"	Positive	0.4905269	0.1242451	0.385228
+83	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Apps	"Thankfully touchwiz now has alot of extra settings that allow it to behave more like "stock" android which is nice."	Positive	0.9328444	0.002069727	0.0650858
+84	amzn1.account.AE2AUBVYWCJGUCNCFX5RPFM2DWFQ	Apps	"decently loud speakers as well and the nice ability to fullscreen apps without having the capacitive touch buttons always taking up space."	Positive	0.9975663	0.0004342683	0.00199942
+85	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Apps	"The beauty of android is customization ."	Positive	0.812448	0.002223886	0.1853281
+86	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Apps	"-the phone has very good speed apps load very fast"	Positive	0.9957195	0.0008464176	0.003434046
+87	amzn1.account.AEZPGLW2BMRN4AA37D4JKMLEIX5Q	Apps	"The space is great, i finally have room for apps for once."	Positive	0.9961699	0.000247538	0.003582649
+88	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Apps	"I gotta go to the app to change the notifications, then to the settings to do that as well."	Neutral	0.178976	0.09238322	0.7286407
+89	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Apps	"Oneattributed to Google itself would be their recent decision to not allow users to download the Google Launcher for newer phones."	Neutral	0.01131688	0.1744584	0.8142248
+90	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Apps	"My complaints with the phone so far are mainly software related."	Negative	0.07007588	0.7693608	0.1605633
+91	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Apps	"Moving from Battery saver to Entertainment mode will sometimes leave apps with a weird resolution (i.e."	Positive	0.3962665	0.3705843	0.2331491
+92	amzn1.account.AEGUT7AXDVD3SGU26YUFPY5234KA	Apps	"I give it a 5 but would like to see some more innovations, eg., an S9+ app that can be used on the computer for answering emails, texts, etc."	Neutral	0.3325126	0.09455574	0.5729316
+93	amzn1.account.AGHJNSX5CTZV6LGGAV7ODPXDIK4Q	Apps	"Being a stock android user, I had to install third party launcher immediately and disabled some duplicate apps from Samsung as I use the same services from Google."	Neutral	0.01732197	0.4435461	0.5391319
+94	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Apps	"Be prepared for a bit of a learning curve due to all the things going on with this Samsung overlay."	Neutral	0.297989	0.1197057	0.5823054
+95	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Apps	"I also can't customize my apps like I used to."	Negative	0.02176761	0.9319276	0.0463048
+96	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Apps	"No stupid bixby, no edged screens, no finicky buttons, no constant changing of app permissions/notifications and no excessive options that just don't work."	Negative	0.0457103	0.9138793	0.04041042
+97	amzn1.account.AFYZQXDBOOPFI6DJ2ZFRXKNQ45DA	Camera	"Photography is outstanding which is the main reason I have this phone."	Positive	0.9715296	0.0005106422	0.0279598
+98	amzn1.account.AGE2ZJ37ACIBTADXFXMRZZ3UPTCA	Camera	"Camera takes excellent pictures"	Positive	0.9902444	0.001712629	0.008042973
+99	amzn1.account.AHLUWAR5DXGZ3LGBOEAWJ4GAQQCQ	Camera	"The camera is amazing!"	Positive	0.998257	9.732296E-05	0.001645716
+100	amzn1.account.AE3AL6VUMKKGIMC3WHOXVGSIQWXQ	Camera	"The notchless screen, great performance,  camera, everything is great."	Positive	0.9976312	1.723421E-05	0.002351592
+101	amzn1.account.AGGTPHEBJ6F3HSXPOT7NJIUQHAKQ	Camera	"Love the colour and camera."	Positive	0.9979141	7.516189E-05	0.002010706
+102	amzn1.account.AHLUWAR5DXGZ3LGBOEAWJ4GAQQCQ	Camera	"The picture quality rivals a professional camera."	Positive	0.7090537	0.03291833	0.2580279
+103	amzn1.account.AGNJWD452KECEPBETG27PKGW7EIA	Camera	"The camera makes awesome pictures."	Positive	0.9970193	0.0003234917	0.002657208
+104	amzn1.account.AGHJNSX5CTZV6LGGAV7ODPXDIK4Q	Camera	"The camera is great."	Positive	0.9938115	0.0003380633	0.005850442
+105	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Camera	"Camera launches without any lag with pictures appearing bright and vibrant"	Positive	0.9782413	0.01296929	0.008789431
+106	amzn1.account.AFQBSYLSZF7SMMJXQ3HQCUVWUDEA	Camera	"After consulting with a professional photographer, who now uses this phone for taking pictures more than his 35mm."	Neutral	0.3190647	0.01016273	0.6707726
+107	amzn1.account.AH7ZSNH4LT5NDOPMMCAAAI7C3VIA	Camera	"Tested the camera for a bit and I must say it does live up the hype."	Positive	0.980288	0.003396163	0.0163158
+108	amzn1.account.AH26IK2KIJL65KCBF7UBIS6KZAWA	Camera	"I also use my phones camera near exclusively, so the updated camera is a great addition as well."	Positive	0.9969113	2.079991E-05	0.003067831
+109	amzn1.account.AFKPNOS4CZTZR3Y77UCYHPHTLIAQ	Camera	"But regardless this S9 was really nice and I liked it a lot and the pictures were great"	Positive	0.9940087	5.31228E-05	0.005938269
+110	amzn1.account.AHQYH54XYFUKMFYGNRAR5TWNSJKA	Camera	"- Takes decent quality photos/videos"	Positive	0.846449	0.0324305	0.1211204
+111	amzn1.account.AENFFOMEB2CQYWF36ENFI5GO6I2Q	Camera	"Anyway, I've also been having a lot of trouble with the camera."	Neutral	0.09733829	0.3815002	0.5211615
+112	amzn1.account.AF6LLAURAKV3HA6YTNZON3OPPQNA	Color	"It's so bright, bold and beautiful!)"	Positive	0.9944525	0.0001445323	0.005402891
+113	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Color	"Camera launches without any lag with pictures appearing bright and vibrant"	Positive	0.9782413	0.01296929	0.008789431
+114	amzn1.account.AE2AUBVYWCJGUCNCFX5RPFM2DWFQ	Color	"Great phone, with a very nice display that is 10bit colour"	Positive	0.9987979	1.516706E-05	0.001186947
+115	amzn1.account.AFO54EKY4NCU7WXAVM4MAZQFFROQ	Color	"The screen is clear and very high resolution with great colours."	Positive	0.99102	0.0005820863	0.008397903
+116	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Color	"Colours are vibrant and appealing, and entertainment mode makes videos pop out."	Positive	0.885809	0.004019654	0.1101714
+117	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Color	" and the display itself is just second to none in terms of clarity and colour reproduction."	Negative	0.1221118	0.8135321	0.0643561
+118	amzn1.account.AE2AUBVYWCJGUCNCFX5RPFM2DWFQ	Color	" great for watching youtube or whatever in bed with nice deep blacks, and movies have smaller black bars than a regular 16:9 screen as this is a 18.5:9 display which is closer to the movie standard filming ratio."	Positive	0.9741975	0.0006135918	0.02518884
+119	amzn1.account.AGINOKUWWEHPKSX64QCUUSE7FV5A	Color	"Just awesome, I was worried that the purple would be to feminine but it ended up being simply beautiful with everyone complimenting its color."	Positive	0.9935675	9.514044E-05	0.006337446
+120	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Color	"-screen is super clear, colors are great, it has very deep blacks,and vibrant colors with hdr 10"	Positive	0.999084	6.956962E-06	0.000909054
+121	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Color	"I didn't think I would like the grey colour scheme but since it is living in a case, there really isn't any colour that you can notice at all as the front of the phone is completely black, especially with the screen off."	Negative	0.3064955	0.5109768	0.1825277
+122	amzn1.account.AE3AL6VUMKKGIMC3WHOXVGSIQWXQ	Reliability	"Ive had this one for 4 months now and i simply love it!"	Positive	0.9982285	0.000100684	0.001670821
+123	amzn1.account.AGURXUED6SKJ4DIJT3CXNWPXTJYA	Reliability	"This phone will easily be a joy to use for the next 3 or 4 years."	Positive	0.990316	0.001821613	0.00786241
+124	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Reliability	"Good for gamers and people who want a phone that will keep up for the next 4 years."	Positive	0.9535132	0.001150201	0.04533656
+125	amzn1.account.AFU3LW4ZNOFC3SGG3N3N7VI3N7LA	Reliability	"It lets you browse random things even faster than last month's model for only 3x the price!"	Positive	0.9294775	0.04306449	0.02745808
+126	amzn1.account.AFJVU5EZUKG45TVYJNQ5XH2YNKEQ	Reliability	"working well as expected."	Positive	0.9771693	0.002250049	0.02058064
+127	amzn1.account.AENFFOMEB2CQYWF36ENFI5GO6I2Q	Reliability	"My phone doesn't open with "green snow" on it anymore and hasn't randomly errored and shut down on me either."	Negative	0.07389938	0.7277418	0.1983588
+128	amzn1.account.AF5SKTRIQY6OISO747ERK67NMUXA	Reliability	"Only been in use less than 2months now ."	Negative	0.1310821	0.6325945	0.2363233
+129	amzn1.account.AEBTRUZ2BFJ3VMAE5I376QT6V2CA	Reliability	"And phone gets restarted suddenly"	Negative	0.008701003	0.9210737	0.07022525
+130	amzn1.account.AFACFR65SU3A2A7GX4FY4GSUOOZA	Design	"This is definitely the best phone I've ever purchased, it is absolutely gorgeous."	Positive	0.9999466	1.584145E-06	5.18339E-05
+131	amzn1.account.AFQBSYLSZF7SMMJXQ3HQCUVWUDEA	Design	"I like the design, the Infinity borders, even the solid feel of the S9+ in my hands"	Positive	0.9973241	7.514109E-05	0.002600785
+132	amzn1.account.AHY7MPRVMTHWIBZGOZILVM2TLQBQ	Design	"Looks good in grey too :)"	Positive	0.9943445	0.0002334323	0.005422177
+133	amzn1.account.AGDY4LKPTENY45RYACWOZA4D4HMA	Design	"I have been using this phone for about one week now, I loved the design and the speed of this phone."	Positive	0.9995003	6.602264E-06	0.0004931098
+134	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Design	"When you first open the box you immediately see how beautiful this phone is."	Positive	0.9653193	0.00222395	0.03245681
+135	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Design	"I didn't think I would like the grey colour scheme but since it is living in a case, there really isn't any colour that you can notice at all as the front of the phone is completely black, especially with the screen off."	Negative	0.3064955	0.5109768	0.1825277
+136	amzn1.account.AEHCXAC65WMN7HKEKOP6DIPE6GXA	Design	"Looks like this is one of S9's common issue according to reddit."	Negative	0.06750118	0.4924713	0.4400275
+137	amzn1.account.AGJK65UL7A6VQ574WQFOWW6BKPLA	Calling	"I'm getting a consistently strong phone signal and no other network problems."	Negative	0.3316991	0.4469206	0.2213803
+138	amzn1.account.AFU3LW4ZNOFC3SGG3N3N7VI3N7LA	Calling	"don't be an idiot like me and setup the entire phone first and then put the SIM card in or you will be salty af ."	Negative	0.06804762	0.6981151	0.2338373
+139	amzn1.account.AGJK65UL7A6VQ574WQFOWW6BKPLA	Calling	"I don't really use voice-activated features like Samsung's "Bixby"."	Negative	0.002547454	0.7116598	0.2857927
+140	amzn1.account.AFU3LW4ZNOFC3SGG3N3N7VI3N7LA	Calling	"PRO TIP: When you put a new SIM Card in the phone, it will do a factory wipe ."	Neutral	0.01850157	0.02688493	0.9546136
+141	amzn1.account.AFKPNOS4CZTZR3Y77UCYHPHTLIAQ	Calling	"This isn’t a cell network problem."	Neutral	0.05880594	0.2724237	0.6687703
+142	amzn1.account.AEBTRUZ2BFJ3VMAE5I376QT6V2CA	Calling	"Wifi keep dropping most of the time."	Neutral	0.1669925	0.2024851	0.6305224
+143	amzn1.account.AEZIBLB5FGLKDKG3O4WNUJ6FC43Q	Calling	"Then as soon as I put my sim card into the phone, it just wiped it."	Negative	0.04107952	0.5989032	0.3600172
+144	amzn1.account.AGHJNSX5CTZV6LGGAV7ODPXDIK4Q	Fit	"I'm glad that I didn't go for Galaxy S8 as i first fell in love with in when I held it in my hands."	Positive	0.8977458	0.008175869	0.09407833
+145	amzn1.account.AE2AUBVYWCJGUCNCFX5RPFM2DWFQ	Fit	"Also if you put your phone in a dash mount in your car the screen on this this can get very bright even when in peak daylight conditions which makes it ideal for using google maps or just using it walking around."	Positive	0.9935634	0.001519633	0.004917002
+146	amzn1.account.AFKPNOS4CZTZR3Y77UCYHPHTLIAQ	Fit	"I had theee different couriers over the last few years and had the S6 and nexus 6P."	Neutral	0.04842068	0.08673358	0.8648458
+147	amzn1.account.AGGTPHEBJ6F3HSXPOT7NJIUQHAKQ	Fit	"It's a bit too long to fit in my pocket, but that's a minor issue."	Neutral	0.02128759	0.4152868	0.5634255
+148	amzn1.account.AENFFOMEB2CQYWF36ENFI5GO6I2Q	Fit	"It doesn't fit in any of my pants front-pockets (but that's a whole other beef with the pockets on women's pants being more decorative than useful) so I end up having to bring a purse with me everywhere just so I don't lose the phone."	Negative	0.2640085	0.4838476	0.2521438
+149	amzn1.account.AERB7RPZECS4UNUAQV2H2ANJ6UMA	Fit	"I receive the phone s9 plus and it was perfect, but the wire of the charger in the box does not fit with the samsung s9 plus."	Neutral	0.02535484	0.1852669	0.7893782
+150	amzn1.account.AE44KNHTNRYQE7O7SISKSFU2GP6A	Fit	"Upon receipt of the phone it looked like a very small flaw along the edge of the glass, however it was not really noticeable."	Negative	0.03690711	0.8867444	0.07634851
+151	amzn1.account.AGKN2R67YDMNSUKFKIDXOLF7VLYA	Marketplace	"Came super fast from amazon."	Positive	0.9650789	0.01874327	0.01617773
+152	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Marketplace	"Amazon shipped the product very quickly so I was able to have it in-hand within a day."	Positive	0.9683339	0.01524021	0.01642586
+153	amzn1.account.AFD35KEB5URJJMXKWYADQTW6CUDQ	Marketplace	"So far so good I like the phone I was under the impression that amazon could not ship the phone express."	Positive	0.9796759	0.008949537	0.01137455
+154	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Marketplace	"I chose 1 day shipping once again ."	Positive	0.4803139	0.05450362	0.4651825
+155	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Marketplace	"i paid for amazon prime 1 day shipping and it took 4-5 days of waiting for them to prepare/ process  my order."	Positive	0.6197529	0.1076481	0.272599
+156	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Marketplace	"so this was the worst shipping service i have ever encountered as an amazon customer."	Negative	0.001181413	0.9936945	0.005124181
+157	amzn1.account.AFU3LW4ZNOFC3SGG3N3N7VI3N7LA	Compatibility & Ports	"Uses the amazing usb C port, and as a bonus none of your old wires work anymore!"	Positive	0.99411	0.0009619659	0.004927966
+158	amzn1.account.AEGUT7AXDVD3SGU26YUFPY5234KA	Compatibility & Ports	"right from the computer."	Positive	0.4893	0.07037948	0.4403205
+159	amzn1.account.AFGDOB545J4FJN5HXGCZKCKZ5DNQ	Compatibility & Ports	"Came from the BlackBerry world."	Positive	0.5707309	0.07284578	0.3564232
+160	amzn1.account.AEDDQXGCQCT2S5GPWM6NSP2TQNWQ	Compatibility & Ports	"Transfer from my Galaxy S6 edge was fantastic."	Positive	0.987331	0.0008143531	0.01185466
+161	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Compatibility & Ports	"TLDR is at the button if you don't want to read this great wall of text."	Positive	0.6356494	0.05872692	0.3056237
+162	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Compatibility & Ports	"Even Sync messes up and doesn't put everything back."	Negative	0.3554	0.6294525	0.01514744
+163	amzn1.account.AEVJXOXCDOARRK3THMOA4CARZ2VA	Price	"Perfect price for great upgrade"	Positive	0.9989516	5.937978E-05	0.0009890542
+164	amzn1.account.AFM4MGT3QBU3GCIKJIC2VSBTNLJA	Price	"The price is just worth it."	Positive	0.9973749	0.0004910553	0.002134123
+165	amzn1.account.AFQBSYLSZF7SMMJXQ3HQCUVWUDEA	Price	"If you want the most 'bang for your buck', this is the phone for you."	Positive	0.9827879	0.001921638	0.01529043
+166	amzn1.account.AH7ZSNH4LT5NDOPMMCAAAI7C3VIA	Price	"Overall definitely one of the best smartphones out on the market."	Positive	0.9802145	0.0005992768	0.01918613
+167	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Price	"If this phone is within your price range, I doubt you will be dissatisfied with it."	Negative	0.1349061	0.7060926	0.1590013
+168	amzn1.account.AF6LLAURAKV3HA6YTNZON3OPPQNA	Screen Protection	"Solid build,gorgeous screen (omg!"	Positive	0.9907377	0.000465033	0.008797266
+169	amzn1.account.AG33WDVIJV7TC4KKUPNRJFBFRCSA	Screen Protection	"Upgraded from the s6 edge"	Positive	0.4879087	0.03064818	0.4814431
+170	amzn1.account.AE3AL6VUMKKGIMC3WHOXVGSIQWXQ	Screen Protection	"I highly recommend getting a screen protector though,  since the screen (especially around the edges) are easily scratched"	Positive	0.4533216	0.4106731	0.1360054
+171	amzn1.account.AEHCXAC65WMN7HKEKOP6DIPE6GXA	Screen Protection	"I am returning mine due to screen touch issue, some of edge area is not responding correctly like the rest area on the screen."	Negative	0.0008073878	0.9857963	0.01339639
+172	amzn1.account.AE44KNHTNRYQE7O7SISKSFU2GP6A	Screen Protection	"I have now had the phone a few months and the hairline flaw is getting more visible and appears to be a very small crack."	Negative	0.01293169	0.9634411	0.02362713
+173	amzn1.account.AGHJNSX5CTZV6LGGAV7ODPXDIK4Q	Comfort	"The head phones with the Phone are excellent as well."	Positive	0.9989684	3.143408E-05	0.001000147
+174	amzn1.account.AFQBSYLSZF7SMMJXQ3HQCUVWUDEA	Comfort	"I like the design, the Infinity borders, even the solid feel of the S9+ in my hands"	Positive	0.9973241	7.514109E-05	0.002600785
+175	amzn1.account.AGURXUED6SKJ4DIJT3CXNWPXTJYA	Comfort	"The S9+ is a gorgeous phone, hands down, no question about it."	Positive	0.9714919	0.001606727	0.02690128
+176	amzn1.account.AGQBZ5BVJTFXDC4TJZ746XLW4NUA	Comfort	"Still comfortable in the hand and you'll hate the Bixby button on the side."	Positive	0.5401804	0.1132586	0.3465609
+177	amzn1.account.AENFFOMEB2CQYWF36ENFI5GO6I2Q	Comfort	"I am female but I have large hands and I still find this very cumbersome to tote around in my hand."	Negative	0.0217456	0.8666774	0.1115769
+178	amzn1.account.AGGTPHEBJ6F3HSXPOT7NJIUQHAKQ	Memory	"Love the storage size."	Positive	0.9966174	0.0003505645	0.003031971
+179	amzn1.account.AENFFOMEB2CQYWF36ENFI5GO6I2Q	Memory	"I went onto the Samsung Forum and someone there suggested changing the SD card, which I did, and that seems to have helped."	Positive	0.8417721	0.01198782	0.1462401
+180	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Memory	"Also, expandible storage!"	Positive	0.4341966	0.15589	0.4099135
+181	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Memory	"This is only a problem if you move apps to the micro SD card."	Negative	0.0756475	0.6792181	0.2451344
+182	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Memory	"However, Samsung's launcher sucks at handling apps moved to the micro SD card."	Negative	0.001453569	0.935903	0.06264339
+183	amzn1.account.AGHJNSX5CTZV6LGGAV7ODPXDIK4Q	Delivery	"I had this delivered with in 2 days and works as advertised."	Positive	0.998041	0.0006129346	0.001346144
+184	amzn1.account.AGURXUED6SKJ4DIJT3CXNWPXTJYA	Delivery	"***Package Delivery experience:"	Neutral	0.2156293	0.09014371	0.6942269
+185	amzn1.account.AH7ZSNH4LT5NDOPMMCAAAI7C3VIA	Delivery	"Came within a day as well."	Positive	0.9670987	0.003164543	0.02973679
+186	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Delivery	"Amazon shipped the product very quickly so I was able to have it in-hand within a day."	Positive	0.9683339	0.01524021	0.01642586
+187	amzn1.account.AEFVQW7KAXZGP5Y24INRA2QWESBQ	Sound	"They sound great."	Positive	0.9907515	0.001326989	0.007921459
+188	amzn1.account.AEFVQW7KAXZGP5Y24INRA2QWESBQ	Sound	"As dumb as this sounds, I love that this thing now has stereo speakers."	Positive	0.9461319	0.008665591	0.04520252
+189	amzn1.account.AGURXUED6SKJ4DIJT3CXNWPXTJYA	Sound	"The other manufacturers may have featured dual cameras and stereo speakers on their phones for some time before Samsung, but I'm very pleased that the S9+ has them for me to use and enjoy - better late than never."	Positive	0.9459869	0.001694378	0.05231868
+190	amzn1.account.AH26IK2KIJL65KCBF7UBIS6KZAWA	Sound	"The stereo speakers with Dolby Atmos makes watching tv shows and movies on my phone pretty enjoyable."	Positive	0.9863508	0.0008589511	0.01279023
+191	amzn1.account.AFQBSYLSZF7SMMJXQ3HQCUVWUDEA	Picture Quality	"The two main reasons for me buying this phone was the almost perfect combination of high-end phone with great picture-taking ability."	Positive	0.991967	0.0006020581	0.007430857
+192	amzn1.account.AHLUWAR5DXGZ3LGBOEAWJ4GAQQCQ	Picture Quality	"The picture quality rivals a professional camera."	Positive	0.7090537	0.03291833	0.2580279
+193	amzn1.account.AHQYH54XYFUKMFYGNRAR5TWNSJKA	Picture Quality	"- Takes decent quality photos/videos"	Positive	0.846449	0.0324305	0.1211204
+194	amzn1.account.AENFFOMEB2CQYWF36ENFI5GO6I2Q	Picture Quality	"Personally, I think the picture quality is good but not as good as the S7."	Neutral	0.06525338	0.08410524	0.8506414
+195	amzn1.account.AGJK65UL7A6VQ574WQFOWW6BKPLA	Ease of Use	"Everything was really easy to set up."	Positive	0.9937349	0.0007464385	0.005518654
+196	amzn1.account.AHLUWAR5DXGZ3LGBOEAWJ4GAQQCQ	Ease of Use	" I switched from the iPhone and found the transition very easy."	Positive	0.9717676	0.003145067	0.02508741
+197	amzn1.account.AF6LLAURAKV3HA6YTNZON3OPPQNA	Ease of Use	"Setting up the phone was not too difficult."	Positive	0.8166597	0.08653487	0.09680545
+198	amzn1.account.AF5SKTRIQY6OISO747ERK67NMUXA	Ease of Use	"Fast and easy to use."	Positive	0.9937336	0.0003412321	0.005925169
+199	amzn1.account.AGIW2DEJWZCXWXIRH2I3DV6RL5NA	Video Playback	"- speakers are fantastic for watching YouTube videos and music"	Positive	0.9974889	2.250556E-05	0.002488697
+200	amzn1.account.AE2AUBVYWCJGUCNCFX5RPFM2DWFQ	Video Playback	" great for watching youtube or whatever in bed with nice deep blacks, and movies have smaller black bars than a regular 16:9 screen as this is a 18.5:9 display which is closer to the movie standard filming ratio."	Positive	0.9741975	0.0006135918	0.02518884
+201	amzn1.account.AH26IK2KIJL65KCBF7UBIS6KZAWA	Video Playback	"The stereo speakers with Dolby Atmos makes watching tv shows and movies on my phone pretty enjoyable."	Positive	0.9863508	0.0008589511	0.01279023
+202	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Video Playback	"-i like how big the phone is 6.2, which is nice as far as far as phones go for watching shows, movies on Netflix, YouTube etc ."	Positive	0.9975292	5.586018E-05	0.002414903
+203	amzn1.account.AFM4MGT3QBU3GCIKJIC2VSBTNLJA	Overall performance	"This is a great device with a very good performance, maybe the best phone that I ever had."	Positive	0.9878194	0.000149993	0.01203055
+204	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Overall performance	"The phone is really fast, it actually feels fast as or faster than my X."	Positive	0.9984286	0.0002176435	0.001353654
+205	amzn1.account.AGDY4LKPTENY45RYACWOZA4D4HMA	Overall performance	"I have been using this phone for about one week now, I loved the design and the speed of this phone."	Positive	0.9995003	6.602264E-06	0.0004931098
+206	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Overall performance	"-the phone has very good speed apps load very fast"	Positive	0.9957195	0.0008464176	0.003434046
+207	amzn1.account.AEZPGLW2BMRN4AA37D4JKMLEIX5Q	Charging	"Old Post :This Phone still does everything just has to wireless charge now."	Positive	0.8548546	0.01088844	0.134257
+208	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Charging	"And the new charger, my god, next they're going to have a Dongle."	Negative	0.2373636	0.3969704	0.365666
+209	amzn1.account.AEZPGLW2BMRN4AA37D4JKMLEIX5Q	Charging	"Update: Charge port broke after 6 months and stopped chargeing."	Negative	0.0005670079	0.9853722	0.01406081
+210	amzn1.account.AERB7RPZECS4UNUAQV2H2ANJ6UMA	Charging	"I receive the phone s9 plus and it was perfect, but the wire of the charger in the box does not fit with the samsung s9 plus."	Neutral	0.02535484	0.1852669	0.7893782
+211	amzn1.account.AFQBSYLSZF7SMMJXQ3HQCUVWUDEA	Build Quality	"I like the design, the Infinity borders, even the solid feel of the S9+ in my hands"	Positive	0.9973241	7.514109E-05	0.002600785
+212	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Build Quality	"Perfect size for me and great form factor, excellent build quality."	Positive	0.9993405	6.567107E-06	0.0006530184
+213	amzn1.account.AE44KNHTNRYQE7O7SISKSFU2GP6A	Build Quality	"I have now had the phone a few months and the hairline flaw is getting more visible and appears to be a very small crack."	Negative	0.01293169	0.9634411	0.02362713
+214	amzn1.account.AEZIBLB5FGLKDKG3O4WNUJ6FC43Q	Build Quality	"I sure wasn't expecting such breaking bug that made me loose my data for a 1100$ phone"	Negative	0.2129895	0.431695	0.3553154
+215	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Parts & Accessories	"Audio is great, too, with a dual speaker setup and a 3.5mm headphone jack."	Positive	0.9921098	7.577793E-05	0.007814447
+216	amzn1.account.AEFVQW7KAXZGP5Y24INRA2QWESBQ	Parts & Accessories	"Still love that it has a headphone jack and battery is at least the same as the S8+ I had previously."	Positive	0.9780297	0.005633247	0.01633702
+217	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Parts & Accessories	"Companies are moving away from the headphone jack and say that it's because most people have wireless devices."	Neutral	0.2268989	0.3828808	0.3902203
+218	amzn1.account.AERB7RPZECS4UNUAQV2H2ANJ6UMA	Parts & Accessories	"I receive the phone s9 plus and it was perfect, but the wire of the charger in the box does not fit with the samsung s9 plus."	Neutral	0.02535484	0.1852669	0.7893782
+219	amzn1.account.AECHMUKLXPGSAOBKY5I3VG77JS4A	Product As Described	"Product came on time and is exactly as advertised."	Positive	0.9984225	0.0006624262	0.0009149988
+220	amzn1.account.AGURXUED6SKJ4DIJT3CXNWPXTJYA	Product As Described	"Their only requirement for anyone to claim a package is just a picture ID - when they located and gave the package to me they only asked for my ID and nothing else."	Negative	0.03960835	0.7288076	0.2315841
+221	amzn1.account.AFKPNOS4CZTZR3Y77UCYHPHTLIAQ	Product As Described	"But regardless this S9 was really nice and I liked it a lot and the pictures were great"	Positive	0.9940087	5.31228E-05	0.005938269
+222	amzn1.account.AGE2ZJ37ACIBTADXFXMRZZ3UPTCA	As Gift	"Bought it as a gift for my mom and she loves it!."	Positive	0.9963995	6.880584E-05	0.003531597
+223	amzn1.account.AFIARUWXGYEVO6XVOJ6MJGKHDLLA	As Gift	"Bought as a gift for my girlfriend and she absolutely loves it!"	Positive	0.997839	7.167164E-05	0.002089277
+224	amzn1.account.AHBYNY7MG6I6MU36TNAWR3MM4VOA	As Gift	"Bought for my son's birthday and he loves it."	Positive	0.9944581	0.0001263813	0.005415526
+225	amzn1.account.AGQBZ5BVJTFXDC4TJZ746XLW4NUA	Controls	"Still comfortable in the hand and you'll hate the Bixby button on the side."	Positive	0.5401804	0.1132586	0.3465609
+226	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Controls	"One attributed to Samsung would be the inability to remap the bixby button to do anything else."	Neutral	0.005529223	0.1458224	0.8486484
+227	amzn1.account.AGD5WWCZWQGZJPRIK7BMJPE2Q7WQ	Controls	"No stupid bixby, no edged screens, no finicky buttons, no constant changing of app permissions/notifications and no excessive options that just don't work."	Negative	0.0457103	0.9138793	0.04041042
+228	amzn1.account.AHQYH54XYFUKMFYGNRAR5TWNSJKA	Features	"- Some great features."	Positive	0.9251309	0.001720002	0.07314908
+229	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Features	"the TLDR part of this review is the phone is great,it has allot of great features, but along with that it has 1 or 2 awful new features."	Neutral	0.2132971	0.02054857	0.7661544
+230	amzn1.account.AHUY7D6Y2ZMM4RCOEMY3K6PFTGEA	Features	"-some phone features are awful."	Negative	0.001002904	0.9771721	0.02182503
+231	amzn1.account.AGGTPHEBJ6F3HSXPOT7NJIUQHAKQ	Size	"Love the storage size."	Positive	0.9966174	0.0003505645	0.003031971
+232	amzn1.account.AEHGTFYEM5YSOBSGLSDDH73NMZUA	Size	"Perfect size for me and great form factor, excellent build quality."	Positive	0.9993405	6.567107E-06	0.0006530184
+233	amzn1.account.AENFFOMEB2CQYWF36ENFI5GO6I2Q	Size	"I am female but I have large hands and I still find this very cumbersome to tote around in my hand."	Negative	0.0217456	0.8666774	0.1115769
+234	amzn1.account.AGGTPHEBJ6F3HSXPOT7NJIUQHAKQ	Storage	"Love the storage size."	Positive	0.9966174	0.0003505645	0.003031971
+235	amzn1.account.AEZPGLW2BMRN4AA37D4JKMLEIX5Q	Storage	"The space is great, i finally have room for apps for once."	Positive	0.9961699	0.000247538	0.003582649
+236	amzn1.account.AENFFOMEB2CQYWF36ENFI5GO6I2Q	Storage	"It doesn't fit in any of my pants front-pockets (but that's a whole other beef with the pockets on women's pants being more decorative than useful) so I end up having to bring a purse with me everywhere just so I don't lose the phone."	Negative	0.2640085	0.4838476	0.2521438
+237	amzn1.account.AEETAKUZJX376RQBXVWBMV5F4TFQ	Sensors	"The fingerprint sensor is a nice addition to unlock your phone faster and store passwords."	Positive	0.9957892	0.0004697483	0.003741011
+238	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Sensors	"Face unlock works nicely and helps with the fingerprint reader being on the back"	Positive	0.9968432	0.000577974	0.002578785
+239	amzn1.account.AGJK65UL7A6VQ574WQFOWW6BKPLA	Sensors	"It only took a couple steps and now it's no longer an issue."	Positive	0.5296145	0.3561929	0.1141926
+240	amzn1.account.AH7ZSNH4LT5NDOPMMCAAAI7C3VIA	Lagging	"The slow motion feature also works well."	Positive	0.9744679	0.006737979	0.01879411
+241	amzn1.account.AEBTRUZ2BFJ3VMAE5I376QT6V2CA	Lagging	"And phone gets restarted suddenly"	Negative	0.008701003	0.9210737	0.07022525
+242	amzn1.account.AH7ZSNH4LT5NDOPMMCAAAI7C3VIA	Night Photography	"Performs super well in low light environment."	Positive	0.966768	0.0006941349	0.03253795
+243	amzn1.account.AFQBSYLSZF7SMMJXQ3HQCUVWUDEA	Night Photography	"The slow motion features, zoom, video, low-light ability & stunning pictures are worth the price of this phone!"	Positive	0.973556	0.001475488	0.02496854
+244	amzn1.account.AERB7RPZECS4UNUAQV2H2ANJ6UMA	Returns	"Can you send me the good one or refund me a little amount so I can go buy one at the store."	Positive	0.6401713	0.1873847	0.1724439
+245	amzn1.account.AGNU47MQGV5AHMQ44IXI2SCR3TDQ	Returns	"I returned it."	Negative	0.01456485	0.9477939	0.03764122
+246	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Gaming	"Gaming mode is amazing!"	Positive	0.9951453	0.0001458074	0.004708911
+247	amzn1.account.AH3E4YLJPKUJOCAWVJXUKIHOFDPQ	Gaming	" so gaming sessions resume without a hiccup even when switching between applications."	Neutral	0.1796767	0.08317254	0.7371507
+248	amzn1.account.AFQBSYLSZF7SMMJXQ3HQCUVWUDEA	Zoom	"The slow motion features, zoom, video, low-light ability & stunning pictures are worth the price of this phone!"	Positive	0.973556	0.001475488	0.02496854
+249	amzn1.account.AFQBSYLSZF7SMMJXQ3HQCUVWUDEA	Lens	"After consulting with a professional photographer, who now uses this phone for taking pictures more than his 35mm."	Neutral	0.3190647	0.01016273	0.6707726
+250	amzn1.account.AENFFOMEB2CQYWF36ENFI5GO6I2Q	Front Camera	"The front-facing camera is quite good but my old phone was the Samsung S5 so anything is better than a 4-year old, scratched up phone."	Neutral	0.3655083	0.03669302	0.5977986
+251	amzn1.account.AH26IK2KIJL65KCBF7UBIS6KZAWA	Resolution	"The stereo speakers with Dolby Atmos makes watching tv shows and movies on my phone pretty enjoyable."	Positive	0.9863508	0.0008589511	0.01279023
+252	amzn1.account.AHBYNY7MG6I6MU36TNAWR3MM4VOA	For Kids	"Bought for my son's birthday and he loves it."	Positive	0.9944581	0.0001263813	0.005415526
+253	amzn1.account.AGJK65UL7A6VQ574WQFOWW6BKPLA	Display Size	"I'm loving the screen size too."	Positive	0.9911764	0.0004587154	0.008365002
+254	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Setup	"However, after an initial setup and knowing what you use the most, it is a great experience."	Positive	0.9890277	0.001118656	0.009853551
+255	amzn1.account.AELYC66WIFVLKRSSWV5J52HAN2VA	Water Resistance	"My Beats are not waterproof, so it's nice to just connect my regular headphones in on a rainy day without having to use a single."	Positive	0.9938025	0.000522137	0.005675328

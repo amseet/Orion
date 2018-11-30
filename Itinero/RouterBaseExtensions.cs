@@ -418,9 +418,9 @@ namespace Itinero
         /// Calculates a route between the two locations.
         /// </summary>
         public static Result<Route> TryCalculate(this RouterBase router, IProfileInstance profile,
-            float sourceLatitude, float sourceLongitude, float targetLatitude, float targetLongitude)
+            float sourceLatitude, float sourceLongitude, float targetLatitude, float targetLongitude, float searchDistanceInMeter = 50)
         {
-            return router.TryCalculate(profile, sourceLatitude, sourceLongitude, targetLatitude, targetLongitude, CancellationToken.None);
+            return router.TryCalculate(profile, sourceLatitude, sourceLongitude, targetLatitude, targetLongitude, CancellationToken.None, searchDistanceInMeter);
         }
 
         /// <summary>
@@ -434,6 +434,27 @@ namespace Itinero
             var targetPoint = router.TryResolve(profiles, targetLatitude, targetLongitude, 50, cancellationToken);
 
             if(sourcePoint.IsError)
+            {
+                return sourcePoint.ConvertError<Route>();
+            }
+            if (targetPoint.IsError)
+            {
+                return targetPoint.ConvertError<Route>();
+            }
+            return router.TryCalculate(profile, sourcePoint.Value, targetPoint.Value, cancellationToken);
+        }
+
+        /// <summary>
+        /// Calculates a route between the two locations.
+        /// </summary>
+        public static Result<Route> TryCalculate(this RouterBase router, IProfileInstance profile,
+            float sourceLatitude, float sourceLongitude, float targetLatitude, float targetLongitude, CancellationToken cancellationToken, float searchDistanceInMeter = 50)
+        {
+            var profiles = new IProfileInstance[] { profile };
+            var sourcePoint = router.TryResolve(profiles, sourceLatitude, sourceLongitude, searchDistanceInMeter, cancellationToken);
+            var targetPoint = router.TryResolve(profiles, targetLatitude, targetLongitude, searchDistanceInMeter, cancellationToken);
+
+            if (sourcePoint.IsError)
             {
                 return sourcePoint.ConvertError<Route>();
             }
@@ -1161,9 +1182,27 @@ namespace Itinero
         /// Calculates a route between the two locations.
         /// </summary>
         public static Result<Route> TryCalculate(this RouterBase router, IProfileInstance profile, Coordinate source,
+            Coordinate target, float searchDistanceInMeter = 50)
+        {
+            return router.TryCalculate(profile, source, target, CancellationToken.None, searchDistanceInMeter);
+        }
+
+        /// <summary>
+        /// Calculates a route between the two locations.
+        /// </summary>
+        public static Result<Route> TryCalculate(this RouterBase router, IProfileInstance profile, Coordinate source,
             Coordinate target, CancellationToken cancellationToken)
         {
             return router.TryCalculate(profile, source.Latitude, source.Longitude, target.Latitude, target.Longitude, cancellationToken);
+        }
+
+        /// <summary>
+        /// Calculates a route between the two locations.
+        /// </summary>
+        public static Result<Route> TryCalculate(this RouterBase router, IProfileInstance profile, Coordinate source,
+            Coordinate target, CancellationToken cancellationToken, float searchDistanceInMeter = 50)
+        {
+            return router.TryCalculate(profile, source.Latitude, source.Longitude, target.Latitude, target.Longitude, cancellationToken, searchDistanceInMeter);
         }
 
         /// <summary> 

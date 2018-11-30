@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Orion.Web.Models
+namespace Orion.DB.Models
 {
     public class TripDataModel
     {

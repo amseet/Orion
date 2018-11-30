@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Orion.Web.Models;
+using Orion.DB;
 
 namespace Orion.Web
 {
@@ -35,9 +35,7 @@ namespace Orion.Web
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            var connection = @"Server=(localdb)\MSSQLLocalDB; Initial Catalog = Orion; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = True; ApplicationIntent = ReadWrite; MultiSubnetFailover = False";
-            services.AddDbContext<SqlContext>
-                (options => options.UseSqlServer(connection));
+            services.AddDbContext<SqlContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

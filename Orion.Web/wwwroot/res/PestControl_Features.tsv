@@ -1,0 +1,344 @@
+Uid	User_Id	Feature	Comment	Sentiment	Pos	Neg	Nut
+0	amzn1.account.AFEAIIZD3HBHUFLBGGCJFHD64OQQ	Product Reliability	"so far they are working great!"	Positive	0.9955416	0.0009412945	0.003517057
+1	amzn1.account.AFIG2TIROX7S5RPFIGPWMEBRGPPQ	Product Reliability	"They have been working remarkable well in the stables"	Positive	0.9970723	0.000372565	0.002555103
+2	amzn1.account.AGZ7W73YEIFEQWDKDS2EMO27CMCQ	Product Reliability	"Have had these for a few months now and I can definitely tell the work."	Positive	0.9891143	0.002108405	0.008777329
+3	amzn1.account.AFSUVS5KMIZP3PVXKKJMJE7HRMBA	Product Reliability	"I was skeptical, but these actually seem to be working."	Positive	0.7233304	0.06991574	0.2067538
+4	amzn1.account.AEQEKT6ZMMFBXQLT7PO2BDUE2PEA	Product Reliability	"So far it is working  well on our ants."	Positive	0.9913134	0.0005799519	0.00810658
+5	amzn1.account.AFGUGMB75ZY46X7ABZHCB5QLDOJA	Product Reliability	"Working well and with the other 2 I purchased NO ants"	Positive	0.9445089	0.01688713	0.0386041
+6	amzn1.account.AHIGO3IGZ4RIAMID2IIC2E7HZ4UQ	Product Reliability	"Let's see how long it will last."	Neutral	0.2610097	0.02742342	0.711567
+7	amzn1.account.AFJ2RJZF3GCKRCRRB4HIUVF6IH2Q	Product Reliability	"I starting using this 2 months ago and have not seen one rodent or roaches since I started using this item."	Positive	0.9257489	0.02423953	0.05001151
+8	amzn1.account.AFTPLTQUWK7DIRKHB6DHUN6NNRQA	Product Reliability	"Yes they took 3 weeks but they have been a real sanity saver."	Positive	0.9484413	0.01003125	0.04152741
+9	amzn1.account.AFJGYA5X5DPQQ7JIPDVVGRKEQRIA	Product Reliability	"These really worked!"	Positive	0.9937055	0.001408667	0.004885862
+10	amzn1.account.AG2XGLRFVTH35QZ5JUSQSU5SHHPA	Product Reliability	"These seem to be working as advertised."	Positive	0.9603761	0.02104879	0.0185751
+11	amzn1.account.AH3YKXXT6ZGM6CFXOHIZSQ2CAXFQ	Product Reliability	"I will update as soon I decide if it's working or not."	Neutral	0.07681663	0.06265355	0.8605298
+12	amzn1.account.AFCWDH7Y3N3U4ZKGOXSOAZR6TW4Q	Product Reliability	"We haven't seen a single cockroach in months!"	Positive	0.7022139	0.0878875	0.2098986
+13	amzn1.account.AG5VUF5FKXR7OJKT7MY3L34TPKHQ	Product Reliability	"Unplugged a few this summer and bam."	Neutral	0.4104988	0.04495193	0.5445492
+14	amzn1.account.AFCWDH7Y3N3U4ZKGOXSOAZR6TW4Q	Product Reliability	"Nothing else seems to be working!"	Positive	0.485825	0.3586556	0.1555194
+15	amzn1.account.AFCWDH7Y3N3U4ZKGOXSOAZR6TW4Q	Product Reliability	"After a year of dealing with these disgusting bugs, I finally found a solution that seems to have solved the problem."	Positive	0.9087279	0.030426	0.06084614
+16	amzn1.account.AHQRHKSVTZ5IUQM5POWPK7YQGKTA	Product Reliability	"Have had this for months and last time I saw any crawly thing was a few days after I got this."	Positive	0.8355151	0.1026088	0.06187604
+17	amzn1.account.AHIGO3IGZ4RIAMID2IIC2E7HZ4UQ	Product Reliability	"just got this couple days ago."	Neutral	0.3257229	0.03404575	0.6402314
+18	amzn1.account.AGRWSQTCD5OO7S5AKAICIWXRTUVQ	Product Reliability	"So far it seems to be working."	Positive	0.9132947	0.02562905	0.06107626
+19	amzn1.account.AEMFLHNRIVLOCAX2CDLYWPNVS3IA	Product Reliability	"They seem to be working."	Positive	0.7487376	0.08528803	0.1659743
+20	amzn1.account.AHIMLUO3VVXLCEGZGQ2OZZQCKTUA	Product Reliability	"Have had this installed now for a few months ."	Positive	0.5309992	0.06548187	0.403519
+21	amzn1.account.AHQJXO7OF62WCLN2LMLDYU75RPUQ	Product Reliability	"Seem to be working."	Positive	0.6602387	0.08455892	0.2552024
+22	amzn1.account.AGKE5CHDTUTXC45HMGGL7I2D4KLQ	Product Reliability	"Seems to be working just well."	Positive	0.9757966	0.00545937	0.01874418
+23	amzn1.account.AGPYKG4MVD2C4MULB33IEIJTUB7A	Product Reliability	"These seem to be working as i’ve not seen any pests since installing them."	Positive	0.8197759	0.04816544	0.1320587
+24	amzn1.account.AE5S3LERJKCGCSW443ZXF6RPI7WQ	Product Reliability	"It's been 3 weeks now."	Neutral	0.2464897	0.1538023	0.599708
+25	amzn1.account.AGILHPDNWZD2HQO2GG5CRRAOYCIQ	Product Reliability	"Was not sure it would work but we have had them for a couple of months now and the ants are gone."	Negative	0.3664503	0.4451464	0.1884034
+26	amzn1.account.AGSZE5HHEXFK53NFMR7UCCMK5WDA	Product Reliability	"I’ll try them in my new home and give a new review next year"	Neutral	0.1100734	0.001744198	0.8881825
+27	amzn1.account.AG2ZW7EKYGIZH5WALP7G3RMXUJKA	Product Reliability	"For a couple of weeks now his mood has changed, hardly eats and sadly talks a lot less and even days without any talking or whistling or singing, this is very upsetting."	Negative	0.02137595	0.9609793	0.01764463
+28	amzn1.account.AG2ZW7EKYGIZH5WALP7G3RMXUJKA	Product Reliability	"I've been using these sensors for a few weeks now."	Neutral	0.3654425	0.0621169	0.5724406
+29	amzn1.account.AGVDA5NMKX6QHC5RNU44UVHEJXXA	Product Reliability	"Haven't seen any varmints, seems to be working ok"	Neutral	0.2451034	0.0405766	0.7143199
+30	amzn1.account.AHPFJVSVIR3NDUWK5CDK6Z7RU6SQ	Product Reliability	"I really hope they’re still working ."	Positive	0.6551489	0.0904559	0.2543951
+31	amzn1.account.AEBEAPU5UZQBLR4DFFY7RI7SCJNQ	Product Reliability	"Three weeks later I still have droppings"	Negative	0.06891362	0.6049022	0.3261842
+32	amzn1.account.AH3M2AWPS5RKXUWAH6ESMCQVD2BA	Product Reliability	"I have this hooked up for 3 days now, and what in the world is this??"	Positive	0.8442758	0.004865313	0.1508589
+33	amzn1.account.AHAE7FS7IDAQROX5F7DI2Y7GPU2A	Product Reliability	"Definitely still see spiders and these have been in place for a couple months now."	Positive	0.67112	0.1897855	0.1390945
+34	amzn1.account.AGXYCW4PTDCLGRZPUH7C2DRU3A2Q	Product Reliability	"We have used these for several weeks now and there are no rats or bugs!"	Positive	0.9732732	0.008531906	0.01819492
+35	amzn1.account.AGXNAZABJ3LMI4GB4H4VX4V2V2ZA	Product Reliability	"The same happened the day after and after that."	Neutral	0.04041832	0.2131765	0.7464051
+36	amzn1.account.AFVG226OUFBBBCT5XTW3SF3A5CAA	Product Reliability	"I would say it takes some weeks to drive em out gently with the "vibes", but I would say it has been VERY effective."	Positive	0.7020072	0.01509122	0.2829016
+37	amzn1.account.AGXN67CU2UKVNIP2ZN5S5FQZQVRQ	Product Reliability	"I will update my review towards the end of January after they have been in place for a couple of months."	Neutral	0.1007248	0.05847828	0.8407969
+38	amzn1.account.AFIG2TIROX7S5RPFIGPWMEBRGPPQ	Product Reliability	" no rodents in the last 6 months."	Positive	0.4485906	0.2123059	0.3391035
+39	amzn1.account.AHCCIFP2FG26R5JWECI4HQ4AG5XQ	Product Reliability	"Not really sure if these are working yet."	Negative	0.0712483	0.5064355	0.4223162
+40	amzn1.account.AE5S3LERJKCGCSW443ZXF6RPI7WQ	Product Reliability	"Only gave it a 4 star review as it's only been 3 weeks."	Negative	0.0360979	0.7040684	0.2598337
+41	amzn1.account.AE362WSBCUT3TMYEBLF5OQTD7WUA	Product Reliability	"Dinged one star because one of the 6 units stopped working in a week."	Negative	0.01233998	0.9119678	0.07569217
+42	amzn1.account.AGEYOD5Y2IR6E222ASVE53YUFQBQ	Product Reliability	"I've had them plugged in for one month all for nought."	Neutral	0.4076552	0.08181459	0.5105302
+43	amzn1.account.AFVAEMDBZJQF5SZTYXPGH7NHLNCQ	Product Reliability	"I have only been using a couple of weeks."	Neutral	0.3159692	0.09366664	0.5903641
+44	amzn1.account.AFNCKXNVZCWLDYSBRVNINSE334GA	Product Reliability	"If someone from this company could contact me, one of my units is defective."	Negative	0.006523339	0.9460256	0.04745098
+45	amzn1.account.AHQS2M6ZYIG6QFUZC2QMKROB2YAQ	Product Reliability	"Since then I might see one once or twice a month but then they  disappear."	Neutral	0.07415546	0.3275172	0.5983274
+46	amzn1.account.AHQS2M6ZYIG6QFUZC2QMKROB2YAQ	Product Reliability	"Nothing worked they would come back in a few days."	Negative	0.03920477	0.8471214	0.1136738
+47	amzn1.account.AG4RWQB2K6H72CPZ3Q23IRDPU7WQ	Product Reliability	"Have had them installed for almost a month, pest problem has slowed but not stopped yet"	Neutral	0.1754737	0.3262248	0.4983015
+48	amzn1.account.AEKGTN5XZERG3RLEIGYGJHGSJX4Q	Product Reliability	"Not sure if worth the trouble and money to send the malfunctioned unit and wait for a working one to come back ."	Negative	0.02191206	0.8860305	0.09205752
+49	amzn1.account.AGJIKW2XF5BA3BJM74KSZFMCXL6Q	Product Reliability	"Two quit working almost immediately"	Negative	0.009211545	0.9526947	0.03809381
+50	amzn1.account.AH6JIA3YPXQEJ7IL5EOLG5Z2SRWQ	Product Reliability	"It has been in place for 4 months, and I don't see any difference."	Negative	0.08309298	0.7196959	0.1972111
+51	amzn1.account.AHVIX3DIH3UNK6XFXOLECLPYJSDA	Product Reliability	"After two months we haven't seen any significant  results."	Negative	0.08456779	0.6118529	0.3035793
+52	amzn1.account.AEWMOHYURAMJ64MMLEEJWRNZPIUA	Product Reliability	"The units have been in place for about 2 months."	Neutral	0.1502123	0.1041397	0.745648
+53	amzn1.account.AFGZC7JMXXFIYKWPM4VEJL5ZBPGQ	Product Reliability	"Three months later and the mice are still everywhere."	Positive	0.4035453	0.3764379	0.2200167
+54	amzn1.account.AEYJS2I4GKHHCCEGXQQTS3ZXGGHQ	Product Reliability	"This device does NOT work at all with them."	Negative	0.0008560283	0.9952207	0.003923225
+55	amzn1.account.AFQA7SN4DCJD766CS5KRWR2ZN3HA	Product Reliability	"Two of the units died within a month of purchase."	Negative	0.01058656	0.9712614	0.01815199
+56	amzn1.account.AGDHN27YUZOB3PUMULS5QYGVNX3Q	Product Reliability	"Now 3 out of 6 stop working under a month."	Negative	0.0110836	0.891839	0.09707745
+57	amzn1.account.AGDQMFZUZQ77CQMFNMVM23ZTEQWA	Product Reliability	"Well, it's been few months and I'm not sure why I still have it plugged in."	Neutral	0.2525714	0.3328241	0.4146045
+58	amzn1.account.AFV2NQ3ELAQRGXC6QYEUJ2RIPSRA	Product Reliability	"I’ve had them plugged in for over a week now and they haven’t helped at all."	Positive	0.8237857	0.01104329	0.165171
+59	amzn1.account.AGDQMFZUZQ77CQMFNMVM23ZTEQWA	Product Reliability	"I wish I would have returned this sooner, but my gut feelings kept telling me, let's keep it plugged in for few more days."	Negative	0.2699291	0.3766672	0.3534037
+60	amzn1.account.AHIXQ7PJZZ52FPQQXJVD24WHZ2CA	Product Reliability	"Never hat a rodent problem till a month ago and these are not helping either."	Negative	0.003841189	0.9677086	0.02845026
+61	amzn1.account.AHOVFT2N7DHU7UOCSF6OQ2ETLGOA	Product Reliability	"This stopped working 4 months after we got the repellent."	Negative	0.005275028	0.9669138	0.02781112
+62	amzn1.account.AFQCRTCS63NYCA7X3BODIA5Y4NIQ	Product Reliability	"WHY DOES IT TAKE 3-4 WEEKS!????"	Negative	0.07557852	0.5237881	0.4006335
+63	amzn1.account.AFVPRXDFN5WDMQ7OQUHW3JSHHCSA	Product Reliability	"Two months in and I still have mice."	Neutral	0.2036483	0.2565549	0.5397968
+64	amzn1.account.AFXW7J2X7EG3YKAWR2I5ZP4XG4LA	Product Reliability	"Got this for spiders,had for a little over a month spiders making webs on them,did not work at all"	Negative	0.006939395	0.9613695	0.03169115
+65	amzn1.account.AHD267TIN4U6HHCLMPQMYGN6NPJA	Product Reliability	"I bought these with hopes from the reviews I read but its been 6 weeks and we still have them coming in."	Neutral	0.3639612	0.1257437	0.510295
+66	amzn1.account.AHSIXDW2F7OHYMZ62RSXSBGFBDPA	Product Reliability	"Is working not good"	Negative	0.03451842	0.8743416	0.09113995
+67	amzn1.account.AFIMBMKE4ACFOG7JRXVGRJPCVJJA	Product Reliability	"This product doesn't work and has not stopped the spider or roaches."	Negative	0.02212453	0.9637102	0.0141652
+68	amzn1.account.AF4RDKP72O6AQ4655K52V56RVLCA	Product Reliability	"It's been almost 3 weeks with them plugged in nonstop and I don't see them disappearing in the next 2 days."	Positive	0.8096673	0.1513015	0.0390313
+69	amzn1.account.AGEPGCBIIZNEGA2MWW3UJKROF24Q	Product Reliability	"I have given this three weeks and it hasn't done a thing other than eradicate spiders."	Positive	0.6653687	0.2762461	0.05838525
+70	amzn1.account.AE5ALDBVEGWC66H35Y5R2AYCCHAA	Product Reliability	"It never worked."	Negative	0.04495899	0.8997981	0.05524295
+71	amzn1.account.AGJYB77UGYCZ6TU6PEPGQD5IA2EQ	Product Reliability	"This product did not work at all."	Negative	0.0008074463	0.9947945	0.004397953
+72	amzn1.account.AF4K752JFNEH6GEXGYTEWNN3C24A	Product Reliability	"They cannot be returned after 60 days."	Negative	0.0136153	0.9443812	0.04200346
+73	amzn1.account.AEXPQSJ5VQK6ZOJSK5T2SFHUEJSQ	Product Reliability	"It is not working."	Negative	0.006881763	0.9414602	0.05165799
+74	amzn1.account.AHVM2XYRPPEXB555EKWMGLS2MZYQ	Product Reliability	"However, after less than a year (purchased Dec 2017) 2 units do not turn on when plugged in, and the ultimate test proved that it does not deter mice."	Positive	0.3983859	0.2761286	0.3254854
+75	amzn1.account.AES4GACZ6KMKQFW3TFFW5RMPNIQA	Product Reliability	"I tried them for six months and checked periodically in the places where the rodents were coming."	Neutral	0.1383177	0.1281916	0.7334907
+76	amzn1.account.AFEG44G2L6QUOTCWEJFXWKPC2LOQ	Product Reliability	"100% does not work."	Negative	0.003391813	0.9700212	0.02658692
+77	amzn1.account.AH26SOF22RWOZ4VNATYXEU6WE3BQ	Product Reliability	"It's not working for me."	Negative	0.004582918	0.9353078	0.06010937
+78	amzn1.account.AHIXQ7PJZZ52FPQQXJVD24WHZ2CA	Product Reliability	"I have had them plugged in for the past 3 weeks."	Neutral	0.4018317	0.08061344	0.5175549
+79	amzn1.account.AFWI5MZPMJXDPUDZ3NJZNOCU7WIA	Product Reliability	"These things are junk."	Negative	0.004819923	0.9755083	0.01967167
+80	amzn1.account.AFXVA2T7UPB4ZSUBQXM7MCWMDCIQ	Product Reliability	"BUT IT SEEMS NOT WORKING FOR ME."	Negative	0.0005834979	0.9861979	0.01321868
+81	amzn1.account.AGBAM3KT5BDEGEBSD3DQKS5SXYOA	Product Reliability	"this thing is not working AT ALL"	Negative	0.002810809	0.9577605	0.03942874
+82	amzn1.account.AGCNPOY4GIYGQF2NFKY25G4IAIKA	Product Reliability	"does not work"	Negative	0.00856134	0.9450539	0.0463848
+83	amzn1.account.AE5TYNKW537T43Z6I4Y4PKQCIRPA	Product Reliability	"Does not work."	Negative	0.005672252	0.9667934	0.02753424
+84	amzn1.account.AH7A5AVYDVKGJRL3QVAW2RPGVLKQ	Product Reliability	"Does not work!"	Negative	0.008933712	0.9655695	0.02549679
+85	amzn1.account.AFECCSCAM45ZIFIOPHZJ5B53RBQQ	Product Reliability	"Does not work"	Negative	0.00856134	0.9450539	0.0463848
+86	amzn1.account.AFZXWU5XOI7N3FL4LYBLD5V2HPAQ	Product Reliability	"They don’t work at all, plugged them in."	Neutral	0.1242818	0.3314484	0.5442697
+87	amzn1.account.AEXB2JEN7Q4USWESRTRM5DWAV2LA	Product Reliability	"Plugged in for about 3 weeks and Will be returning."	Negative	0.01558191	0.9453124	0.03910568
+88	amzn1.account.AEJ6OVD3MIMMN2DNCITIVW6MIXQQ	Product Reliability	"I have had them plugged in for over a week and it seems to have made the situation worse!"	Negative	0.02904019	0.9297222	0.04123764
+89	amzn1.account.AELVNDM5J4DHPC4SSYOF7DUGVIBA	Product Reliability	"Does NOT work still have pest problems."	Negative	0.008034628	0.9472213	0.04474397
+90	amzn1.account.AHUAO6CR3JQKI5BSSH23GXVHQDKA	Product Reliability	"is this faulty?"	Negative	0.02417241	0.7932554	0.1825721
+91	amzn1.account.AHUX4BQAZBWAN3LTPCDPX55PBY5Q	Mouse	"I had these smart old mice all over the house eating my cannabis and getting woke and super smart."	Neutral	0.4592167	0.006463072	0.5343202
+92	amzn1.account.AH2AVBAZ7U2BE6NM2TAKZFVCEPDA	Mouse	"This product really works against mice and cockroaches."	Positive	0.9107076	0.02784657	0.06144582
+93	amzn1.account.AHXTU3WGSXHL66QHATQL4L32ONXQ	Mouse	"Installed these and haven't seen a mouse since."	Neutral	0.4084432	0.1322335	0.4593233
+94	amzn1.account.AHNBG4KJFJK6STVWG5YIAVX72JIA	Mouse	"Since plugging it in, have not had a single mouse and hardly any roaches."	Positive	0.8940052	0.0672763	0.03871853
+95	amzn1.account.AFEAIIZD3HBHUFLBGGCJFHD64OQQ	Mouse	"Bought some mouse traps the same day these devices came."	Neutral	0.2871123	0.1985189	0.5143688
+96	amzn1.account.AHV5CYZMOTUWUPBMDDJP2VZT4SJQ	Mouse	"Within minuites after installation  the mice in walls were going nuts and havent heard then since."	Negative	0.3694079	0.4836059	0.1469862
+97	amzn1.account.AFNAFNLLAUI55M2TJRKZKDR2DAXQ	Mouse	"Doesn't stop ants, but I have not seen a mouse or droppings since I installed them."	Positive	0.6400673	0.09095906	0.2689736
+98	amzn1.account.AFEAIIZD3HBHUFLBGGCJFHD64OQQ	Mouse	"Thought for sure I'd catch at least one mouse ."	Neutral	0.1298707	0.2217176	0.6484117
+99	amzn1.account.AHDMZWMPXME7CBUS2KXNZH56OCMQ	Mouse	"Haven't seen the mouse any more, thank goodness."	Positive	0.7129622	0.04788009	0.2391577
+100	amzn1.account.AGRRPQZTMVZJYFDCHJJG6NSWHYTA	Mouse	"seen no mice dropping so all in all good producted"	Positive	0.9332985	0.003091361	0.06361016
+101	amzn1.account.AE5S3LERJKCGCSW443ZXF6RPI7WQ	Mouse	"The first few weeks, I knew I had a mouse and it helped run that into a catch and release trap I had set up for a month prior to the order of these devices, since then I haven't had any little critters in the house so far."	Positive	0.9802414	0.002841123	0.01691751
+102	amzn1.account.AGDPQLM32WTUR6FXEXKUE4RFV63Q	Mouse	"I bought these about a month ago and sine then have only seen one mouse and only seen it once."	Neutral	0.2793176	0.3036935	0.4169889
+103	amzn1.account.AGQTXR26JGNTR6LWVLRMMCLRCTAA	Mouse	"This morning I happened to notice that a mouse had just recently been eating through the bag to get the dog food."	Neutral	0.06400337	0.1409388	0.7950578
+104	amzn1.account.AGQTXR26JGNTR6LWVLRMMCLRCTAA	Mouse	"I thought these were working great for a small mouse problem I have."	Positive	0.8241364	0.0725872	0.1032763
+105	amzn1.account.AHH6EJGPFJ7TTV6DNF4IGRKXCL7Q	Mouse	"The mice in my house laughed at me when they ran past this kind of quackery."	Positive	0.6177211	0.1660694	0.2162095
+106	amzn1.account.AHFRNN45377WPYHLBXVMO33CRKRA	Mouse	"Seems like it attracted more mice"	Neutral	0.260807	0.2542606	0.4849324
+107	amzn1.account.AGFCCIOAEFNKERQN6Z6EYGZXX5IA	Mouse	"Saw a mouse within days."	Positive	0.6279203	0.02631307	0.3457666
+108	amzn1.account.AHDYZUCKTSARL3YCKIJO3L6QZGRQ	Mouse	"Had no effect whatsoever on house mice."	Negative	0.1300305	0.7454332	0.1245364
+109	amzn1.account.AHHNPRDVY36ZIIHMF4VQJU2CREOA	Mouse	"5 minutes ago I watched a mouse stroll by the one plugged in in the dining room."	Neutral	0.2504668	0.01542226	0.734111
+110	amzn1.account.AEPC4VVSFGIWT5PHZCEEEUZHABKA	Mouse	"have not seen a mouse bug spider  since I put them in  at this time of year the mice bugs like to come in and get warm NOT THIS YEAR"	Negative	0.2343248	0.4014786	0.3641966
+111	amzn1.account.AHU62QL56V25YE77UAZIWSVBLALQ	Mouse	"We live by a wooded area and no pests of any kind, especially mice and bugs ."	Neutral	0.2837061	0.024668	0.6916259
+112	amzn1.account.AFN25PPGE3H2PMKFWTB6L5UYSZDQ	Mouse	"Not this year 1 dead mouse in a sticky trap."	Negative	0.008636133	0.9136279	0.07773597
+113	amzn1.account.AHGKHXQMOTJU6MPJYD5IGWCZTAKA	Mouse	"Not only that, but we just remodeled/finished our basement and noticed mice down there when we did (ew ."	Negative	0.1122804	0.6568568	0.2308629
+114	amzn1.account.AHNBG4KJFJK6STVWG5YIAVX72JIA	Mouse	"Have a mouse & roach issue & am tired of cleaning up traps."	Negative	0.06979734	0.7548434	0.1753594
+115	amzn1.account.AHXTU3WGSXHL66QHATQL4L32ONXQ	Mouse	"Had a terrible mouse problem."	Negative	0.008833923	0.9476951	0.04347102
+116	amzn1.account.AFIG2TIROX7S5RPFIGPWMEBRGPPQ	Mouse	"Also, no snakes looking for mice !!!"	Positive	0.8985735	0.03333092	0.06809565
+117	amzn1.account.AHRNCGBCOESYQTHJVBQFJFU3XB3Q	Mouse	"Maybe deaf mouse?"	Neutral	0.01188557	0.4422772	0.5458372
+118	amzn1.account.AEFIGUXTARB5E5RC4CW4AQRSFSSA	Mouse	"I am still getting an occasional mouse here and there which I capture in a live trap and release some distance away."	Neutral	0.1500346	0.02420842	0.8257569
+119	amzn1.account.AHRNCGBCOESYQTHJVBQFJFU3XB3Q	Mouse	"Immediate diference in bugs in the house, got rid of all but one mouse, that we had to trap."	Neutral	0.08677911	0.2650605	0.6481604
+120	amzn1.account.AEXTSXZNZGZX7ILDZIMBSULZU35Q	Mouse	"Can’t hear it, didn’t really have a bug/mice issue before other than some small spiders in basement."	Neutral	0.1735982	0.130773	0.6956288
+121	amzn1.account.AGPYZP6A45LS33P4T6CQVGQKTZHQ	Mouse	"Have had mice return."	Negative	0.04162828	0.7111529	0.2472189
+122	amzn1.account.AH4WWFPX4OGJKRSK43AQE2TCPXBQ	Mouse	"Doesnt seem to be working, i watched a mouse walk right by the unit"	Negative	0.02552963	0.8282154	0.146255
+123	amzn1.account.AFTK3ULREGNRYDUX3JGAJGGRQTXA	Mouse	"The product did not drive the mice away."	Negative	0.06766273	0.8740408	0.0582964
+124	amzn1.account.AFTK3ULREGNRYDUX3JGAJGGRQTXA	Mouse	"I plugged it in and used it 3 days in addition to using humane mice traps."	Positive	0.5184482	0.02470453	0.4568473
+125	amzn1.account.AFXNRIEKRZFNFPY3OASX3Z37B5GA	Mouse	"I'm also not sure they really make a difference at all -- I have them in the kitchen where I had seen a mouse once and a few weeks ago I saw another mouse just a few feet away from the unit."	Negative	0.2843112	0.3708653	0.3448235
+126	amzn1.account.AEWMOHYURAMJ64MMLEEJWRNZPIUA	Mouse	"They might work on spiders and other bugs because I haven't been bothered with those but definitely not on mice."	Neutral	0.3333415	0.2743786	0.3922798
+127	amzn1.account.AEWMOHYURAMJ64MMLEEJWRNZPIUA	Mouse	"I anticipated that I would have mice problems in the winter so I purchased these hoping to eliminate the mice."	Neutral	0.2600158	0.06356809	0.6764161
+128	amzn1.account.AG4NMZ22WYBGPJGL2MUVJI7DYDPA	Mouse	"They don’t work the mouse is laughing at me."	Positive	0.4610829	0.1420331	0.3968839
+129	amzn1.account.AFVKB7OWFLLBQLV6GIEZBDWTRBOQ	Mouse	"Does not help at all with mice"	Negative	0.00823465	0.922063	0.0697024
+130	amzn1.account.AGCUJ2XT6ZRJ63WALUU2J5LQ66PA	Mouse	"Still have the field mice problem."	Neutral	0.2186779	0.3619396	0.4193824
+131	amzn1.account.AFVPRXDFN5WDMQ7OQUHW3JSHHCSA	Mouse	"Two months in and I still have mice."	Neutral	0.2036483	0.2565549	0.5397968
+132	amzn1.account.AGIBLUFHH3CSI4B3HE3BJXQXBVOA	Mouse	"At this point I am not sure if these are meant to repel or rather attract mice."	Neutral	0.04932928	0.2328546	0.7178162
+133	amzn1.account.AE7RNAVHA7MF6MVVG45IJKULCKBA	Mouse	"Saw one mouse not 5 feet from one device and then had a spider crawling inches from another device."	Negative	0.1639003	0.5101368	0.3259627
+134	amzn1.account.AER5KZCCC3I7IZ4VEZYHIKIBLKZA	Mouse	"Mice were worse after plugging in all 6 devices"	Negative	0.1489554	0.7237872	0.1272574
+135	amzn1.account.AEZHOYX6SCWESYWZNY6IZRYORSHA	Mouse	"It does not work, we still have mice at home"	Negative	0.01178626	0.8741589	0.1140549
+136	amzn1.account.AFXVA2T7UPB4ZSUBQXM7MCWMDCIQ	Mouse	"They did not repel the mouse/rat out."	Positive	0.4399396	0.3754147	0.1846456
+137	amzn1.account.AGCCVN47DT2REVUISEWMYOWR5RVQ	Mouse	"Has not helped with mouse problem (reason for purchase) so we have resorted to poison control."	Negative	0.02740468	0.8379264	0.1346689
+138	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Mouse	"Not only was repelling mice a fail, 1 mouse climb on it!"	Neutral	0.2883911	0.1776081	0.5340009
+139	amzn1.account.AGBGWHJEET6UCCWGP2FX3ERK6OQA	Mouse	"Did not work had them plugged in for months mice keep coming back worse than before."	Negative	0.0006842662	0.9874783	0.01183743
+140	amzn1.account.AFA2LCEBCVRBHQELOYPOV4DUSI5Q	Mouse	"This did nothing against mice."	Neutral	0.3295211	0.2907156	0.3797633
+141	amzn1.account.AHHNPRDVY36ZIIHMF4VQJU2CREOA	Mouse	"Keep finding mouse poop in the cupboards."	Neutral	0.2809008	0.1425778	0.5765213
+142	amzn1.account.AER6IABAK45TZ6ISF3Q5DSXIJFUQ	Mouse	"Does not work on mice !"	Negative	0.01443877	0.943728	0.04183338
+143	amzn1.account.AFONHEJY5CHBZX4YQ2H57C4UBWNA	Mouse	"Found these to be totally useless against mice."	Negative	0.01106198	0.953869	0.0350691
+144	amzn1.account.AGJTCWGE3X3K4BSJLBT66LQOYI3Q	Mouse	"Baited a mouse trap and set it up about 2 feet from the ultrasonic and have caught several mice so far."	Positive	0.7585732	0.0737932	0.1676336
+145	amzn1.account.AHGKHXQMOTJU6MPJYD5IGWCZTAKA	Capacity	"Then I HAD to order another box because they work so well I wanted them in my guest house, my barn and my garage!"	Positive	0.8889905	0.006511043	0.1044984
+146	amzn1.account.AGFLKFPSXK3IED3NSWYUUJ36GZOA	Capacity	"BEST INVENTION YET, no more poisons in my house, NO MORE UNWANTED CREATURES at all!.!."	Positive	0.9749503	0.00210475	0.02294485
+147	amzn1.account.AHUX4BQAZBWAN3LTPCDPX55PBY5Q	Capacity	"My mom is here and sleeping soundly in the guest bedroom and I have these little miracles to thank!"	Positive	0.9896228	0.0002067261	0.01017049
+148	amzn1.account.AFVG226OUFBBBCT5XTW3SF3A5CAA	Capacity	"Garage, 2 bedrooms, living room."	Neutral	0.05259682	0.001634974	0.9457682
+149	amzn1.account.AFCWDH7Y3N3U4ZKGOXSOAZR6TW4Q	Capacity	"I put these things in every room of the house and in my classroom as well."	Positive	0.5931292	0.005196659	0.4016743
+150	amzn1.account.AG4ALQRTPCINCAVMIYTDQME57NSA	Capacity	"Placed them around our house and garage."	Neutral	0.08177852	0.009583985	0.9086374
+151	amzn1.account.AGZ7W73YEIFEQWDKDS2EMO27CMCQ	Capacity	"With these plugged in throughout my house, I have had much less mess."	Positive	0.9830876	0.006689293	0.01022311
+152	amzn1.account.AGDPQLM32WTUR6FXEXKUE4RFV63Q	Capacity	"I think the key here is to put one in every room of the house."	Neutral	0.4332533	0.03402338	0.5327233
+153	amzn1.account.AGRWSQTCD5OO7S5AKAICIWXRTUVQ	Capacity	"We aren't seeing any bugs in the house."	Positive	0.9116011	0.01173021	0.07666875
+154	amzn1.account.AHP5KNUKLQ63FOLFCCXQ4722SCEA	Capacity	"These have been placed in our house a little over a month."	Neutral	0.3171632	0.09240611	0.5904307
+155	amzn1.account.AGILHPDNWZD2HQO2GG5CRRAOYCIQ	Capacity	"Put them in the kitchen, Living room, bathrooms and two of the bedrooms."	Neutral	0.1980252	0.003956875	0.7980179
+156	amzn1.account.AGILHPDNWZD2HQO2GG5CRRAOYCIQ	Capacity	"I like the fact you have enough for various rooms."	Positive	0.9881615	0.0006938644	0.01114462
+157	amzn1.account.AGQTXR26JGNTR6LWVLRMMCLRCTAA	Capacity	"I placed them in every room of my small home."	Neutral	0.2696588	0.02854681	0.7017943
+158	amzn1.account.AHPFJVSVIR3NDUWK5CDK6Z7RU6SQ	Capacity	"However, we did have one in our bathroom last week."	Neutral	0.3094561	0.04016381	0.65038
+159	amzn1.account.AHQS2M6ZYIG6QFUZC2QMKROB2YAQ	Capacity	"But after  just 2 days after plugging these in all around the house I would find them on the walls just sitting there and was able to kill at least 15 of them."	Positive	0.5295378	0.4203211	0.05014118
+160	amzn1.account.AEWMOHYURAMJ64MMLEEJWRNZPIUA	Capacity	"Moved into a house in a rural area."	Neutral	0.03035149	0.00319145	0.9664571
+161	amzn1.account.AFQOKMPDUKZEB7JHWWF7KUXTDZWA	Capacity	"Other reviews suggested these would work but we have them in every room and we have rats wandering our house seemingly unaffected."	Neutral	0.2157406	0.1845889	0.5996705
+162	amzn1.account.AFYP7CFG5HUWTCVFCIW4VAVCRX5A	Capacity	"We have two of these installed just in our bedroom, and in the last two weeks alone, I've caught spiders, a house centipede, and countless ants."	Neutral	0.4221564	0.03951475	0.5383289
+163	amzn1.account.AGXXMG4U52HSIB7A25ZHS6DBOOOQ	Capacity	"Located them in multiplle rooms"	Neutral	0.05366539	0.02078065	0.925554
+164	amzn1.account.AFXVA2T7UPB4ZSUBQXM7MCWMDCIQ	Capacity	"It still bit thru my kitchen floor mat in my kitchen every night."	Positive	0.7104031	0.09963766	0.1899592
+165	amzn1.account.AGAGBDDUCAIGSAYKK2OBHSLMSD3Q	Capacity	"If any, the spider in my very small downstairs bathroom has made its home more comfortable around this item, bringing me to the conclusion that I wasted my money on an oversized blue night light."	Negative	0.09912661	0.6848918	0.2159816
+166	amzn1.account.AFMX6A5ZNCAW5LX7PNW7TUXJYM6A	Capacity	"I'm still getting flies and mosquitoes in my apartment."	Positive	0.5328034	0.05138035	0.4158162
+167	amzn1.account.AHOVFT2N7DHU7UOCSF6OQ2ETLGOA	Capacity	"I saw spiders in my room and I had two of the repellents in my room"	Neutral	0.08747555	0.3971262	0.5153983
+168	amzn1.account.AEBMKX5DTQRNNAI7ESABKNWHZTIA	Capacity	"I put these around my house and each day when I got home from work, my kitchen had swarms of ants."	Neutral	0.3526495	0.01543954	0.631911
+169	amzn1.account.AH6JIA3YPXQEJ7IL5EOLG5Z2SRWQ	Capacity	"I put 4 of these devices downstairs (2 in the living room, and 2 in the kitchen)."	Neutral	0.2874224	0.008369292	0.7042084
+170	amzn1.account.AEHTJ5ELAIDNQ6MJSVVJPKTNN6EQ	Capacity	"I plugged in all 6 in different rooms throughout my house which should have covered the whole area and I waited ."	Positive	0.56587	0.04256302	0.391567
+171	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Capacity	"I bought the 6 pack to insure I had excellent coverage of the rooms."	Positive	0.9160998	0.004502306	0.07939785
+172	amzn1.account.AFWF5HMKJTBSY3B3DBXUYUFHZTWA	Capacity	"Have SIX of these in a studio apartment."	Neutral	0.1253561	0.00807981	0.8665641
+173	amzn1.account.AGAGBDDUCAIGSAYKK2OBHSLMSD3Q	Capacity	"As soon as I received the box I plugged one of these in every outlet I found in my living room, kitchen, and even my small bathroom."	Positive	0.8745676	0.02422707	0.1012053
+174	amzn1.account.AHRPGBUBCEHBXSXHLF6EOI7I2UEQ	Capacity	"5 of the 6 are in a 600 sq."	Neutral	0.01925639	0.003302567	0.9774411
+175	amzn1.account.AE7ENJ2WBFKPUCH5XEXZBXDPSDBQ	Capacity	"So I ordered a second time, to install more on the other side of the house."	Neutral	0.3202028	0.02987855	0.6499187
+176	amzn1.account.AFTPLTQUWK7DIRKHB6DHUN6NNRQA	Capacity	"My mother lives in a 100 year old house with foundation issues and open fields nearby."	Neutral	0.1080045	0.00749623	0.8844993
+177	amzn1.account.AGXNAZABJ3LMI4GB4H4VX4V2V2ZA	Capacity	"I also have seen a few in the rooms that I didn't have it in."	Neutral	0.3652822	0.1703016	0.464416
+178	amzn1.account.AFIMBMKE4ACFOG7JRXVGRJPCVJJA	Capacity	"I placed 4 in my apartment and it's only one bedroom."	Neutral	0.1735024	0.03168518	0.7948123
+179	amzn1.account.AFEG44G2L6QUOTCWEJFXWKPC2LOQ	Capacity	"There was zero effect on all pest in our house."	Negative	0.1153221	0.8039635	0.08071441
+180	amzn1.account.AHATVO7WH6IS4OEIC2G4H5VVO4GA	Capacity	"Right now is the December winter month, haven't have any regular house fly to test it out."	Neutral	0.2902812	0.04052559	0.6691933
+181	amzn1.account.AEYJS2I4GKHHCCEGXQQTS3ZXGGHQ	Capacity	"I put 2 sets (6 in the kitchen, 6 in the bathroom) and they don't phase them at all."	Negative	0.2344396	0.5949687	0.1705917
+182	amzn1.account.AELNTEAETJVCH6YFW5NYRF2WJC2A	Capacity	"I noticed no reduction in bugs in my house."	Positive	0.8897667	0.04616643	0.06406698
+183	amzn1.account.AHVM2XYRPPEXB555EKWMGLS2MZYQ	Capacity	"Inside the house we placed three units as instructed in areas where the coverage would easily cover the room and would hit all door/window openings."	Neutral	0.0488652	0.04240192	0.9087329
+184	amzn1.account.AH3ANHOT5HYLFFMMKLWY7TCG5ZQQ	Capacity	"I don't think it is working for my apartment cockroach."	Negative	0.09038816	0.5592995	0.3503123
+185	amzn1.account.AHIMO47R4FLM5G35CTPPZYRIKH2A	Capacity	"We put one or two on every room and it see to do nothing to help the problem."	Neutral	0.3259475	0.3001086	0.3739439
+186	amzn1.account.AGXHRK4JUOMTPTN5KRJI3BBHAOJA	Capacity	"Its been over 5 weeks since we last plugged these devices all over a small apartment unit, does not work at all."	Negative	0.00399845	0.9807689	0.01523272
+187	amzn1.account.AGJ7BIXW5LEZPPY4NTK7SZ5WEYQA	Capacity	"I have my entire house covered with these and even after months, roaches, moth etc."	Positive	0.6593907	0.0551152	0.2854941
+188	amzn1.account.AHRPGBUBCEHBXSXHLF6EOI7I2UEQ	Capacity	"A squirrel has created a nest within 8 feet of 2 that I had in that corner."	Neutral	0.07567836	0.1026479	0.8216738
+189	amzn1.account.AGDQMFZUZQ77CQMFNMVM23ZTEQWA	Capacity	"I made this purchase in hopes of reducing or eliminating mosquitoes inside my house and it didn't work."	Negative	0.04520024	0.7967121	0.1580876
+190	amzn1.account.AGAGBDDUCAIGSAYKK2OBHSLMSD3Q	Capacity	"In the meantime, “Buddy” the spider in my bathroom will have to find a new home and I will resolve to kill the occasional uninvited roach the good old fashion way."	Neutral	0.4029233	0.0299733	0.5671035
+191	amzn1.account.AGCSGZOH6FJQBRN2ERXXVV3PRPZQ	Capacity	"We plugged in two of these within a few feet of the the ants infestation for two weeks and the ants are still there and totally unaffected."	Positive	0.9668738	0.01581436	0.0173118
+192	amzn1.account.AE5ALDBVEGWC66H35Y5R2AYCCHAA	Capacity	"Once I bought gel bait and put some borax around the house the roaches were gone."	Positive	0.4238144	0.1750822	0.4011034
+193	amzn1.account.AHVM2XYRPPEXB555EKWMGLS2MZYQ	Capacity	"I had high hopes for this as our house we know has small gaps where flies and spiders get in, especially during the summer months, and we also have mice in our barn due to our farm."	Neutral	0.4109755	0.1550349	0.4339896
+194	amzn1.account.AFV2NQ3ELAQRGXC6QYEUJ2RIPSRA	Capacity	"In fact, I literally saw a spider hanging out in a corner 20 INCHES AWAY FROM THE DEVICE."	Neutral	0.1826789	0.08514114	0.7321799
+195	amzn1.account.AH3YKXXT6ZGM6CFXOHIZSQ2CAXFQ	Price	"I have bought these at stores like Atwood's and orscheln's and they cost about $30 each, so when I found 6 for $40 I was pretty excited."	Positive	0.884914	0.03112147	0.08396454
+196	amzn1.account.AHDYRU3ZRZZR54MKYEWJGNLBSJSA	Price	"I would say it’s worth the investment!"	Positive	0.8972751	0.003961036	0.09876376
+197	amzn1.account.AES4GACZ6KMKQFW3TFFW5RMPNIQA	Price	"Save you money."	Negative	0.1513095	0.6960592	0.1526314
+198	amzn1.account.AHD267TIN4U6HHCLMPQMYGN6NPJA	Price	"No 60 money back guarantee so I'll let you know if thats really true when I try."	Neutral	0.08929811	0.05768144	0.8530205
+199	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Price	"Give it time, they say, if it fails we will refund your money ."	Negative	0.03407749	0.8201413	0.1457813
+200	amzn1.account.AG5K7SYIENQ4K4DYBVKURWIOTHHA	Price	"dont waste your time or money."	Negative	0.006839744	0.9678642	0.02529606
+201	amzn1.account.AHVIX3DIH3UNK6XFXOLECLPYJSDA	Price	"We feel as if it was a waste of money."	Negative	0.02513864	0.912468	0.06239346
+202	amzn1.account.AE64BYJIMDO7YWVK2FMVM3IW6P3A	Price	"I want my money back 😡😡"	Negative	0.009985534	0.8666205	0.1233939
+203	amzn1.account.AE5ALDBVEGWC66H35Y5R2AYCCHAA	Price	"DO NOT waste your money in something that perhaps worked in their lab but it really doesnt work."	Negative	0.0005057417	0.9784544	0.02103997
+204	amzn1.account.AG3Z7G24BXLIXGFA2SVBO6QJZE5A	Price	"SAVE YOUR MONEY, THIS PRODUCT DOES NOT WORK."	Negative	9.612321E-05	0.9959741	0.003929695
+205	amzn1.account.AFWI5MZPMJXDPUDZ3NJZNOCU7WIA	Price	"I’ve spent and wasted money in the past."	Negative	0.06098372	0.7537149	0.1853014
+206	amzn1.account.AFGFJFHC3KIQWHVKYNUO7LQNMT4Q	Price	"Don't waste the money."	Negative	0.007672243	0.9611364	0.03119135
+207	amzn1.account.AFWI5MZPMJXDPUDZ3NJZNOCU7WIA	Price	"I’ve wasted money."	Negative	0.02556457	0.885737	0.0886984
+208	amzn1.account.AG7FZ42WP5D3EKRR2STMD33U6Z2Q	Price	"total waste of money!"	Negative	0.002809662	0.9916163	0.005574099
+209	amzn1.account.AE5TYNKW537T43Z6I4Y4PKQCIRPA	Price	"I read all the verified reviews so I purchased these and waste of money."	Negative	0.07061323	0.6076944	0.3216924
+210	amzn1.account.AEMPSZWCQ2DU4GA63NXCLTO6OBYA	Price	"don't waste your money"	Negative	0.003128101	0.9731315	0.02374024
+211	amzn1.account.AG3PVWALFVFJNNIMGNXH4W5ZY2FA	Price	"Don’t waste your money!!"	Negative	0.01795449	0.8637577	0.1182878
+212	amzn1.account.AE3XIJDRJBD24ZNGXUP2TJERTFDA	Price	"Don't waste your money."	Negative	0.004986598	0.9682642	0.02674921
+213	amzn1.account.AFC33KDCM5ZKHEL5CFSU2A3DEUGA	Price	"Dont buy complete waste of money."	Negative	0.0008666297	0.9946222	0.004511142
+214	amzn1.account.AF4RDKP72O6AQ4655K52V56RVLCA	Price	"Save your money this is crap."	Negative	9.741526E-05	0.9968119	0.003090663
+215	amzn1.account.AEJ6OVD3MIMMN2DNCITIVW6MIXQQ	Price	"These are horrible, do not waste your money on these."	Negative	0.000259078	0.995735	0.004005839
+216	amzn1.account.AECL34GAUZRKJKIZXVIJ6MLGHXUQ	Price	"Do not waste your money"	Negative	0.005007648	0.9705613	0.02443106
+217	amzn1.account.AHXDWWAIRS4GVOXCM3E66PTVMOIQ	Price	"These things are horrible waste of money."	Negative	0.0001438368	0.9978361	0.002020137
+218	amzn1.account.AGMMM6BOBLDVVPAE2WXUTQWAOM5A	Price	"A total waste of money."	Negative	0.001622644	0.9935534	0.004823894
+219	amzn1.account.AHGV6GBGBU4V3J4CCMADYLATU3KQ	Price	"A waste of money."	Negative	0.003295723	0.9872815	0.009422796
+220	amzn1.account.AEDVE22LUV7OAEVHI7HACPXPR3VQ	Price	"Do not buy a waste of money."	Negative	0.001999068	0.9867877	0.01121327
+221	amzn1.account.AGIBLUFHH3CSI4B3HE3BJXQXBVOA	Price	"Not worth the money."	Negative	0.003000441	0.986302	0.01069759
+222	amzn1.account.AGQSHPTNSAYEOULQWMS7BERVOKCA	Price	"Waste of money."	Negative	0.00433864	0.9830139	0.01264754
+223	amzn1.account.AF4RDKP72O6AQ4655K52V56RVLCA	Price	"Waste of money!"	Negative	0.007735645	0.9790156	0.01324882
+224	amzn1.account.AGBAM3KT5BDEGEBSD3DQKS5SXYOA	Price	"WASTE OF MONEY"	Negative	0.003998928	0.9805658	0.01543534
+225	amzn1.account.AFRMLNYOD5SB5AE7O5VDS2F76BZA	Price	"Didn’t work  after a week of being pluged in they all make annoying sound which and be heard my human  waste of money"	Negative	0.007958733	0.9179608	0.0740805
+226	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Returns	"Give it time, they say, if it fails we will refund your money ."	Negative	0.03407749	0.8201413	0.1457813
+227	amzn1.account.AGPYZP6A45LS33P4T6CQVGQKTZHQ	Returns	"Have had mice return."	Negative	0.04162828	0.7111529	0.2472189
+228	amzn1.account.AFXNRIEKRZFNFPY3OASX3Z37B5GA	Returns	"They said I could return the other ones and buy the six pack, but that seemed like a giant hassle so I just kept the ones I had."	Negative	0.06028498	0.8177464	0.1219686
+229	amzn1.account.AG3Z7G24BXLIXGFA2SVBO6QJZE5A	Returns	"I'M ASKING FOR MY MONEY BACK, WISH ME LUCK."	Negative	0.07150356	0.5058679	0.4226285
+230	amzn1.account.AE64BYJIMDO7YWVK2FMVM3IW6P3A	Returns	"I want my money back 😡😡"	Negative	0.009985534	0.8666205	0.1233939
+231	amzn1.account.AHX5MEXSYL3MIHTE2FOAMSCTXCHA	Returns	"Sorry - these do not work, just didn't want to take the time to return them :("	Negative	0.000543077	0.9549646	0.0444922
+232	amzn1.account.AH7A5AVYDVKGJRL3QVAW2RPGVLKQ	Returns	"I went to return them and the time had passed me by."	Negative	0.1139857	0.6864043	0.19961
+233	amzn1.account.AGCCVN47DT2REVUISEWMYOWR5RVQ	Returns	"Really would like to return this product and get money back but it's past 30 days."	Negative	0.05099751	0.8412111	0.1077914
+234	amzn1.account.AGHLK5WWMZLFLMSD74P4ATLZFAGQ	Returns	"I am requesting a refund, please"	Negative	0.006129893	0.9577959	0.0360743
+235	amzn1.account.AGCSGZOH6FJQBRN2ERXXVV3PRPZQ	Returns	"We are returning this product today and do not recommend it for ants."	Negative	0.001300581	0.9901603	0.008539244
+236	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Returns	"I could've, under thier "gaurentee", returned them."	Neutral	0.03466449	0.4546594	0.5106761
+237	amzn1.account.AFWI5MZPMJXDPUDZ3NJZNOCU7WIA	Returns	"I’m not gonna return then though, since this was on me."	Neutral	0.03224418	0.208107	0.7596488
+238	amzn1.account.AEU7BXWQB2NMMVC6XRH74R3OXQGA	Returns	"cannot return after 30 days either."	Negative	0.002075826	0.9880752	0.009849021
+239	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Returns	"Unfortunately, I'd waited to long to request it which made returning them impossible."	Negative	0.0002010836	0.9931312	0.006667715
+240	amzn1.account.AF4K752JFNEH6GEXGYTEWNN3C24A	Returns	"They cannot be returned after 60 days."	Negative	0.0136153	0.9443812	0.04200346
+241	amzn1.account.AFA2LCEBCVRBHQELOYPOV4DUSI5Q	Returns	"We are returning it."	Negative	0.009184659	0.9538793	0.03693601
+242	amzn1.account.AHRPGBUBCEHBXSXHLF6EOI7I2UEQ	Returns	"By the time I realized they didn't work it was toooooo late to return them."	Negative	0.003735276	0.9632113	0.03305335
+243	amzn1.account.AFV2NQ3ELAQRGXC6QYEUJ2RIPSRA	Returns	"Will be returning it"	Negative	0.01771728	0.9008882	0.08139451
+244	amzn1.account.AGTFTSFXZDQTXXGGGPNHYHKGND6Q	Returns	"It's too late 4 a return ."	Negative	0.008615748	0.8997105	0.0916737
+245	amzn1.account.AHP3QJEAEDXKVVSQKKU3YAGEI4YA	Cleaning	"These really work great and no messy sprays, etc."	Positive	0.9987068	9.150422E-05	0.001201576
+246	amzn1.account.AGZ7W73YEIFEQWDKDS2EMO27CMCQ	Cleaning	"With these plugged in throughout my house, I have had much less mess."	Positive	0.9830876	0.006689293	0.01022311
+247	amzn1.account.AGXNAZABJ3LMI4GB4H4VX4V2V2ZA	Cleaning	"When I got back I found a lot of spider egg sacs which I vacuumed."	Neutral	0.1392152	0.04864363	0.8121411
+248	amzn1.account.AGRWSQTCD5OO7S5AKAICIWXRTUVQ	Cleaning	"The wife was cleaning up webs weekly and they've all but stopped ."	Negative	0.1499311	0.4570622	0.3930067
+249	amzn1.account.AGXNAZABJ3LMI4GB4H4VX4V2V2ZA	Cleaning	"Despite that and thoroughly cleaning with eucalyptus and peppermint oil spray, I kept seeing 3-7 baby spiders on the bottom baseboard in my daughters room EVERYDAY."	Positive	0.7495422	0.07169458	0.1787632
+250	amzn1.account.AFIMBMKE4ACFOG7JRXVGRJPCVJJA	Cleaning	"We are very clean but because my apartment is soooo old, the owner has yet to rent the building and rid of the pests."	Neutral	0.3169004	0.05527112	0.6278285
+251	amzn1.account.AE5ALDBVEGWC66H35Y5R2AYCCHAA	Cleaning	"I keep the house super clean and the roaches still come ."	Positive	0.662075	0.05441846	0.2835065
+252	amzn1.account.AFCWDH7Y3N3U4ZKGOXSOAZR6TW4Q	Cleaning	"I did not want to use chemicals and bug sprays at home, and we're not allowed to in the classroom."	Neutral	0.07187672	0.3862362	0.5418871
+253	amzn1.account.AHNBG4KJFJK6STVWG5YIAVX72JIA	Cleaning	"Have a mouse & roach issue & am tired of cleaning up traps."	Negative	0.06979734	0.7548434	0.1753594
+254	amzn1.account.AHQS2M6ZYIG6QFUZC2QMKROB2YAQ	Cleaning	"I tried bait, traps and sprays."	Neutral	0.1557379	0.2241309	0.6201313
+255	amzn1.account.AFGZC7JMXXFIYKWPM4VEJL5ZBPGQ	Cleaning	"The ones I've gotten rid off have been through sticky glue traps and D-con poison."	Negative	0.2058801	0.4122669	0.381853
+256	amzn1.account.AFMX6A5ZNCAW5LX7PNW7TUXJYM6A	Cleaning	"I had originally bought these pest control units because I was sick and tired of using sprays and the fly sticky glue strips and having to clean up the mess afterwards."	Negative	0.07526866	0.4947662	0.4299651
+257	amzn1.account.AEWL252AEBC4XR2S6FVVZVP4B5LA	Cleaning	"We resorted to buying chemical insect spray around the exterior and interior."	Neutral	0.04743504	0.4519928	0.5005722
+258	amzn1.account.AG4ALQRTPCINCAVMIYTDQME57NSA	Calling	"Placed them around our house and garage."	Neutral	0.08177852	0.009583985	0.9086374
+259	amzn1.account.AEWMOHYURAMJ64MMLEEJWRNZPIUA	Calling	"Moved into a house in a rural area."	Neutral	0.03035149	0.00319145	0.9664571
+260	amzn1.account.AEHTJ5ELAIDNQ6MJSVVJPKTNN6EQ	Calling	"I plugged in all 6 in different rooms throughout my house which should have covered the whole area and I waited ."	Positive	0.56587	0.04256302	0.391567
+261	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Calling	"I bought the 6 pack to insure I had excellent coverage of the rooms."	Positive	0.9160998	0.004502306	0.07939785
+262	amzn1.account.AHRPGBUBCEHBXSXHLF6EOI7I2UEQ	Calling	"5 of the 6 are in a 600 sq."	Neutral	0.01925639	0.003302567	0.9774411
+263	amzn1.account.AEYMNCETXNXBSYMDIQFFKA6PUNOQ	Calling	"Call it coincidence, but the rodents are GONE"	Neutral	0.06654137	0.1839197	0.7495389
+264	amzn1.account.AHVM2XYRPPEXB555EKWMGLS2MZYQ	Calling	"Inside the house we placed three units as instructed in areas where the coverage would easily cover the room and would hit all door/window openings."	Neutral	0.0488652	0.04240192	0.9087329
+265	amzn1.account.AGXHRK4JUOMTPTN5KRJI3BBHAOJA	Calling	"Its been over 5 weeks since we last plugged these devices all over a small apartment unit, does not work at all."	Negative	0.00399845	0.9807689	0.01523272
+266	amzn1.account.AFV2NQ3ELAQRGXC6QYEUJ2RIPSRA	Calling	"In fact, I literally saw a spider hanging out in a corner 20 INCHES AWAY FROM THE DEVICE."	Neutral	0.1826789	0.08514114	0.7321799
+267	amzn1.account.AEGLPNFZAER76W7HFG655KICQ2RA	Comfort	"The mice were scared!"	Negative	0.1683952	0.5265079	0.3050969
+268	amzn1.account.AFCWDH7Y3N3U4ZKGOXSOAZR6TW4Q	Comfort	"I tried these out of desperation, although honestly I didn't know that they would really work, but I thought hey it wouldn't hurt!"	Neutral	0.1404395	0.2420551	0.6175053
+269	amzn1.account.AHQS2M6ZYIG6QFUZC2QMKROB2YAQ	Comfort	"I bought this for mice and it seemed to work for about a month but then new ones showed up and seemed to be immune to the vibrations."	Positive	0.3830731	0.3755825	0.2413444
+270	amzn1.account.AHDYZUCKTSARL3YCKIJO3L6QZGRQ	Comfort	"I gave these two whole weeks to make a difference but the mice simply walked right past them without any apparent discomfort."	Positive	0.8283057	0.02555622	0.146138
+271	amzn1.account.AGQTXR26JGNTR6LWVLRMMCLRCTAA	Comfort	"Although I have never really had an insect problem I have not seen any types of bugs this fall when they are usually struggling to find a warm spot."	Positive	0.5280881	0.1707713	0.3011405
+272	amzn1.account.AFTK3ULREGNRYDUX3JGAJGGRQTXA	Comfort	"The traps worked, apparently the product didn’t, as the traps had mice in them."	Neutral	0.08683305	0.2386782	0.6744888
+273	amzn1.account.AEHTJ5ELAIDNQ6MJSVVJPKTNN6EQ	Comfort	"and then realized that I wasn't seeing any evidence of the mice anymore."	Negative	0.06265766	0.6607813	0.2765611
+274	amzn1.account.AEYJ2OS4QOBW7RQDSPBRJXQB2QSA	Comfort	"We did not feel this worked or made any difference."	Negative	0.03436853	0.8771233	0.08850823
+275	amzn1.account.AFONHEJY5CHBZX4YQ2H57C4UBWNA	Comfort	"Found these to be totally useless against mice."	Negative	0.01106198	0.953869	0.0350691
+276	amzn1.account.AEMXVUVEK26PSQWE5FWPX6PLDGHQ	Marketplace	"GOOD PRODUCT, EXCELLENT SELLER"	Positive	0.9985812	3.82963E-05	0.00138058
+277	amzn1.account.AEAZK6LXLONTRKI6BNNERIIPLQSQ	Marketplace	"We bought the stuff on amazon and it was amazing!"	Positive	0.9987659	0.0001177066	0.001116324
+278	amzn1.account.AFXNRIEKRZFNFPY3OASX3Z37B5GA	Marketplace	"The company emailed me to let me know that, due to an issue with Amazon, I had actually purchased a four-pack instead of a six pack."	Positive	0.5651977	0.1166056	0.3181967
+279	amzn1.account.AGHLK5WWMZLFLMSD74P4ATLZFAGQ	Marketplace	"Thank you, Abby"	Positive	0.8790288	0.002310519	0.1186607
+280	amzn1.account.AGCCVN47DT2REVUISEWMYOWR5RVQ	Marketplace	"Will be contacting seller."	Negative	0.06164872	0.8513715	0.08697985
+281	amzn1.account.AFQCRTCS63NYCA7X3BODIA5Y4NIQ	Marketplace	"even amazon mails our stuff in 24 hours!"	Positive	0.4697593	0.2317412	0.2984995
+282	amzn1.account.AHKNQE2BRIJ5ZRHTHWENBO7VHT3Q	Marketplace	"Didn't have a problem with the seller."	Positive	0.5704209	0.3349314	0.09464765
+283	amzn1.account.AGDQMFZUZQ77CQMFNMVM23ZTEQWA	Marketplace	"I purchased this based on positive reviews that people left, but now I tend to question some of the reviews posted on amazon."	Neutral	0.02741901	0.06825195	0.9043291
+284	amzn1.account.AG3PVWALFVFJNNIMGNXH4W5ZY2FA	Marketplace	"Shame on Amazon for selling such crap on their site!!"	Negative	0.000195656	0.9952713	0.004533109
+285	amzn1.account.AFJGYA5X5DPQQ7JIPDVVGRKEQRIA	Sound	"It is almost like the sound slows them down."	Negative	0.1720403	0.7579103	0.07004949
+286	amzn1.account.AHJE46FG42IZNEHIZBSVJ2ZIHOYQ	Sound	"They don't make a noise or have an odor."	Positive	0.6117623	0.2317103	0.1565274
+287	amzn1.account.AH6SNLOGHEMIOJA3KSWV3VI767MA	Sound	"I’ve had these for about a month now and I can hear the constant ringing noise."	Positive	0.7101161	0.2093495	0.08053442
+288	amzn1.account.AH6SNLOGHEMIOJA3KSWV3VI767MA	Sound	"I’ve unplugged it and plug it back in but the noise just starts back up again."	Negative	0.05712556	0.5311691	0.4117053
+289	amzn1.account.AFXNRIEKRZFNFPY3OASX3Z37B5GA	Sound	"Sadly, one of them has already broke -- it now emits a really annoying noise constantly (the other three are silent)."	Negative	0.0002553104	0.996216	0.003528724
+290	amzn1.account.AGCCVN47DT2REVUISEWMYOWR5RVQ	Sound	"I doubt it does anything except light up, no way to test if it actually gives ultrasonic sound that I know of."	Negative	0.0887366	0.5704793	0.3407841
+291	amzn1.account.AFRMLNYOD5SB5AE7O5VDS2F76BZA	Sound	"Didn’t work  after a week of being pluged in they all make annoying sound which and be heard my human  waste of money"	Negative	0.007958733	0.9179608	0.0740805
+292	amzn1.account.AFWI5MZPMJXDPUDZ3NJZNOCU7WIA	Build Quality	"They put out a very beautiful blue, soft light for a night light."	Positive	0.9814362	0.001393285	0.01717049
+293	amzn1.account.AEYJ2OS4QOBW7RQDSPBRJXQB2QSA	Build Quality	"PLUS a great design would have been rotating prongs since this product requires you to put it in right side up in order to work."	Positive	0.7817993	0.1074018	0.1107989
+294	amzn1.account.AGKE5CHDTUTXC45HMGGL7I2D4KLQ	Build Quality	"I have not seem the usual spiders in my house where they like to build webs."	Neutral	0.1532139	0.3825099	0.4642762
+295	amzn1.account.AGAGBDDUCAIGSAYKK2OBHSLMSD3Q	Build Quality	"Going on two weeks now, and I am very disappointed to say that this product has made ZERO impact on any insect anywhere around it."	Negative	0.0002797758	0.9977496	0.001970567
+296	amzn1.account.AF4K752JFNEH6GEXGYTEWNN3C24A	Build Quality	"They do not do what they are advertised to do and now we find out that the manufacturer does not stand behind their product."	Negative	0.003468893	0.9877731	0.008758057
+297	amzn1.account.AFVAEMDBZJQF5SZTYXPGH7NHLNCQ	Software	"I use a monthly pest control so I  really don't see many bugs, Only giving 3 stars because I am not sure if the Ultrasonic works or not."	Neutral	0.3619213	0.2100342	0.4280446
+298	amzn1.account.AG6YX3LBFD74FFGM7FKHGOZWR37Q	Software	"I had a huge spider web on my deck with a spider on it."	Neutral	0.1918631	0.009820019	0.7983169
+299	amzn1.account.AFVKB7OWFLLBQLV6GIEZBDWTRBOQ	Software	"Seems to work on bugs, but not as effective as previously indicated."	Neutral	0.05338943	0.2953706	0.6512399
+300	amzn1.account.AEWESBSVJVR6D4DO6QGB7UDCBBNA	Software	"Maybe they just work on bugs?"	Neutral	0.0346858	0.3061284	0.6591858
+301	amzn1.account.AHYUPKPMDJHPS63O5DPB33JANRNA	Software	"It does not even look like the one on the web page."	Negative	0.01402728	0.9712928	0.01467994
+302	amzn1.account.AFN25PPGE3H2PMKFWTB6L5UYSZDQ	Compatibility & Ports	"When I tell my friends about these plug-in-devices they say yes they use them too."	Positive	0.9016609	0.01667884	0.08166018
+303	amzn1.account.AGXNAZABJ3LMI4GB4H4VX4V2V2ZA	Compatibility & Ports	"So I will purchase more for those rooms and monitor"	Positive	0.7909259	0.01440301	0.1946711
+304	amzn1.account.AEUICUUUGH32PZJ76WFMU2P2KQ6Q	Compatibility & Ports	"Despite having all six Ultrasonic devices plugged into various outlets in my apartment, I’ve still seen roaches regularly."	Neutral	0.1287334	0.3146721	0.5565946
+305	amzn1.account.AH5ALCAWMEDYVDSJA3RWYJS5Y73A	Compatibility & Ports	"One of the six devices didn't work when I took them out of the package."	Negative	0.002498663	0.9804372	0.01706405
+306	amzn1.account.AGEPGCBIIZNEGA2MWW3UJKROF24Q	Compatibility & Ports	"I have all of the units plugged in and I still have an issue with mice in my home."	Negative	0.2562315	0.4212262	0.3225423
+307	amzn1.account.AG5FUA25KJGL6474C65PIYG6375A	Camera	"The blue light does serve as a nice night light, but aside from that, they are worthless."	Neutral	0.01056986	0.1375799	0.8518502
+308	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Camera	"Neither deters pest or rodents and both emit low level light."	Negative	0.1073949	0.5690104	0.3235947
+309	amzn1.account.AFDLHO4QNZOJ6SGAKMP2EIRFQYJQ	Camera	"Nothing more than a glorified night light"	Negative	0.03333663	0.8502864	0.116377
+310	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Camera	"Now I'm stuck with 6 expensive night lights, nothing more."	Negative	0.1025751	0.6763581	0.2210667
+311	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Delivery	"These arrived on time as promised."	Positive	0.981925	0.007021799	0.01105318
+312	amzn1.account.AEWL252AEBC4XR2S6FVVZVP4B5LA	Delivery	"Although the product was shipped promptly and came packaged nicely, it has not worked as it said it would."	Neutral	0.130199	0.08437233	0.7854287
+313	amzn1.account.AEKGTN5XZERG3RLEIGYGJHGSJX4Q	Delivery	"I just unboxed this item ."	Neutral	0.3113204	0.05229716	0.6363824
+314	amzn1.account.AGSGNRJRVRC7M6DMGOL4267W2GKA	Delivery	"Ordered a 6 pack and only received 4"	Negative	0.06947913	0.5536629	0.376858
+315	amzn1.account.AHCCIFP2FG26R5JWECI4HQ4AG5XQ	Features	"You can't turn the blue light off so you have a constant light on which is kind of annoying in a bedroom."	Negative	0.02471874	0.8307872	0.144494
+316	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Features	"These don't do a single thing they advertise but light your way."	Negative	0.2374307	0.5080985	0.2544708
+317	amzn1.account.AHYWIXPLWI7HG723WT4M6GHD2X5Q	Features	"Neither deters pest or rodents and both emit low level light."	Negative	0.1073949	0.5690104	0.3235947
+318	amzn1.account.AEQPXWBSL3ZR4KHD66JM5ZQU3DWQ	Setup	"easy to plug in and they seem to be working and don't bother our cates at all"	Positive	0.9955885	0.0008019833	0.003609511
+319	amzn1.account.AFEWWWZAKVFI3ZEXMKJZYXOG35UA	Setup	"Not sure if it's working yet, but was very easy to install right into the outlet."	Positive	0.9699326	0.002825969	0.02724143
+320	amzn1.account.AFBY5NLYT2D2FSLNKRDWZC5MIRXA	Setup	"We have had very few insects since installing."	Positive	0.702821	0.0572149	0.2399641
+321	amzn1.account.AEFILUVTBQGV7QM46R7FVM3J5RLQ	Original Product	"I don't understand why they're are so many five star reviews on this product I'll just assume they're fake."	Negative	0.0155703	0.8197536	0.1646761
+322	amzn1.account.AETQQFDR5ESJBIKX2QCXDDTRJ2HA	Original Product	"There are nothing but fake reviews from fake buyers."	Negative	0.182475	0.5041966	0.3133283
+323	amzn1.account.AEFILUVTBQGV7QM46R7FVM3J5RLQ	Original Product	"Unfortunately I fell for the fake reviews and bought this product."	Negative	0.004606853	0.9600435	0.03534967
+324	amzn1.account.AGQTXR26JGNTR6LWVLRMMCLRCTAA	Fit	"Although I have never really had an insect problem I have not seen any types of bugs this fall when they are usually struggling to find a warm spot."	Positive	0.5280881	0.1707713	0.3011405
+325	amzn1.account.AFGZC7JMXXFIYKWPM4VEJL5ZBPGQ	Fit	"The ones I've gotten rid off have been through sticky glue traps and D-con poison."	Negative	0.2058801	0.4122669	0.381853
+326	amzn1.account.AEQLDZJN7UJGSM5XQMYXX3JEOQLA	Controls	"Did not control my pest issue at all!!"	Negative	0.4276498	0.4828843	0.0894659
+327	amzn1.account.AETQQFDR5ESJBIKX2QCXDDTRJ2HA	Controls	"I bought the Pest control devices and they do not work."	Negative	0.008772598	0.9191543	0.07207309
+328	amzn1.account.AFOH52MTD3TJGHCJPIIZCJKUH5WA	For Kids	"I liked them enough to buy a set for my daughter for Christmas."	Positive	0.9491507	0.001386599	0.04946271
+329	amzn1.account.AHVL5UL6M5RCG5ZO6OYHFOWDF5NA	For Kids	"They work well, so my daughter said."	Positive	0.9788514	0.0007731822	0.02037538
+330	amzn1.account.AFVG226OUFBBBCT5XTW3SF3A5CAA	Water Resistance	"Or bathroom sink frights first thing in morning!"	Neutral	0.1631477	0.01838226	0.8184699
+331	amzn1.account.AH65B2IO5UVZOAQU7G75AVC2EX2Q	Water Resistance	"This doesn’t work at all, every ones in a wile a see a  roach that Kroll throu the shower drain in the bathroom walking like it own the place and I have then set up all over the house including the bathrooms 👎👎👎"	Neutral	0.2366639	0.1813626	0.5819736
+332	amzn1.account.AEQPXWBSL3ZR4KHD66JM5ZQU3DWQ	Ease of Use	"easy to plug in and they seem to be working and don't bother our cates at all"	Positive	0.9955885	0.0008019833	0.003609511
+333	amzn1.account.AHGKHXQMOTJU6MPJYD5IGWCZTAKA	Ease of Use	"I can’t speak enough about how satisfied I am with these, and how easy they are to use!"	Positive	0.9879631	0.0006980951	0.01133884
+334	amzn1.account.AFCWDH7Y3N3U4ZKGOXSOAZR6TW4Q	Storage	"Although our problem is not an overwhelming one, and we only saw a couple of cockroaches each night that would rush back under the fridge or wherever they could hide, it was still a an ongoing problem, partly because I think that it was still an ongoing problem in the classroom and there was still the potential of cockroaches coming home with me everyday somehow."	Negative	0.1812077	0.4932154	0.3255769
+335	amzn1.account.AHIMO47R4FLM5G35CTPPZYRIKH2A	Storage	"We put one or two on every room and it see to do nothing to help the problem."	Neutral	0.3259475	0.3001086	0.3739439
+336	amzn1.account.AFNCKXNVZCWLDYSBRVNINSE334GA	Defective Delivery	"If someone from this company could contact me, one of my units is defective."	Negative	0.006523339	0.9460256	0.04745098
+337	amzn1.account.AHUAO6CR3JQKI5BSSH23GXVHQDKA	Defective Delivery	"is this faulty?"	Negative	0.02417241	0.7932554	0.1825721
+338	amzn1.account.AHUX4BQAZBWAN3LTPCDPX55PBY5Q	For Running	"They were running completely rampant and the infestation was only getting worse."	Negative	0.02757637	0.7946033	0.1778204
+339	amzn1.account.AHVN4YF53Q5YEYZGJSI4JQ5URW4Q	For Running	"this product does not work, I still have mice running around in my house despite using this product, total waste of money"	Negative	0.0001084547	0.9964517	0.003439857
+340	amzn1.account.AFOH52MTD3TJGHCJPIIZCJKUH5WA	As Gift	"I liked them enough to buy a set for my daughter for Christmas."	Positive	0.9491507	0.001386599	0.04946271
+341	amzn1.account.AEYJS2I4GKHHCCEGXQQTS3ZXGGHQ	Inlet Outlet Pipe	"We found out that we had 'German' cockroaches that come up through our water pipes."	Neutral	0.2348	0.06063202	0.704568
+342	amzn1.account.AHUX4BQAZBWAN3LTPCDPX55PBY5Q	For Travel	"They would jump in my bed at night and eat the bait right off of three different traps and not trip them."	Negative	0.1342538	0.6564717	0.2092744
