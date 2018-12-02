@@ -5767,13 +5767,13 @@ function dsvFormat(delimiter) {
 
       // Unescape quotes.
       var i, j = I, c;
-      if (text.charCodeAt(j) === QUOTE) {
-        while (I++ < N && text.charCodeAt(I) !== QUOTE || text.charCodeAt(++I) === QUOTE);
-        if ((i = I) >= N) eof = true;
-        else if ((c = text.charCodeAt(I++)) === NEWLINE) eol = true;
-        else if (c === RETURN) { eol = true; if (text.charCodeAt(I) === NEWLINE) ++I; }
-        return text.slice(j + 1, i - 1).replace(/""/g, "\"");
-      }
+      //if (text.charCodeAt(j) === QUOTE) {
+      //  while (I++ < N && text.charCodeAt(I) !== QUOTE || text.charCodeAt(++I) === QUOTE);
+      //  if ((i = I) >= N) eof = true;
+      //  else if ((c = text.charCodeAt(I++)) === NEWLINE) eol = true;
+      //  else if (c === RETURN) { eol = true; if (text.charCodeAt(I) === NEWLINE) ++I; }
+       // return text.slice(j + 1, i - 1).replace(/""/g, "\"");
+     // }
 
       // Find next delimiter or newline.
       while (I < N) {
