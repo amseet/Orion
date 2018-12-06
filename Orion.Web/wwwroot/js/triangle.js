@@ -100,8 +100,8 @@ let ReviewData = class {
 };
 
 //Extension Methods
-Object.prototype.toArray = function () {
-	return Object.values(this);
+var toArray = function (a) {
+	return Object.values(a);
 };
 /* *************************************** */
 
@@ -117,7 +117,7 @@ function TriangularScatterPlot() {
 		variable, // value in data that will dictate proportions on chart
 		category, // compare data by
 		padAngle // effectively dictates the gap between slices
-		;
+		isAppend = false;
 
 	function tsp(selection) {
 		var side = height * 2 / Math.sqrt(3);
@@ -156,14 +156,27 @@ function TriangularScatterPlot() {
 				.domain([0.333, 1]); 
 
 			// set SVG element
-			var svg = selection.append('svg')
-				.attr('id', id)
-				.attr('width', width)
-				.attr('height', height + margin.top + margin.bottom)
-				.append('g')
-				.attr('transform', 'translate(' + ((width - side) / 2) + ',' + (margin.top + 0.5) + ')')
-				.append('g');
+			var svg;
 
+			if (isAppend === true) {
+				svg = d3.select(this)
+					.append('g')
+					.attr('id', id)
+					.attr('width', width)
+					.attr('height', height)
+					.append('g')
+					.attr('transform', 'translate(' + ((globalWidth - side) / 2) + ',' + ((globalHeight - side)/2) + ')')
+					.append('g');
+			}
+			else {
+				svg = selection.append('svg')
+					.attr('width', width)
+					.attr('height', height + margin.top + margin.bottom)
+					.append('g')
+					.attr('id', id)
+					.attr('transform', 'translate(' + ((width - side) / 2) + ',' + (margin.top + 0.5) + ')')
+					.append('g');
+			}
 			/// Setup brushing
 			var offset = 25;
 			var brush = svg.append("g")
@@ -212,7 +225,7 @@ function TriangularScatterPlot() {
 			var points = svg.selectAll('.point')
 				.data(data)
 				.enter().append('circle')
-				.style("fill", function (d, i) {
+				.style("fill", function (d) {
 					if (d.P > d.N && d.P > d.U)
 						return colorBlueScale(d.pShare);
 					else if (d.N > d.P && d.N > d.U)
@@ -260,9 +273,9 @@ function TriangularScatterPlot() {
 				//	.call(yAxis);
 
 
-				d3.selectAll('#feature_donut').remove();
-				d3.select('#tri')
-					.datum(reviews.GetFeatures().toArray())
+				d3.selectAll('#g_feature_donut').remove();
+				d3.select('#feature_donut')
+					.datum(toArray(reviews.GetFeatures()))
 					.call(feature_donut);
 			}
 		});
@@ -317,6 +330,16 @@ function TriangularScatterPlot() {
 		return tsp;
 	};
 
+	tsp.isAppend = function (value) {
+		if (!arguments.length) return isAppend;
+		isAppend = value;
+		return tsp;
+	};
+
+	tsp.clear = function () {
+		d3.selectAll('#' + id).remove();
+	};
+
 	return tsp;
 }
 
@@ -325,7 +348,7 @@ function DonutChart() {
 		width,
 		height,
 		margin = { top: 10, right: 10, bottom: 10, left: 10 },
-		colour = d3.scaleOrdinal(d3.schemeCategory20c), // colour scheme
+		colour = d3.scaleOrdinal(d3.schemePaired), // colour scheme
 		variable, // value in data that will dictate proportions on chart
 		category, // compare data by
 		padAngle, // effectively dictates the gap between slices
@@ -337,6 +360,7 @@ function DonutChart() {
 	function chart(selection) {
 		selection.each(function (data) {
 			data = data.slice(0, 10);
+
 			// generate chart
 
 			// ===========================================================================================
@@ -361,7 +385,7 @@ function DonutChart() {
 				.outerRadius(radius * 0.9)
 				.innerRadius(radius * 0.9);
 
-			colour = colour.domain[1, d3.max(data, function (d) { return d.Total; })];
+			colour = colour.domain([1, d3.max(data, function (d) { return d.Total; })]);
 			// ===========================================================================================
 
 			// ===========================================================================================
@@ -379,6 +403,7 @@ function DonutChart() {
 					.attr('width', width + margin.left + margin.right)
 					.attr('height', height + margin.top + margin.bottom)
 					.append('g')
+					.attr('id', "g_"+id)
 					.attr('transform', 'translate(' + globalWidth / 2 + ',' + globalHeight / 2 + ')');
 			}
 
@@ -391,26 +416,43 @@ function DonutChart() {
 			svg.append('g').attr('class', 'lines');
 			// ===========================================================================================
 
+			var colorBlueScale = d3.scaleSequential(d3.interpolateLab("white", "steelblue"))	// Blue color scheme
+				.domain([0.333, 1]);
+			var colorYellowScale = d3.scaleSequential(d3.interpolateLab("white", "yellow"))	// Yellow color scheme
+				.domain([0.333, 1]);
+			var colorRedScale = d3.scaleSequential(d3.interpolateLab("white", "red"))	// Red color scheme
+				.domain([0.333, 1]); 
 			// ===========================================================================================
 			// add and colour the donut slices
 			var path = svg.select('.slices')
 				.datum(data).selectAll('path')
 				.data(pie)
 				.enter().append('path')
-				.attr('fill', function (d) { return colour(d.Total); })
+				.attr('fill', function (d) {
+					if (d.data.P > d.data.N && d.data.P > d.data.U)
+						return colorBlueScale(d.data.P / d.data.Total);
+					else if (d.data.N > d.data.P && d.data.N > d.data.U)
+						return colorRedScale(d.data.N / d.data.Total);
+					return colorYellowScale(d.data.U / d.data.Total);
+					//return colour(d.data.Name);
+				})
 				.attr('d', arc);
 			// ===========================================================================================
-
+			
 			// ===========================================================================================
 			// add text labels
 			var label = svg.select('.labelName')
 				.datum(data).selectAll('text')
 				.data(pie)
 				.enter().append('text')
-				.attr('dy', '.35em')
+				.attr('dy', '.25em')
 				.html(function (d) {
 					// add "key: value" for given category. Number inside tspan is bolded in stylesheet.
-					return d.data[category] + ': <tspan>' + d.data[variable] + '</tspan>';
+					return '<tspan>' + d.data[category] + '</tspan>'
+						+ " - P" + ': <tspan>' + d.data.P + '</tspan>'
+						+ ", N" + ': <tspan>' + d.data.N + '</tspan>'
+						+ ", U" + ': <tspan>' + d.data.U + '</tspan>'
+						+ " - Total" + ': <tspan>' + d.data[variable] + '</tspan>';
 				})
 				.attr('transform', function (d) {
 
@@ -458,33 +500,33 @@ function DonutChart() {
 			function toolTip(selection) {
 
 				// add tooltip (svg circle element) when mouse enters label or slice
-				selection.on('mouseenter', function (data, idx) {
+				//selection.on('mouseenter', function (data, idx) {
 
-					d3.selectAll('path')
-						.style("opacity", 0.3);
+				//	d3.selectAll('path')
+				//		.style("opacity", 0.3);
 
-					// Then highlight only those that are an ancestor of the current segment.
-					this.style["opacity"] = 1;
+				//	// Then highlight only those that are an ancestor of the current segment.
+				//	this.style["opacity"] = 1;
 
-					//svg.append('text')
-					//    .attr('class', 'toolCircle')
-					//    .attr('dy', -15) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
-					//    .html(toolTipHTML(data)) // add text to the circle.
-					//    .style('font-size', '.9em')
-					//    .style('text-anchor', 'middle'); // centres text in tooltip
+				//	//svg.append('text')
+				//	//    .attr('class', 'toolCircle')
+				//	//    .attr('dy', -15) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
+				//	//    .html(toolTipHTML(data)) // add text to the circle.
+				//	//    .style('font-size', '.9em')
+				//	//    .style('text-anchor', 'middle'); // centres text in tooltip
 
-					//svg.append('circle')
-					//    .attr('class', 'toolCircle')
-					//    .attr('r', radius * 0.55) // radius of tooltip circle
-					//    .style('fill', data.data['color']) // colour based on category mouse is over
-					//    .style('fill-opacity', 0.35);
-					var f = extractSentiment(data.data);
-					//d3.selectAll('#sentiment_donut').remove();
-					//d3.select('#feature_donut')
-					//	.datum(f) // bind data to the div
-					//	.call(sentiment_donut); // draw chart in div
+				//	//svg.append('circle')
+				//	//    .attr('class', 'toolCircle')
+				//	//    .attr('r', radius * 0.55) // radius of tooltip circle
+				//	//    .style('fill', data.data['color']) // colour based on category mouse is over
+				//	//    .style('fill-opacity', 0.35);
+				//	//var f = extractSentiment(data.data);
+				//	//d3.selectAll('#sentiment_donut').remove();
+				//	//d3.select('#feature_donut')
+				//	//	.datum(f) // bind data to the div
+				//	//	.call(sentiment_donut); // draw chart in div
 
-				});
+				//});
 
 				// remove the tooltip when mouse leaves the slice/label
 				//selection.on('mouseout', function () {
@@ -591,15 +633,21 @@ function DonutChart() {
 		return chart;
 	};
 
+	chart.clear = function () {
+		d3.selectAll('#' + id).remove();
+	};
+
 	return chart;
 }
 
 var margin = { top: 50, bottom: 200 };
 
 var sentimentTriangle = TriangularScatterPlot()
-	.width(1280)
-	.height(720)
-	.margin(margin);
+	.id("tri")
+	.width(580)
+	.height(250)
+	.margin(margin)
+	.isAppend(true);
 
 var feature_donut = DonutChart()
 	.id("feature_donut")
@@ -608,19 +656,31 @@ var feature_donut = DonutChart()
 	.cornerRadius(3) // sets how rounded the corners are on each slice
 	.padAngle(0.015) // effectively dictates the gap between slices
 	.variable('Total')
-	.category('Name')
-	.isAppend(true);
+	.category('Name');
 
-var reviews = new ReviewData();
+var reviews ;
+function createVis() {
+	reviews = new ReviewData();
+	var value = document.getElementById("selection").value;
+	var image_path = "/images/" + value + ".jpg";
 
-d3.dsv('\t', '/res/SamsungS9Review_Features.tsv', function (data) {
-	reviews.Add(data);
-}).then(function () {
-	d3.select('body')
-		.datum(reviews.GetUsers().toArray())
-		.call(sentimentTriangle);
+	var img = document.getElementById("product_img");
+	img.src = image_path;
 
-	d3.select('#tri')
-		.datum(reviews.GetFeatures().toArray())
-		.call(feature_donut);
-});
+	var path = value + "_Features.tsv";
+	d3.dsv('\t', '/res/'+path, function (data) {
+		reviews.Add(data);
+	}).then(function () {
+
+		d3.selectAll('svg').remove();
+
+		d3.select('#vis')
+			.datum(toArray(reviews.GetFeatures()))
+			.call(feature_donut);
+
+		d3.select('#feature_donut')
+			.datum(toArray(reviews.GetUsers()))
+			.call(sentimentTriangle);
+	});
+}
+createVis();

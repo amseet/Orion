@@ -73,7 +73,24 @@
 }
 
 <h2>D3 Demo</h2>
-<div id="chart"></div>
+<div class="container">
+    <div class="row">
+        <select id="selection" onchange="createVis()">
+            <option value="SamsungS9Review">Samsung Galaxy S9+</option>
+            <option value="FarCry5">Ubisoft Far Cry 5</option>
+            <option value="Kindle7th">Kindle Reader 7th Gen</option>
+            <option value="NvidiaShield">Nvidia Shield Gaming System</option>
+            <option value="SanDiskSDCard">SanDisk Extreme microSD Card</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-lg-1" style="margin-left:-175px">
+            <img id="product_img" width="200px" style="margin-top:100px"/>
+        </div>
+        <div class="col-lg-11" id="vis">  
+        </div>
+    </div>
+</div>
 
 @section Scripts{
     <script src="~/lib/d3/d3.js"></script>
