@@ -65,7 +65,7 @@ let ReviewData = class {
 				if (Features[row.Feature] === undefined)
 					Features[row.Feature] = new Feature(row.Feature, row.isEnabled);
 				Features[row.Feature].Add(row.Sentiment);
-			}		
+			}
 		}
 		return Features;
 	}
@@ -93,7 +93,7 @@ let ReviewData = class {
 					Users[row.User_Id] = new User(row.User_Id, row.isEnabled);
 				Users[row.User_Id].Add(row.Pos, row.Neg, row.Nut);
 				Users[row.User_Id].isEnabled = Users[row.User_Id].isEnabled || row.isEnabled;
-			}			
+			}
 		}
 		return Users;
 	}
@@ -111,13 +111,13 @@ var globalHeight = 720;
 ///Source: https://bl.ocks.org/cmgiven/a0f58034cea5331a814b30b74aacb8af
 function TriangularScatterPlot() {
 	var id,
-		width ,
-		height,	
+		width,
+		height,
 		margin,
 		variable, // value in data that will dictate proportions on chart
 		category, // compare data by
 		padAngle // effectively dictates the gap between slices
-		isAppend = false;
+	isAppend = false;
 
 	function tsp(selection) {
 		var side = height * 2 / Math.sqrt(3);
@@ -151,9 +151,9 @@ function TriangularScatterPlot() {
 			var colorBlueScale = d3.scaleSequential(d3.interpolateLab("white", "steelblue"))	// Blue color scheme
 				.domain([0.333, 1]);
 			var colorYellowScale = d3.scaleSequential(d3.interpolateLab("white", "yellow"))	// Yellow color scheme
-				.domain([0.333, 1]); 
+				.domain([0.333, 1]);
 			var colorRedScale = d3.scaleSequential(d3.interpolateLab("white", "red"))	// Red color scheme
-				.domain([0.333, 1]); 
+				.domain([0.333, 1]);
 
 			// set SVG element
 			var svg;
@@ -165,7 +165,7 @@ function TriangularScatterPlot() {
 					.attr('width', width)
 					.attr('height', height)
 					.append('g')
-					.attr('transform', 'translate(' + ((globalWidth - side) / 2) + ',' + ((globalHeight - side)/2) + ')')
+					.attr('transform', 'translate(' + ((globalWidth - side) / 2) + ',' + ((globalHeight - side) / 2) + ')')
 					.append('g');
 			}
 			else {
@@ -185,7 +185,7 @@ function TriangularScatterPlot() {
 					.extent([[sideScale(0) - offset, perpScale(1) - offset], [sideScale(1) + offset, perpScale(0) + offset]])
 					.on("brush", brushed)
 					.on("end", endBrushed));
-			
+
 
 			// triangle Y axis
 			var axis = d3.axisLeft()
@@ -249,7 +249,7 @@ function TriangularScatterPlot() {
 					d.isEnabled = selection[0][0] <= sideScale(d.x) && sideScale(d.x) < selection[1][0]
 						&& selection[0][1] <= perpScale(d.y) && perpScale(d.y) < selection[1][1];
 					return d.isEnabled;
-				});	
+				});
 			}
 
 			function endBrushed() {
@@ -352,16 +352,34 @@ function DonutChart() {
 		variable, // value in data that will dictate proportions on chart
 		category, // compare data by
 		padAngle, // effectively dictates the gap between slices
-		floatFormat = d3.format('.4r'),
 		cornerRadius, // sets how rounded the corners are on each slice
-		percentFormat = d3.format(',.2%'),
 		isAppend = false;
+
+	var colorBlueScale = d3.scaleSequential(d3.interpolateLab("white", "steelblue"))	// Blue color scheme
+		.domain([0.333, 1]);
+	var colorYellowScale = d3.scaleSequential(d3.interpolateLab("white", "yellow"))	// Yellow color scheme
+		.domain([0.333, 1]);
+	var colorRedScale = d3.scaleSequential(d3.interpolateLab("white", "red"))	// Red color scheme
+		.domain([0.333, 1]);
 
 	function chart(selection) {
 		selection.each(function (data) {
 			data = data.slice(0, 10);
 
 			// generate chart
+			var nodeData = { "name": "Features", "children": [] };
+			for (var i in data) {
+				var d = data[i];
+				nodeData.children[i] = {
+					"name": d.Name,
+					"children": [
+						{ "name": "Positive", "size": +d.P },
+						{ "name": "Negative", "size": +d.N },
+						{ "name": "Neutral", "size": +d.U }
+					],
+					"row": d
+				};
+			}
 
 			// ===========================================================================================
 			// Set up constructors for making donut. See https://github.com/d3/d3-shape/blob/master/README.md
@@ -375,8 +393,17 @@ function DonutChart() {
 			// contructs and arc generator. This will be used for the donut. The difference between outer and inner
 			// radius will dictate the thickness of the donut
 			var arc = d3.arc()
-				.outerRadius(radius * 0.8)
-				.innerRadius(radius * 0.6)
+				.startAngle(function (d) { return d.x0; })
+				.endAngle(function (d) { return d.x1; })
+				.innerRadius(function (d) { return (radius * 0.8) + (d.depth - 1) * 25; })
+				.outerRadius(function (d) { return (radius * 0.6) + (d.depth - 1) * (radius * 0.2) + 1; })
+				.cornerRadius(cornerRadius)
+				.padAngle(padAngle);
+
+			//temp arc
+			var arc2 = d3.arc()
+				.innerRadius(function (d) { return radius * 0.8; })
+				.outerRadius(function (d) { return radius * 0.6; })
 				.cornerRadius(cornerRadius)
 				.padAngle(padAngle);
 
@@ -385,8 +412,14 @@ function DonutChart() {
 				.outerRadius(radius * 0.9)
 				.innerRadius(radius * 0.9);
 
-			colour = colour.domain([1, d3.max(data, function (d) { return d.Total; })]);
-			// ===========================================================================================
+			// Data strucure
+			var partition = d3.partition()
+				.size([2 * Math.PI, radius]);
+			// Find data root
+			var root = d3.hierarchy(nodeData)
+				.sum(function (d) { return d.size });
+			// Size arcs
+			partition(root);
 
 			// ===========================================================================================
 			// append the svg object to the selection
@@ -403,7 +436,7 @@ function DonutChart() {
 					.attr('width', width + margin.left + margin.right)
 					.attr('height', height + margin.top + margin.bottom)
 					.append('g')
-					.attr('id', "g_"+id)
+					.attr('id', "g_" + id)
 					.attr('transform', 'translate(' + globalWidth / 2 + ',' + globalHeight / 2 + ')');
 			}
 
@@ -414,31 +447,37 @@ function DonutChart() {
 			svg.append('g').attr('class', 'slices');
 			svg.append('g').attr('class', 'labelName');
 			svg.append('g').attr('class', 'lines');
-			// ===========================================================================================
 
-			var colorBlueScale = d3.scaleSequential(d3.interpolateLab("white", "steelblue"))	// Blue color scheme
-				.domain([0.333, 1]);
-			var colorYellowScale = d3.scaleSequential(d3.interpolateLab("white", "yellow"))	// Yellow color scheme
-				.domain([0.333, 1]);
-			var colorRedScale = d3.scaleSequential(d3.interpolateLab("white", "red"))	// Red color scheme
-				.domain([0.333, 1]); 
+
 			// ===========================================================================================
 			// add and colour the donut slices
 			var path = svg.select('.slices')
-				.datum(data).selectAll('path')
-				.data(pie)
+				.selectAll('path')
+				.data(root.descendants())
 				.enter().append('path')
+				.attr("display", function (d) { return d.depth ? null : "none"; })
 				.attr('fill', function (d) {
-					if (d.data.P > d.data.N && d.data.P > d.data.U)
-						return colorBlueScale(d.data.P / d.data.Total);
-					else if (d.data.N > d.data.P && d.data.N > d.data.U)
-						return colorRedScale(d.data.N / d.data.Total);
-					return colorYellowScale(d.data.U / d.data.Total);
-					//return colour(d.data.Name);
+					var depth = d.depth;
+					if (depth === 1) {
+						var r = d.data.row;
+						if (r.P > r.N && r.P > r.U)
+							return colorBlueScale(r.P / r.Total);
+						else if (r.N > r.P && r.N > r.U)
+							return colorRedScale(r.N / r.Total);
+						return colorYellowScale(r.U / r.Total);
+					}
+					else if (depth === 2) {
+						if (d.data.name === "Positive")
+							return colorBlueScale(1);
+						else if (d.data.name === "Negative")
+							return colorRedScale(1);
+						return colorYellowScale(1);
+					}
 				})
 				.attr('d', arc);
+
 			// ===========================================================================================
-			
+
 			// ===========================================================================================
 			// add text labels
 			var label = svg.select('.labelName')
@@ -473,7 +512,7 @@ function DonutChart() {
 			// ===========================================================================================
 			// add lines connecting labels to slice. A polyline creates straight lines connecting several points
 			var polyline = svg.select('.lines')
-				.datum(data.filter(function (d) { return d.isEnabled === true; })).selectAll('polyline')
+				.datum(data).selectAll('polyline')
 				.data(pie)
 				.enter().append('polyline')
 				.attr('points', function (d) {
@@ -481,7 +520,7 @@ function DonutChart() {
 					// see label transform function for explanations of these three lines.
 					var pos = outerArc.centroid(d);
 					pos[0] = radius * 0.95 * (midAngle(d) < Math.PI ? 1 : -1);
-					return [arc.centroid(d), outerArc.centroid(d), pos];
+					return [arc2.centroid(d), outerArc.centroid(d), pos];
 				});
 			// ===========================================================================================
 
@@ -658,7 +697,7 @@ var feature_donut = DonutChart()
 	.variable('Total')
 	.category('Name');
 
-var reviews ;
+var reviews;
 function createVis() {
 	reviews = new ReviewData();
 	var value = document.getElementById("selection").value;
@@ -668,7 +707,7 @@ function createVis() {
 	img.src = image_path;
 
 	var path = value + "_Features.tsv";
-	d3.dsv('\t', '/res/'+path, function (data) {
+	d3.dsv('\t', '/res/' + path, function (data) {
 		reviews.Add(data);
 	}).then(function () {
 
