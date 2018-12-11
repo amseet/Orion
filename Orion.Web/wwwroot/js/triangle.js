@@ -161,7 +161,7 @@ function TriangularScatterPlot() {
 			if (isAppend === true) {
 				svg = d3.select(this)
 					.append('g')
-					.attr('id', id)
+					.attr('id', 'g_'+id)
 					.attr('width', width)
 					.attr('height', height)
 					.append('g')
@@ -170,10 +170,11 @@ function TriangularScatterPlot() {
 			}
 			else {
 				svg = selection.append('svg')
+					.attr('id', id)
 					.attr('width', width)
 					.attr('height', height + margin.top + margin.bottom)
 					.append('g')
-					.attr('id', id)
+					.attr('id', 'g_'+id)
 					.attr('transform', 'translate(' + ((width - side) / 2) + ',' + (margin.top + 0.5) + ')')
 					.append('g');
 			}
@@ -468,10 +469,10 @@ function DonutChart() {
 					}
 					else if (depth === 2) {
 						if (d.data.name === "Positive")
-							return colorBlueScale(1);
+							return colorBlueScale(0.667);
 						else if (d.data.name === "Negative")
-							return colorRedScale(1);
-						return colorYellowScale(1);
+							return colorRedScale(0.667);
+						return colorYellowScale(0.667);
 					}
 				})
 				.attr('d', arc);
@@ -507,7 +508,6 @@ function DonutChart() {
 					// if slice centre is on the left, anchor text to start, otherwise anchor to end
 					return (midAngle(d)) < Math.PI ? 'start' : 'end';
 				});
-			// ===========================================================================================
 
 			// ===========================================================================================
 			// add lines connecting labels to slice. A polyline creates straight lines connecting several points
@@ -539,44 +539,32 @@ function DonutChart() {
 			function toolTip(selection) {
 
 				// add tooltip (svg circle element) when mouse enters label or slice
-				//selection.on('mouseenter', function (data, idx) {
+				selection.on('mouseenter', function (data, idx) {
+					d3.selectAll('path')
+						.style("opacity", 0.3);
 
-				//	d3.selectAll('path')
-				//		.style("opacity", 0.3);
+					// Then highlight only those that are an ancestor of the current segment.
+					this.style["opacity"] = 1;
+					this.style["stroke"] = "#888";
 
-				//	// Then highlight only those that are an ancestor of the current segment.
-				//	this.style["opacity"] = 1;
+					//filter by feature
+					d3.selectAll('#g_tri').remove();
+					d3.select('#feature_donut')
+						.datum(toArray(reviews.GetUsers()))
+						.call(sentimentTriangle);
+				});
 
-				//	//svg.append('text')
-				//	//    .attr('class', 'toolCircle')
-				//	//    .attr('dy', -15) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
-				//	//    .html(toolTipHTML(data)) // add text to the circle.
-				//	//    .style('font-size', '.9em')
-				//	//    .style('text-anchor', 'middle'); // centres text in tooltip
+				//remove the tooltip when mouse leaves the slice/label
+				selection.on('mouseout', function () {				
+					d3.selectAll('path')
+						.style("opacity", 1)
+						.style("stroke", 'none');
 
-				//	//svg.append('circle')
-				//	//    .attr('class', 'toolCircle')
-				//	//    .attr('r', radius * 0.55) // radius of tooltip circle
-				//	//    .style('fill', data.data['color']) // colour based on category mouse is over
-				//	//    .style('fill-opacity', 0.35);
-				//	//var f = extractSentiment(data.data);
-				//	//d3.selectAll('#sentiment_donut').remove();
-				//	//d3.select('#feature_donut')
-				//	//	.datum(f) // bind data to the div
-				//	//	.call(sentiment_donut); // draw chart in div
-
-				//});
-
-				// remove the tooltip when mouse leaves the slice/label
-				//selection.on('mouseout', function () {
-				//	d3.selectAll('.toolCircle').remove();
-				//	d3.selectAll('path')
-				//		.style("opacity", 1);
-				//	d3.selectAll('#sentiment_donut').remove();
-				//	d3.select('#feature_donut')
-				//		.datum(global_sentiment) // bind data to the div
-				//		.call(sentiment_donut); // draw chart in div
-				//});
+					d3.selectAll('#g_tri').remove();
+					d3.select('#feature_donut')
+						.datum(toArray(reviews.GetUsers()))
+						.call(sentimentTriangle);
+				});
 			}
 
 			// function to create the HTML string for the tool tip. Loops through each key in data object
