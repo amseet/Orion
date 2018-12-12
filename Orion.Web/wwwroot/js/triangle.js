@@ -51,12 +51,10 @@ let ReviewData = class {
 	constructor() {
 		this.Rows = [];
 	}
-
 	Add(row) {
 		this.Rows[+row.Uid] = row;
 		this.Rows[+row.Uid].isEnabled = true;
 	}
-
 	GetFeatures() {
 		var Features = [];
 		for (var i in this.Rows) {
@@ -69,26 +67,25 @@ let ReviewData = class {
 		}
 		return Features;
 	}
-
 	SetByFeature(featureName, enabled) {
 		for (var i in this.Rows) {
 			if (this.Rows[i].Feature !== undefined && this.Rows[i].Feature === featureName)
 				this.Rows[i].isEnabled = enabled;
+			else
+				this.Rows[i].isEnabled = !enabled;
 		}
 	}
-
 	SetByUserId(UserId, enabled) {
 		for (var i in this.Rows) {
 			if (this.Rows[i].User_Id !== undefined && this.Rows[i].User_Id === UserId)
 				this.Rows[i].isEnabled = enabled;
 		}
 	}
-
 	GetUsers() {
 		var Users = [];
 		for (var i in this.Rows) {
 			var row = this.Rows[i];
-			if (row.User_Id !== undefined) {
+			if (row.User_Id !== undefined && row.isEnabled === true) {
 				if (Users[row.User_Id] === undefined)
 					Users[row.User_Id] = new User(row.User_Id, row.isEnabled);
 				Users[row.User_Id].Add(row.Pos, row.Neg, row.Nut);
@@ -96,6 +93,11 @@ let ReviewData = class {
 			}
 		}
 		return Users;
+	}
+	EnableAll() {
+		for (var i in this.Rows) {
+			this.Rows[i].isEnabled = true;
+		}
 	}
 };
 
@@ -288,55 +290,46 @@ function TriangularScatterPlot() {
 		id = value;
 		return tsp;
 	};
-
 	tsp.width = function (value) {
 		if (!arguments.length) return width;
 		width = value;
 		return tsp;
 	};
-
 	tsp.height = function (value) {
 		if (!arguments.length) return height;
 		height = value;
 		return tsp;
 	};
-
 	tsp.margin = function (value) {
 		if (!arguments.length) return margin;
 		margin = value;
 		return tsp;
 	};
-
 	tsp.color = function (value) {
 		if (!arguments.length) return color;
 		color = value;
 		return tsp;
 	};
-
 	tsp.variable = function (value) {
 		if (!arguments.length) return variable;
 		variable = value;
 		return tsp;
 	};
-
 	tsp.category = function (value) {
 		if (!arguments.length) return category;
 		category = value;
 		return tsp;
 	};
-
 	tsp.padAngle = function (value) {
 		if (!arguments.length) return padAngle;
 		padAngle = value;
 		return tsp;
 	};
-
 	tsp.isAppend = function (value) {
 		if (!arguments.length) return isAppend;
 		isAppend = value;
 		return tsp;
 	};
-
 	tsp.clear = function () {
 		d3.selectAll('#' + id).remove();
 	};
@@ -456,7 +449,7 @@ function DonutChart() {
 				.selectAll('path')
 				.data(root.descendants())
 				.enter().append('path')
-				.attr("display", function (d) { return d.depth ? null : "none"; })
+				.attr("display", function (d) { return d.depth === 0 || d.depth === 2 ? "none" : null; })
 				.attr('fill', function (d) {
 					var depth = d.depth;
 					if (depth === 1) {
@@ -539,31 +532,39 @@ function DonutChart() {
 			function toolTip(selection) {
 
 				// add tooltip (svg circle element) when mouse enters label or slice
-				selection.on('mouseenter', function (data, idx) {
-					d3.selectAll('path')
-						.style("opacity", 0.3);
+				selection.on('mouseenter', function (d, idx) {
+					if (d.depth === 1) {
+						d3.selectAll('path')
+							.style("opacity", 0.3);
 
-					// Then highlight only those that are an ancestor of the current segment.
-					this.style["opacity"] = 1;
-					this.style["stroke"] = "#888";
+						// Then highlight only those that are an ancestor of the current segment.
+						this.style["opacity"] = 1;
+						this.style["stroke"] = "#888";
 
-					//filter by feature
-					d3.selectAll('#g_tri').remove();
-					d3.select('#feature_donut')
-						.datum(toArray(reviews.GetUsers()))
-						.call(sentimentTriangle);
+						reviews.SetByFeature(d.data.name, true);
+
+						//filter by feature
+						d3.selectAll('#g_tri').remove();
+						d3.select('#feature_donut')
+							.datum(toArray(reviews.GetUsers()))
+							.call(sentimentTriangle);
+					}
 				});
 
 				//remove the tooltip when mouse leaves the slice/label
-				selection.on('mouseout', function () {				
-					d3.selectAll('path')
-						.style("opacity", 1)
-						.style("stroke", 'none');
+				selection.on('mouseout', function (d) {
+					if (d.depth === 1) {
+						d3.selectAll('path')
+							.style("opacity", 1)
+							.style("stroke", 'none');
 
-					d3.selectAll('#g_tri').remove();
-					d3.select('#feature_donut')
-						.datum(toArray(reviews.GetUsers()))
-						.call(sentimentTriangle);
+						reviews.EnableAll();
+
+						d3.selectAll('#g_tri').remove();
+						d3.select('#feature_donut')
+							.datum(toArray(reviews.GetUsers()))
+							.call(sentimentTriangle);
+					}
 				});
 			}
 
@@ -688,13 +689,15 @@ var feature_donut = DonutChart()
 var reviews;
 function createVis() {
 	reviews = new ReviewData();
-	var value = document.getElementById("selection").value;
-	var image_path = "/images/" + value + ".jpg";
+	var selection = document.getElementById("selection");
+	var image_path = "/images/" + selection.value + ".jpg";
 
+	var name = document.getElementById("product_name");
+	name.innerHTML = selection.options[selection.selectedIndex].innerText;
 	var img = document.getElementById("product_img");
 	img.src = image_path;
 
-	var path = value + "_Features.tsv";
+	var path = selection.value + "_Features.tsv";
 	d3.dsv('\t', '/res/' + path, function (data) {
 		reviews.Add(data);
 	}).then(function () {
