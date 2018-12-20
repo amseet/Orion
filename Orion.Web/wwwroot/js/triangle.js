@@ -67,20 +67,32 @@ let ReviewData = class {
 		}
 		return Features;
 	}
-	SetByFeature(featureName, enabled) {
-		for (var i in this.Rows) {
-			if (this.Rows[i].Feature !== undefined && this.Rows[i].Feature === featureName)
-				this.Rows[i].isEnabled = enabled;
-			else
-				this.Rows[i].isEnabled = !enabled;
-		}
-	}
+
 	SetByUserId(UserId, enabled) {
 		for (var i in this.Rows) {
 			if (this.Rows[i].User_Id !== undefined && this.Rows[i].User_Id === UserId)
 				this.Rows[i].isEnabled = enabled;
 		}
 	}
+
+	SetByFeature(featureName, enabled) {
+		var users = [];
+		var idx = 0;
+		for (var i in this.Rows) {
+			if (this.Rows[i].Feature !== undefined && this.Rows[i].Feature === featureName) {
+				this.Rows[i].isEnabled = enabled;
+				users[idx++] = this.Rows[i].User_Id;
+			}
+			else
+				this.Rows[i].isEnabled = !enabled;
+		}
+
+		for (i in users) {
+			var user = users[i];
+			this.SetByUserId(user, true);
+		}
+	}
+	
 	GetUsers() {
 		var Users = [];
 		for (var i in this.Rows) {
@@ -147,7 +159,7 @@ function TriangularScatterPlot() {
 				.range([height, 0]);
 
 			var r = d3.scaleSqrt()
-				.domain([0, d3.max(data, function (d) { return d.Total; })])
+				.domain([0, 20])
 				.range([0, 10]);
 
 			var colorBlueScale = d3.scaleSequential(d3.interpolateLab("white", "steelblue"))	// Blue color scheme
@@ -394,7 +406,7 @@ function DonutChart() {
 				.cornerRadius(cornerRadius)
 				.padAngle(padAngle);
 
-			//temp arc
+			// this arc is used for aligning the text labels
 			var arc2 = d3.arc()
 				.innerRadius(function (d) { return radius * 0.8; })
 				.outerRadius(function (d) { return radius * 0.6; })
@@ -411,7 +423,7 @@ function DonutChart() {
 				.size([2 * Math.PI, radius]);
 			// Find data root
 			var root = d3.hierarchy(nodeData)
-				.sum(function (d) { return d.size });
+				.sum(function (d) { return d.size; });
 			// Size arcs
 			partition(root);
 
@@ -450,6 +462,10 @@ function DonutChart() {
 				.data(root.descendants())
 				.enter().append('path')
 				.attr("display", function (d) { return d.depth === 0 || d.depth === 2 ? "none" : null; })
+				.attr('class', function (d) {
+					return d.parent !== null && d.depth !== 0 ?
+						d.parent.data.name.replace(' ', '_') + '_' + d.data.name.replace(' ', '_') : d.data.name.replace(' ', '_');
+				})
 				.attr('fill', function (d) {
 					var depth = d.depth;
 					if (depth === 1) {
@@ -462,10 +478,10 @@ function DonutChart() {
 					}
 					else if (depth === 2) {
 						if (d.data.name === "Positive")
-							return colorBlueScale(0.667);
+							return colorBlueScale(0.7);
 						else if (d.data.name === "Negative")
-							return colorRedScale(0.667);
-						return colorYellowScale(0.667);
+							return colorRedScale(0.7);
+						return colorYellowScale(0.7);
 					}
 				})
 				.attr('d', arc);
@@ -486,6 +502,10 @@ function DonutChart() {
 						+ ", N" + ': <tspan>' + d.data.N + '</tspan>'
 						+ ", U" + ': <tspan>' + d.data.U + '</tspan>'
 						+ " - Total" + ': <tspan>' + d.data[variable] + '</tspan>';
+				})
+				.attr('class', function (d) {
+					return d.parent !== undefined && d.depth !== 0 ?
+						d.parent.data.Name.replace(' ', '_') + '_' + d.data.Name.replace(' ', '_') : d.data.Name.replace(' ', '_');
 				})
 				.attr('transform', function (d) {
 
@@ -508,6 +528,11 @@ function DonutChart() {
 				.datum(data).selectAll('polyline')
 				.data(pie)
 				.enter().append('polyline')
+				.style('stroke', "#aaa")
+				.attr('class', function (d) {
+					return d.parent !== undefined && d.depth !== 0 ?
+						d.parent.data.Name.replace(' ', '_') + '_' + d.data.Name.replace(' ', '_') : d.data.Name.replace(' ', '_');
+				})
 				.attr('points', function (d) {
 
 					// see label transform function for explanations of these three lines.
@@ -534,14 +559,29 @@ function DonutChart() {
 				// add tooltip (svg circle element) when mouse enters label or slice
 				selection.on('mouseenter', function (d, idx) {
 					if (d.depth === 1) {
-						d3.selectAll('path')
+						d3.selectAll('path, polyline, text')
 							.style("opacity", 0.3);
+				
 
 						// Then highlight only those that are an ancestor of the current segment.
 						this.style["opacity"] = 1;
 						this.style["stroke"] = "#888";
 
 						reviews.SetByFeature(d.data.name, true);
+
+						d3.selectAll('.' + d.data.name.replace(' ', '_'))
+							.attr('display', null)
+							.style("opacity", 1);
+
+						//dsiplay children (sunburst styles)
+						for (i in d.children) {
+							var child = d.children[i];
+							var name = d.data.name.replace(' ', '_') + '_' + child.data.name.replace(' ', '_');
+							d3.select('.' + name)
+								.attr('display', null)
+								.style("opacity", 1);
+						}
+						
 
 						//filter by feature
 						d3.selectAll('#g_tri').remove();
@@ -554,11 +594,21 @@ function DonutChart() {
 				//remove the tooltip when mouse leaves the slice/label
 				selection.on('mouseout', function (d) {
 					if (d.depth === 1) {
-						d3.selectAll('path')
+						d3.selectAll('path, text')
 							.style("opacity", 1)
 							.style("stroke", 'none');
 
+						d3.selectAll('polyline')
+							.style("opacity", 1);
+
 						reviews.EnableAll();
+
+						for (i in d.children) {
+							var child = d.children[i];
+							var name = d.data.name.replace(' ', '_') + '_' + child.data.name.replace(' ', '_');
+							d3.select('.' + name)
+								.attr('display', 'none');
+						}
 
 						d3.selectAll('#g_tri').remove();
 						d3.select('#feature_donut')
