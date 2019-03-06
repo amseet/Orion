@@ -1,6 +1,6 @@
 ﻿using Itinero;
 using Itinero.Osm.Vehicles;
-using Orion.Models;
+using Digitizer.Models;
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -13,7 +13,8 @@ namespace Digitizer
         {
             var watch = System.Diagnostics.Stopwatch.StartNew();
             TripDataModel td = new TripDataModel();
-            Binarizer.Binarize<TripAttributes>(file, file + ".dat", ',', td.ParseTokens);
+            string dest = file.Replace(".csv", ".dat");
+            Binarizer.Binarize<TripAttributes>(file,  dest, ',', td.ParseTokens);
 
             watch.Stop();
             var elapsedSec = watch.ElapsedMilliseconds / 1000f;
@@ -27,7 +28,6 @@ namespace Digitizer
             TripDataModel td = new TripDataModel();
             Task task = Task.Run(() =>
             {
-                //string file = @".\..\..\data\yellow_tripdata_2016-02.csv";
                 FileStream fstream = new FileStream(file, FileMode.Open, FileAccess.Read);
                 var watch = System.Diagnostics.Stopwatch.StartNew();
 
@@ -83,11 +83,25 @@ namespace Digitizer
 
         public static void Main(string[] args)
         {
-            string file = @"C:\Users\seetam\Documents\TaxiData\yellow_tripdata_2016-01.csv";
-            convert(file);
+            int [] years = { 2015, 2016 };
+            int[] months = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+            string path = @"C:\Users\seetam\Documents\TaxiData\Raw\";
 
-            TripDataModel td = import(file);
-            TripAttributes att = Binarizer.Get<TripAttributes>(file + ".dat", 1000);
+            foreach(var year in years)
+            {
+                foreach(var month in months)
+                {
+                    string filename = string.Format(@"yellow_tripdata_{0}-{1:D2}.csv", year, month);
+                    string file = Path.Combine(path, filename);
+                    Console.WriteLine("Converting {0}.", filename);
+                    convert(file);
+                }
+            }
+
+            
+
+            //TripDataModel td = import(file);
+            //TripAttributes att = Binarizer.Get<TripAttributes>(file + ".dat", 1000);
 
             //Console.WriteLine("Routing start");
             //TestRouting();

@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Itinero\Itinero.csproj" />
-    <ProjectReference Include="..\Orion\Orion.csproj" />
   </ItemGroup>
 
 </Project>

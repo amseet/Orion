@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Orion.DB.Models
 {
+    [Table("tripdataByTripDate")]
     public class TripDataModel
     {
         [Key]
@@ -19,6 +21,14 @@ namespace Orion.DB.Models
         public double Dropoff_Latitude { get; set; }
         public double Fare_Amount { get; set; }
 
-        public List<TripRoutesModel> TripRoutes { get; set; }
+        public DateTime Trip_Date { get; set; }
+        public string Trip_Day { get; set; }
+        public int Trip_Hour { get; set; }
+        // public List<TripRouteModel> TripRoutes { get; set; }
+
+        override public string ToString()
+        {
+            return string.Join(',', TripId, Pickup_Datetime, Dropoff_Datetime, Passenger_Count);
+        }
     }
 }

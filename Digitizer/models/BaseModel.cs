@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Orion.Models
+namespace Digitizer.Models
 {
     public abstract class  BaseModel<T> where T : struct
     {

@@ -12,10 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Digitizer\Digitizer.csproj" />
     <ProjectReference Include="..\Itinero.Geo\Itinero.Geo.csproj" />
     <ProjectReference Include="..\Itinero.IO.OpenLR\Itinero.IO.OpenLR.csproj" />
     <ProjectReference Include="..\Itinero.IO.Osm\Itinero.IO.Osm.csproj" />

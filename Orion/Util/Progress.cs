@@ -16,7 +16,8 @@ namespace Orion.Util
         {
             timer = new Timer();
             timer.Elapsed += Timer_Elapsed;
-            timer.Interval = interval;   
+            timer.Interval = interval;
+            Counter = 0;
         }
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
@@ -25,10 +26,14 @@ namespace Orion.Util
 
             if (Counter >= MaxValue)
             {
-                timer.Enabled = false;
-                timer.Stop();
-                timer.Close();
+                Stop();
             } 
+        }
+        public void Stop()
+        {
+            timer.Enabled = false;
+            timer.Stop();
+            timer.Close();
         }
 
         public void Start()

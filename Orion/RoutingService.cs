@@ -31,9 +31,9 @@ namespace Orion
         private List<int> ProcessedTrafficPoints;
         private int searchDistanceInMeter = 250;
 
-        private RoutingService(string routerDbFilePath, SqlContext contx)
+        private RoutingService(string routerDbFilePath)
         {
-            context = contx;
+            context = new SqlContext();
             //EnableLogging();
             routerDb = new RouterDb();
             if (File.Exists(routerDbFilePath))
@@ -48,10 +48,10 @@ namespace Orion
             ProcessedTrafficPoints = new List<int>();
         }
 
-        public static void InitService(string routerDbFilePath, SqlContext context)
+        public static void InitService(string routerDbFilePath)
         {
             
-            Service =  new RoutingService(routerDbFilePath, context);
+            Service =  new RoutingService(routerDbFilePath);
         }
 
         private void EnableLogging()
@@ -103,15 +103,11 @@ namespace Orion
             if (!result.IsError)
             {
                 Route route = result.Value;
-                sql.TripRoutes.Add(new TripRoutesModel() {
-                    TripData = trip,
-                    //withTraffic = withTraffic,
-                    Trip_Route = route.ToGeoJson(),
-                    Trip_Distance = route.TotalDistance,
-                    Trip_Time = route.TotalTime,
-                    Provider = "Itinero",
-                    Route_Method = profile.FullName
-                });
+                //sql.TripRoute.Add(new TripRouteModel() {
+                //    TripData = trip,
+                //    Trip_Distance = route.TotalDistance,
+                //    Trip_Time = route.TotalTime
+                //});
             }
         }
 
@@ -165,8 +161,8 @@ namespace Orion
             SqlContext sql = new SqlContext();
             foreach (var trip in sql.TripData.Skip(batchIdx * batchSize).Take(batchSize))
             {
-                if (sql.TripRoutes.Where(o => o.TripData.TripId == trip.TripId).Count() == 0)
-                    AddRouteDb(sql, router, trip, Itinero.Osm.Vehicles.Vehicle.Car.Fastest(),true);
+                //if (sql.TripRoute.Where(o => o.TripData.TripId == trip.TripId).Count() == 0)
+                    AddRouteDb(sql, router, trip, Itinero.Osm.Vehicles.Vehicle.Car.Shortest(),true);
                 progress.inc();
             }
             sql.SaveChanges();
@@ -213,98 +209,98 @@ namespace Orion
             }
         }
 
-        public void RouteWithTraffic()
-        {
-            var x = context.TripData.Count();
-            foreach (var trip in context.TripData.Take(100))
-            {
-                AddRouteDb(context, router, trip, Itinero.Osm.Vehicles.Vehicle.Car.Shortest());
+        //public void RouteWithTraffic()
+        //{
+        //    var x = context.TripData.Count();
+        //    foreach (var trip in context.TripData.Take(100))
+        //    {
+        //        AddRouteDb(context, router, trip, Itinero.Osm.Vehicles.Vehicle.Car.Shortest());
                
-                /*
-                * Routing with traffic data from db 
-                */
-                IQueryable<TrafficDataModel> trafficDatas = context.TrafficData.Where(t => t.Data_As_Of >= trip.Pickup_Datetime.AddMinutes(-5)
-                                                        && t.Data_As_Of <= trip.Pickup_Datetime);
+        //        /*
+        //        * Routing with traffic data from db 
+        //        */
+        //        IQueryable<TrafficDataModel> trafficDatas = context.TrafficData.Where(t => t.Data_As_Of >= trip.Pickup_Datetime.AddMinutes(-5)
+        //                                                && t.Data_As_Of <= trip.Pickup_Datetime);
 
-                // create coder.
-                Coder coder = new Coder(routerDb, new OsmCoderProfile());
-                BuildTraffic(coder, trafficDatas);
+        //        // create coder.
+        //        Coder coder = new Coder(routerDb, new OsmCoderProfile());
+        //        BuildTraffic(coder, trafficDatas);
 
-                AddRouteDb(context, coder.Router, trip, Itinero.Osm.Vehicles.Vehicle.Car.Shortest(), true);
+        //        AddRouteDb(context, coder.Router, trip, Itinero.Osm.Vehicles.Vehicle.Car.Shortest(), true);
 
-                SaveDb();
+        //        SaveDb();
                 
-            }
+        //    }
 
-            //// get edge details.
-            //var edge = routerDb.Network.GetEdge(router.Resolve(car, new Coordinate(40.733178f, -73.987169f)).EdgeIdDirected());
-            //var oldattributes = routerDb.EdgeProfiles.Get(edge.Data.Profile);
-            //var meta = routerDb.EdgeMeta.Get(edge.Data.MetaId);
+        //    //// get edge details.
+        //    //var edge = routerDb.Network.GetEdge(router.Resolve(car, new Coordinate(40.733178f, -73.987169f)).EdgeIdDirected());
+        //    //var oldattributes = routerDb.EdgeProfiles.Get(edge.Data.Profile);
+        //    //var meta = routerDb.EdgeMeta.Get(edge.Data.MetaId);
 
-        }
+        //}
 
-        public void RouteTrafficStops()
-        {
-            /*
-            * Routing traffic stops from db and save to a geojson file
-            */
-            List<TrafficDataModel> trafficDatas = context.TrafficData.ToList();
+        //public void RouteTrafficStops()
+        //{
+        //    /*
+        //    * Routing traffic stops from db and save to a geojson file
+        //    */
+        //    List<TrafficDataModel> trafficDatas = context.TrafficData.ToList();
 
-            foreach (TrafficDataModel entry in trafficDatas)
-            {
-                // create coder.
-                var coder = new Coder(routerDb, new OsmCoderProfile());
+        //    foreach (TrafficDataModel entry in trafficDatas)
+        //    {
+        //        // create coder.
+        //        var coder = new Coder(routerDb, new OsmCoderProfile());
 
-                // STAGING: create some test linestrings: encode edge(s) and pair them off with tags.
-                var edges = new Dictionary<string, IAttributeCollection>();
-                var attributes = new AttributeCollection();
-                attributes.AddOrReplace("maxspeed", entry.Speed + " mph");
+        //        // STAGING: create some test linestrings: encode edge(s) and pair them off with tags.
+        //        var edges = new Dictionary<string, IAttributeCollection>();
+        //        var attributes = new AttributeCollection();
+        //        attributes.AddOrReplace("maxspeed", entry.Speed + " mph");
 
-                //there's a much faster way of doing this using Dictionary class
-                string[] points = entry.Link_Points.Split(' ');
-                foreach (var point in points)
-                {
-                    string[] coor = point.Split(',');
-                    if (coor.Length == 2)
-                    {
-                        float.TryParse(coor[0], out float _lat);
-                        float.TryParse(coor[1], out float _long);
+        //        //there's a much faster way of doing this using Dictionary class
+        //        string[] points = entry.Link_Points.Split(' ');
+        //        foreach (var point in points)
+        //        {
+        //            string[] coor = point.Split(',');
+        //            if (coor.Length == 2)
+        //            {
+        //                float.TryParse(coor[0], out float _lat);
+        //                float.TryParse(coor[1], out float _long);
 
-                        //Encode edges and add attributes.
-                        try
-                        {
-                            edges[coder.EncodeClosestEdge(new Coordinate(_lat, _long))] = attributes;
-                        }
-                        catch (Exception e)
-                        {
-                            //skip edge if error
-                        }
-                    }
-                }
+        //                //Encode edges and add attributes.
+        //                try
+        //                {
+        //                    edges[coder.EncodeClosestEdge(new Coordinate(_lat, _long))] = attributes;
+        //                }
+        //                catch (Exception e)
+        //                {
+        //                    //skip edge if error
+        //                }
+        //            }
+        //        }
 
-                // decode edges and augment routerdb.
-                foreach (var pair in edges)
-                {
-                    var encodedLine = pair.Key;
-                    var attribute = pair.Value;
-                    coder.DecodeLine(encodedLine, attribute);
-                }
+        //        // decode edges and augment routerdb.
+        //        foreach (var pair in edges)
+        //        {
+        //            var encodedLine = pair.Key;
+        //            var attribute = pair.Value;
+        //            coder.DecodeLine(encodedLine, attribute);
+        //        }
 
-                //route = coder.Router.Calculate(car, new Coordinate((float)trip.Pickup_Latitude, (float)trip.Pickup_Longitude),
-                //new Coordinate((float)trip.Dropoff_Latitude, (float)trip.Dropoff_Longitude));
+        //        //route = coder.Router.Calculate(car, new Coordinate((float)trip.Pickup_Latitude, (float)trip.Pickup_Longitude),
+        //        //new Coordinate((float)trip.Dropoff_Latitude, (float)trip.Dropoff_Longitude));
 
-                //tripRoutes = new TripRoutesModel();
-                //tripRoutes.TripData = trip;
-                //tripRoutes.withTraffic = true;
-                //tripRoutes.Trip_Route = route.ToGeoJson();
-                //tripRoutes.Trip_Distance = route.TotalDistance;
-                //tripRoutes.Trip_Time = route.TotalTime;
-                //tripRoutes.Provider = "Itinero";
-                //context.TripRoutes.Add(tripRoutes);
-                //tripRoutes.Route_Method = "Shortest";
-            }
+        //        //tripRoutes = new TripRoutesModel();
+        //        //tripRoutes.TripData = trip;
+        //        //tripRoutes.withTraffic = true;
+        //        //tripRoutes.Trip_Route = route.ToGeoJson();
+        //        //tripRoutes.Trip_Distance = route.TotalDistance;
+        //        //tripRoutes.Trip_Time = route.TotalTime;
+        //        //tripRoutes.Provider = "Itinero";
+        //        //context.TripRoutes.Add(tripRoutes);
+        //        //tripRoutes.Route_Method = "Shortest";
+        //    }
 
-            context.SaveChanges();
-        }
+        //    context.SaveChanges();
+        //}
     }
 }

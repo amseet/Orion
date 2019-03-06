@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace Digitizer.models
+namespace Digitizer.Models
 {
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
     public class CSVAttribute : Attribute

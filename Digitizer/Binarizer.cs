@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Timers;
 
 namespace Digitizer
 {
-    class Binarizer
+    public class Binarizer
     {
         /// <summary>
         /// Source: https://stackoverflow.com/questions/2871/reading-a-c-c-data-structure-in-c-sharp-from-a-byte-array
@@ -29,6 +30,20 @@ namespace Digitizer
             Marshal.StructureToPtr<T>(t, handle.AddrOfPinnedObject(), false);
             handle.Free();
             return bytes;
+        }
+
+        public static void Binarize<T>(List<T> list, string destination) where T : struct
+        {
+            using (var dstream = new FileStream(destination, FileMode.Create, FileAccess.Write))
+            {
+                BinaryWriter bwriter = new BinaryWriter(dstream);
+                foreach(T item in list)
+                {
+                    byte[] bytes = Binarizer.StructureToByteArray<T>(item);
+                    // Write bytes to file
+                    bwriter.Write(bytes, 0, bytes.Length);
+                }
+            }
         }
 
         public static void Binarize<T>(string source, string destination, char delimiter, Func<string[], T> TokenParser) where T : struct
@@ -105,7 +120,6 @@ namespace Digitizer
 
                 return Rows;
             }
-            return null;
         }
 
         public static T Get<T>(string file, long row) where T : struct

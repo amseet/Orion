@@ -9,8 +9,7 @@ namespace Orion.DB
     public class SqlContext: DbContext
     {
         public DbSet<TripDataModel> TripData { get; set; }
-        public DbSet<TripRoutesModel> TripRoutes { get; set; }
-        public DbSet<TrafficDataModel> TrafficData { get; set; }
+        //public DbSet<TripRouteModel> TripRoute { get; set; }
         public SqlContext(DbContextOptions<SqlContext> options)
            : base(options)
         {
@@ -19,6 +18,7 @@ namespace Orion.DB
 
         public SqlContext()
         {
+            this.Database.SetCommandTimeout(6000);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -26,15 +26,17 @@ namespace Orion.DB
             if (!optionsBuilder.IsConfigured)
             {
                 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB; Initial Catalog = Orion; Integrated Security = True; TrustServerCertificate = True; ApplicationIntent = ReadWrite; MultipleActiveResultSets=true;");
+                optionsBuilder.UseSqlServer(@"Server=DESKTOP-IM96RCK; Initial Catalog = Orion; Integrated Security = True; TrustServerCertificate = True; ApplicationIntent = ReadWrite; MultipleActiveResultSets=true;");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<TripRoutesModel>()
-                .HasOne(t => t.TripData)
-                .WithMany(d => d.TripRoutes);
+            //modelBuilder.Entity<TripRouteModel>()
+            //    .HasOne(t => t.TripData)
+            //    .WithMany(d => d.TripRoutes);
+            //modelBuilder.Entity<TripDataModel>()
+            //    .HasIndex(o => o.Trip_Date);
         }
     }
 }
