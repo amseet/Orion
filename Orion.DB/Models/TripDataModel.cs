@@ -24,6 +24,7 @@ namespace Orion.DB.Models
         public DateTime Trip_Date { get; set; }
         public string Trip_Day { get; set; }
         public int Trip_Hour { get; set; }
+        public int Trip_Minute { get; set; }
         // public List<TripRouteModel> TripRoutes { get; set; }
 
         override public string ToString()

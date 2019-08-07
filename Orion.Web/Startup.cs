@@ -18,6 +18,7 @@ namespace Orion.Web
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            RoutingService.InitService(@"C:\Users\seetam\Documents\TaxiData\Map\itinero.routerdb");
         }
 
         public IConfiguration Configuration { get; }
@@ -36,6 +37,8 @@ namespace Orion.Web
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddDbContext<SqlContext>();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,7 +50,7 @@ namespace Orion.Web
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler(" / Home/Error");
             }
 
             app.UseStaticFiles();

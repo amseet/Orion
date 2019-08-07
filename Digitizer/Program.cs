@@ -1,11 +1,11 @@
 ﻿using Itinero;
 using Itinero.Osm.Vehicles;
-using Digitizer.Models;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using Orion.IO.Models;
 
-namespace Digitizer
+namespace Orion.IO
 {
     public class Program
     {
@@ -14,7 +14,8 @@ namespace Digitizer
             var watch = System.Diagnostics.Stopwatch.StartNew();
             TripDataModel td = new TripDataModel();
             string dest = file.Replace(".csv", ".dat");
-            Binarizer.Binarize<TripAttributes>(file,  dest, ',', td.ParseTokens);
+            //TODO
+            //BianryFile.CsvToBinary<TripAttributes>(file,  dest, ',', td.ParseTokens);
 
             watch.Stop();
             var elapsedSec = watch.ElapsedMilliseconds / 1000f;
@@ -31,7 +32,8 @@ namespace Digitizer
                 FileStream fstream = new FileStream(file, FileMode.Open, FileAccess.Read);
                 var watch = System.Diagnostics.Stopwatch.StartNew();
 
-                td.Rows = Binarizer.ImportBinarizedFile<TripAttributes>(file + ".dat");
+                //TODO
+                //td.Rows = BinaryStream.Reader.ImportBinaryFile<TripAttributes>(new FileStream(file + ".dat", FileMode.Open));
 
                 watch.Stop();
                 var elapsedSec = watch.ElapsedMilliseconds / 1000f;

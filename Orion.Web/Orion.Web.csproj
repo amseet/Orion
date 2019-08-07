@@ -17,6 +17,7 @@
     <ProjectReference Include="..\Itinero.IO.Osm\Itinero.IO.Osm.csproj" />
     <ProjectReference Include="..\Itinero\Itinero.csproj" />
     <ProjectReference Include="..\Orion.DB\Orion.DB.csproj" />
+    <ProjectReference Include="..\Orion\Orion.csproj" />
   </ItemGroup>
 
 </Project>

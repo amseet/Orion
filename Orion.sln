@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itinero.IO.Shape", "Itinero
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itinero.IO.OpenLR", "Itinero.IO.OpenLR\Itinero.IO.OpenLR.csproj", "{72DC0070-30ED-409F-BFD0-AC541B8E28B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitizer", "Digitizer\Digitizer.csproj", "{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orion.IO", "Digitizer\Orion.IO.csproj", "{F6F376DB-5AC8-4D84-9AA0-E83E03CBA34F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orion.Web", "Orion.Web\Orion.Web.csproj", "{2C141EC1-5DFD-438B-BF21-E054B72C1E7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orion.DB", "Orion.DB\Orion.DB.csproj", "{E50AB2C7-930C-4093-A9BA-55D98A42EDDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orion.DB", "Orion.DB\Orion.DB.csproj", "{E50AB2C7-930C-4093-A9BA-55D98A42EDDA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GNN", "GNN\GNN.pyproj", "{32560414-A00D-40B8-B76B-FFAFBD1E29BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,8 @@ Global
 		{E50AB2C7-930C-4093-A9BA-55D98A42EDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E50AB2C7-930C-4093-A9BA-55D98A42EDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E50AB2C7-930C-4093-A9BA-55D98A42EDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32560414-A00D-40B8-B76B-FFAFBD1E29BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32560414-A00D-40B8-B76B-FFAFBD1E29BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

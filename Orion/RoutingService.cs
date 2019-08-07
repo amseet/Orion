@@ -96,6 +96,14 @@ namespace Orion
             router = new Router(routerDb);
         }
    
+        public string GetRoute(double [] source, double [] dest)
+        {
+            Result<Route> result = router.TryCalculate(routerDb.GetSupportedProfile("car"),
+                                        (float)source[0], (float)source[1], (float)dest[0], (float)dest[1]);
+            if (!result.IsError)
+                return result.Value.ToGeoJson();
+            return string.Empty;    
+        }
         public void AddRouteDb(SqlContext sql, Router router, TripDataModel trip, Profile profile, bool withTraffic = false)
         {
             Result<Route> result = router.TryCalculate(profile, (float)trip.Pickup_Latitude, (float)trip.Pickup_Longitude,
@@ -127,7 +135,6 @@ namespace Orion
         }
        
         //List<Task> tasks = new List<Task>();
-        Util.Progress progress = new Util.Progress(1000);
 
         public void BatchRouting()
         {
@@ -141,8 +148,7 @@ namespace Orion
             Console.WriteLine("No. of Trips: {0}\t" +
                                 "No. of Batchs: {1} of size {2}", _MaxCount, numberOfBatches, _BatchSize);
 
-            Util.Progress progress = new Util.Progress(5000);
-            progress.MaxValue = _MaxCount;
+            Util.Progress progress = new Util.Progress(5000, _MaxCount);
             progress.Start();
             int BatchCount = 0;
             while (BatchCount < numberOfBatches)

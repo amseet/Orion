@@ -21,27 +21,33 @@ namespace Orion.Util
             Tasks = new List<Task>();
         }
 
-        public void Run(Action<int, int, Progress> action)
+        public void Run(Action<int> action)
         {
-            int numberOfBatches = (int)((double)_MaxCount / (double)_BatchSize + 1.0f);
-            Console.WriteLine("No. of Trips: {0}\t" +
-                                "No. of Batchs: {1} of size {2}", _MaxCount, numberOfBatches, _BatchSize);
-
-            int BatchCount = 0;
-            while (BatchCount < numberOfBatches)
+            int totalBatches = (int)((double)_MaxCount / (double)_BatchSize + 0.5f);
+            Console.WriteLine("No. of Batchs: {0}", totalBatches);
+            Progress progress = new Progress(1000, totalBatches);
+            //progress.Start();
+            int i = 0;
+            while(i < totalBatches)
             {
-                if(Tasks.Count < _PoolSize)
+                if (Tasks.Count < _PoolSize)
                 {
-                    Tasks.Add(Task.Run(()=>{
-                        Progress progress = new Progress(1000);
-                        int curpos = Console.CursorTop;
-
+                    Tasks.Add(Task.Run(() =>
+                    {
+                        action.Invoke(i);
+                        progress.inc();
                     }));
+                    i += _BatchSize;
+                    Thread.Sleep(100);
                 }
                 else
-                    Task.WaitAny(Tasks.ToArray());
+                    Tasks.RemoveAt(Task.WaitAny(Tasks.ToArray()));
             }
-            
+            progress.Stop();
+        }
+        public void Wait()
+        {
+            Task.WaitAll(Tasks.ToArray());
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Orion.Web.Views
         // GET: TripData
         public async Task<IActionResult> Index()
         {
-            return View(await _context.TripData.ToListAsync());
+            return View(await _context.TripData.Take(100).ToListAsync());
         }
 
         // GET: TripData/Details/5

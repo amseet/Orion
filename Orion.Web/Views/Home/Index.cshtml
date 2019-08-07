@@ -1,47 +1,55 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Map Page";
 }
 
-@section Styles{
-    <link rel="stylesheet"
-          href="~/lib/leaflet/leaflet.css" />
+@section Header{
+    <link rel="stylesheet" href="~/css/map.css" />
+    <link rel="stylesheet" href="~/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" href="~/css/leaflet.css" />
+
+    <script src="~/js/leaflet.js"></script>
+    <script src="~/js/Polyline.encoded.js"></script>
 }
 
-<div id="map" style="width: 1280px; height: 720px"></div>
+
+<div class="container">
+    <br />
+    <div class="row">
+        <div class="form-group">
+            <div class='col-sm-4'>
+                <div class='input-group date' id='datetime_from'>
+                    <input type='text' class="form-control" id="startTime" name="startTime" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <div class='input-group date' id='datetime_to'>
+                    <input type='text' class="form-control" id="endTime" name="endTime" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+            <div class='col-sm-2'>
+                <button type="submit" class="btn btn-default" id="requestTimeRange">Range Submit</button>
+            </div>
+            <div class='col-sm-2'>
+                <button type="submit" class="btn btn-default" id="requestActive">Active Submit</button>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class='col-sm-12'>
+            <div id="mapid"></div>
+        </div>
+    </div>
+</div>
 
 @section Scripts{
-    <script src="~/lib/leaflet/leaflet.js"></script>
-    <script src="~/js/Polyline.encoded.js"></script>
-    <script>
-
-        $.ajax({
-            dataType: "text",
-            url: "./res/linkinfo.csv",
-            success: success
-        });
-
-        function success(data) {
-            var items = data.split('\n');
-            var map = L.map('map').setView([40.81376, -73.93128], 8);
-            mapLink =
-                '<a href="http://openstreetmap.org">OpenStreetMap</a>';
-            L.tileLayer(
-                'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '&copy; ' + mapLink + ' Contributors',
-                    maxZoom: 18,
-                }).addTo(map);
-
-            $.each(items, function (idx, item) {
-                polyline = item.split(',')[1];
-                if (idx !== 0) {
-                    try {
-                        L.Polyline.fromEncoded(polyline).addTo(map);
-                    } catch(e){
-                        console.log(idx + " " + polyline);
-                    } 
-                }
-            });
-        }
-
-    </script>
+    <script src="~/lib/moment/min/moment.min.js"></script>
+    <script src="~/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="~/js/map.js"></script>
 }

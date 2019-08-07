@@ -13,7 +13,7 @@ namespace Orion.DB
         public SqlContext(DbContextOptions<SqlContext> options)
            : base(options)
         {
-
+            this.Database.SetCommandTimeout(6000);
         }
 
         public SqlContext()
@@ -23,11 +23,10 @@ namespace Orion.DB
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer(@"Server=DESKTOP-IM96RCK; Initial Catalog = Orion; Integrated Security = True; TrustServerCertificate = True; ApplicationIntent = ReadWrite; MultipleActiveResultSets=true;");
-            }
+
+            //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-IM96RCK; Initial Catalog = Orion; Integrated Security = True; TrustServerCertificate = True; ApplicationIntent = ReadWrite; MultipleActiveResultSets=true;");
+            
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

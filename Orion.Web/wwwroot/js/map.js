@@ -15,36 +15,14 @@ function flipArray(array) {
         flip(array[i]);
 }
 
-class Taxi {
+class Trip {
     constructor(data) {
-        this.data = {
-            id: {},
-            uid: {},
-            vendorID: {},
-            pickup_datetime: {},
-            dropoff_datetime: {},
-            passenger_count: {},
-            trip_distance: {},
-            pickup_longitude: {},
-            pickup_latitude: {},
-            RatecodeID: {},
-            store_and_fwd_flag: {},
-            dropoff_longitude: {},
-            dropoff_latitude: {},
-            payment_type: {},
-            fare_amount: {},
-            extra: {},
-            mta_tax: {},
-            tip_amount: {},
-            tolls_amount: {},
-            improvement_surcharge: {},
-            total_amount: {}
-        }; //container for taxi information from DB
+        this.data = {}; //container for trip information from DB
         this.routeItinero = {};
         this.routeGoogle = {};
         this.currentPos = {}; //current position in the route sequance
         this.currentLatLng = {}; //current position on map
-        this.currentTime = {}; //current time according to taxi instance
+        this.currentTime = {}; //current time according to trip instance
 
         if (data !== undefined)
             this.data = data;
@@ -52,7 +30,7 @@ class Taxi {
 
     init(data) {
         if (data === undefined)
-            throw "Taxi Data is undefined";
+            throw "Trip Data is undefined";
         this.data = data;
     }
 
@@ -65,8 +43,8 @@ class Taxi {
         this.currentLatLng = route.Shape[this.currentPos];
     }
 
-    onClick(event, taxi) {
-        console.log(taxi);
+    onClick(event, trip) {
+        console.log(trip);
     }
     timeStep() {
 
@@ -96,7 +74,7 @@ class Map {
 
     clearMap() {
         for (var i in this._map._layers) {
-            if (this._map._layers[i]._path != undefined) {
+            if (this._map._layers[i]._path !== undefined) {
                 try {
                     this._map.removeLayer(this._map._layers[i]);
                 }
@@ -118,14 +96,14 @@ class Map {
     //    L.marker([pos[0], pos[1]]).addTo(this._map);
     //}
 
-    dropPin(taxi) {
-        var l = L.marker(taxi.currentLatLng);
+    dropPin(trip) {
+        var l = L.marker(trip.currentLatLng);
         l.addTo(this._map);
-        //l.addEventListener('click', taxi.onClick);
+        //l.addEventListener('click', trip.onClick);
     }
 }
 
-class TaxiDataWrapper {
+class TripDataWrapper {
     constructor() {
 
     }
@@ -134,44 +112,50 @@ class TaxiDataWrapper {
         return parseInt(String(year) + month.pad(2) + index.pad(9));
     }
 
-    static getTaxiById(id, callback) {
-        $.ajax(`/api/TaxiData/${id}`, {
+    static getTripById(id, callback) {
+        $.ajax(`/api/v1/TripData/${id}`, {
             method: 'GET',
             contentType: 'application/json',
-            dataType: 'json'
-        }).success(function (data) {
-            callback(data);
-        }).fail(function () {
-            callback(undefined);
+			dataType: 'json',
+			success: function (data) {
+				callback(data);
+			},
+			fail: function () {
+				callback(undefined);
+			}
         });
     }
 
-    static getTaxiRouteById(id, callback) {
-        $.ajax(`/api/Router/${id}`, {
+    static getTripRouteById(id, callback) {
+        $.ajax(`/api/v1/Route/${id}`, {
             method: 'GET',
             contentType: 'application/json',
-            dataType: 'json'
-        }).success(function (data) {
-            callback(data);
-        }).fail(function () {
-            callback(undefined);
+            dataType: 'json',
+			success: function (data) {
+				callback(data);
+			},
+			fail: function () {
+				callback(undefined);
+			}
         });
     }
 
-    static getTaxiRoute(taxi, callback) {
-        var id = taxi.data.id;
-        $.ajax(`/api/Router/${id}`, {
-            method: 'GET',
-            contentType: 'application/json',
-            dataType: 'json'
-        }).success(function (data) {
-            callback(taxi, data);
-        }).fail(function () {
-            callback(taxi, undefined);
-        });
+    static getTripRoute(trip, callback) {
+		var id = trip.data.TripId;
+		$.ajax(`/api/v1/Route/${id}`, {
+			method: 'GET',
+			contentType: 'application/json',
+			dataType: 'json',
+			success: function (data) {
+				callback(trip, data);
+			},
+			fail: function () {
+				callback(trip, undefined);
+			}
+		});
     }
 
-    static getTaxiByDateTime(startTime, endTime, callback) {
+    static getTripByDateTime(startTime, endTime, callback) {
         let requestData = {
             startTime: startTime,
             endTime: endTime,
@@ -179,13 +163,14 @@ class TaxiDataWrapper {
             offset: 0
         };
 
-        $.ajax('/api/TaxiData/TimeRange', {
+        $.ajax('/api/v1/TripData/TimeRange', {
             method: 'GET',
             contentType: 'application/json',
             dataType: 'json',
-            data: requestData
-        }).success(function (multidata) {
-            callback(multidata);
+            data: requestData,
+			success: function (multidata) {
+				callback(multidata);
+			}
         });
     }
 }
@@ -195,19 +180,20 @@ class googleMapApiWrapper {
 
     }
 
-    static getRoute(taxi, callback) {
-        var id = taxi.data.id;
+    static getRoute(trip, callback) {
+        var id = trip.data.TripId;
 
         var requestData = {
             type: "Google"
         };
             
-        $.ajax(`/api/Router/${id}`, {
+        $.ajax(`/api/v1/Route/${id}`, {
             method: 'GET',
             dataType: "json",
             data: requestData,
-        }).success(function (data) {
-            callback(taxi, data);
+			success: function (data) {
+				callback(trip, data);
+			}
         });
     }
 }
@@ -217,7 +203,7 @@ $(function () {
         defaultDate: "2016-02-01T12:00:00"
     });
     $('#datetime_to').datetimepicker({
-        defaultDate: "2016-02-01T01:10:00"
+        defaultDate: "2016-02-01T12:10:00"
     });
 });
 
@@ -227,36 +213,36 @@ $(function () {
 let mymap = new Map("mapid");
 mymap.init(40.729912, -73.980782);
 
-let taxi = new Taxi();
-let taxis = [];
+let trip = new Trip();
+let trips = [];
 
 $("#requestTimeRange").click(function () {
     var startTime = new Date($("#startTime").val());
     var endTime = new Date($("#endTime").val());
 
-    TaxiDataWrapper.getTaxiByDateTime(startTime.toJSON(), endTime.toJSON(),
-        function (multidata) {
+    TripDataWrapper.getTripByDateTime(startTime.toJSON(), endTime.toJSON(),
+		function (multidata) {
             mymap.clearMap();
             for (var i = 0; i < multidata.length; i++) {
-                taxis[i] = new Taxi(multidata[i]);
-                let taxi = taxis[i];
+                trips[i] = new Trip(multidata[i]);
+                let trip = trips[i];
 
                 // Plot Itinero Route
-                TaxiDataWrapper.getTaxiRoute(taxi, function (taxi, route) {
-                    taxi.setRouteItinero(route);
-                    mymap.drawRoute(taxi.routeItinero.Shape, 'red');
-                    mymap.dropPin(taxi);
+                TripDataWrapper.getTripRoute(trip, function (trip, route) {
+                    trip.setRouteItinero(route);
+                    mymap.drawRoute(trip.routeItinero.Shape, 'red');
+                    mymap.dropPin(trip);
                 });
 
                 // Plot Google Maps Api Route
-                googleMapApiWrapper.getRoute(taxi, function (taxi, result) {
-                    taxi.routeGoogle = result;
+                //googleMapApiWrapper.getRoute(trip, function (trip, result) {
+                //    trip.routeGoogle = result;
 
-                    let route = L.Polyline.fromEncoded(result.routes[0].overview_polyline.points);
-                    mymap.drawRoute(route._latlngs, 'blue');
-                    //mymap.dropPin(taxi.currentLatLng);
+                //    let route = L.Polyline.fromEncoded(result.routes[0].overview_polyline.points);
+                //    mymap.drawRoute(route._latlngs, 'blue');
+                //    //mymap.dropPin(trip.currentLatLng);
 
-                });
+                //});
             }
         });
 })

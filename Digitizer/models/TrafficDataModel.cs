@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Digitizer.Models
+namespace Orion.IO.Models
 {
     public struct TrafficAttributes
     {
