@@ -179,7 +179,7 @@ namespace Orion.Util
             TaskPool pool = new TaskPool(1, nyc.Count);
             pool.Run(i =>
             {
-                result[i] = ffapi.GetData(nyc.GetRegion(i).id);
+                result[i] = ffapi.GetData(nyc.GetRegion(i).UID);
             });
 
             string file = Path.Combine(NYCConst.CensusData_Dir, "Census_Data.json");
@@ -198,7 +198,7 @@ namespace Orion.Util
         {
             GooglePlacesAPI api = new GooglePlacesAPI();
             string file = Path.Combine(NYCConst.Places_Dir, "nycplaces.json");
-            var tracts = nyc.Select(t => new { id = t.id, lng = t.Longitude, lat = t.Latitude, radius = t.Length / 6.562 });
+            var tracts = nyc.Select(t => new { id = t.UID, lng = t.Longitude, lat = t.Latitude, radius = t.Length / 6.562 });
             List <RatingData> tractPopularity = new List<RatingData>();
 
             Progress progress = new Progress(1000, tracts.Count());
@@ -240,6 +240,39 @@ namespace Orion.Util
 
         }
 
+        public static Dictionary<string, float> ComputeAttraction(City city, TripRecordContext context)
+        {
+            Progress progress = new Progress(1000, context.Count);
+            Dictionary<string, float> attraction = new Dictionary<string, float>();
+
+            //Process
+            Console.WriteLine(">Processing Attraction Heat Map<");
+            progress.Start();
+            foreach (var date in context)
+            {
+                var trips = context.Get(date);
+                foreach (var trip in trips)
+                {
+                    var region = city.FindRegion(trip.Pickup_Latitude, trip.Pickup_Longitude)?.UID;
+                    if (region != null)
+                        attraction[region] = attraction.GetOrCreate(region) + 1;
+
+                    region = city.FindRegion(trip.Dropoff_Latitude, trip.Dropoff_Longitude)?.UID;
+                    if (region != null)
+                        attraction[region] = attraction.GetOrCreate(region) + 1;
+                }
+
+                progress.inc();
+            }
+            progress.Stop();
+
+            //Save
+            Console.WriteLine(">Saving Attraction Heat Map<");
+            File.WriteAllText(Path.Combine(NYCConst.Base_Dir, "Attraction.json"), JsonConvert.SerializeObject(attraction));
+
+            return attraction;
+        }
+
         //Source: https://codeblog.jonskeet.uk/2008/02/05/a-simple-extension-method-but-a-beautiful-one/
         public static TValue GetOrCreate<TKey, TValue>(this IDictionary<TKey, TValue> dictionary,
                                                TKey key)
@@ -253,6 +286,5 @@ namespace Orion.Util
             }
             return ret;
         }
-
     }
 }

@@ -7,6 +7,7 @@ namespace Orion.Cities.NYC
 {
     public class NYCConst : Constants
     {
+        public const float TotalPopulation = 8175133.0f;
         public readonly static string Base_Dir = Path.Combine(Root_Dir, "NYC");
         public readonly static string Trips_Dir = Path.Combine(Base_Dir, "TripRecords");
         public readonly static string TripsRaw_Dir = Path.Combine(Trips_Dir, "Raw");

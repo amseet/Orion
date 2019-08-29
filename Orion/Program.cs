@@ -33,23 +33,36 @@ namespace Orion
 
         static void ProcessTrips(TripRecordContext context, City nyc, Dictionary<DateTime, Weather> WeatherData)
         {
+            bool processEdges = true;
+            bool processGlobals = true;
+            bool processNodes = true;
+            StreamWriter wNode = null;
+            StreamWriter wGlobal = null;
+            StreamWriter wEdge = null;
+
             Progress progress;
             Stopwatch stopwatch = new Stopwatch();
-
+            int edgeCounter = 0;
             #region ProcessingTrips
             Console.WriteLine(">Starting Process<");
             stopwatch.Restart();
 
-            StreamWriter writer = new StreamWriter(Path.Combine(Constants.Root_Dir, "result.csv"));
-            writer.AutoFlush = true;
-            writer.WriteLine(string.Join(',', 
-                                "ID", 
-                                "DayofWeek", "Date", "Period", /*Global Temprol Data*/
-                                "Population", "MedianIncome", "PopDensity", "BachelorHigher", /*Census Data*/
-                                "Popularity", "LandUse",     /*Attraction and land use*/
-                                "Temp Avg", "Precipitation", "Snow", /*Global Weather Data*/
-                                "OutFlow", "InFlow"));
-            
+            if (processNodes)
+            {
+                wNode = new StreamWriter(Path.Combine(Constants.Root_Dir, "node.csv"));
+                wNode.WriteLine(string.Join(',',
+                                "ID", "LandUse",
+                                "Population", "MedianIncome", "PopDensity", "BachelorHigher", 
+                                "Popularity", "Rating", "Places",
+                                "OutFlow"));
+            }
+
+            if (processGlobals)
+            {
+                wGlobal = new StreamWriter(Path.Combine(Constants.Root_Dir, "global.csv"));
+                wGlobal.WriteLine(string.Join(',', "Month", "DayofWeek", "Period", "TempAvg", "Precipitation", "Snow"));
+            }
+
             foreach (DateTime date in context)
             {
                 var trips = context.Get(date);
@@ -63,8 +76,16 @@ namespace Orion
                 {
                     //Count the number of pickups and dropoffs per zone
                     Dictionary<string, int> Pickups = new Dictionary<string, int>();
-                    Dictionary<string, int> Dropoffs = new Dictionary<string, int>();
-                    
+                    //Dictionary<string, int> Dropoffs = new Dictionary<string, int>();              
+                    Dictionary<Tuple<int,int>, int> EdgeFlow = new Dictionary<Tuple<int, int>, int>();
+
+                    if (processEdges)
+                    {
+                        wEdge = new StreamWriter(Path.Combine(Constants.Root_Dir,
+                                               string.Format("Edges/edges_{0}.csv", edgeCounter++)));
+                        wEdge.WriteLine(string.Join(',', "SenderID", "ReceiverID", "Distance", "InFlow"));
+                        wEdge.AutoFlush = true;
+                    }
 
                     #region FindContainingRegion
                     var sortedTrips = period.OrderBy(t => t.TimeStamp).ToArray();
@@ -77,51 +98,83 @@ namespace Orion
                             var pickupRegion= nyc.FindRegion(trip.Pickup_Latitude, trip.Pickup_Longitude);
                             var dropoffRegion = nyc.FindRegion(trip.Dropoff_Latitude, trip.Dropoff_Longitude);
 
-                            //aggrigate pickup counts per region
-                            if (pickupRegion != null)
-                                Pickups[pickupRegion.id] = Pickups.GetOrCreate(pickupRegion.id) + 1;
+                            //aggrigate pickup & dropoffcounts per region
+                            if (pickupRegion != null && dropoffRegion != null)
+                            {
+                                Pickups[pickupRegion.UID] = Pickups.GetOrCreate(pickupRegion.UID) + 1;
+                                //Dropoffs[dropoffRegion.UID] = Dropoffs.GetOrCreate(dropoffRegion.UID) + 1;
 
-                            //aggrigate dropoff counts per region
-                            if (dropoffRegion != null)
-                                Dropoffs[dropoffRegion.id] = Dropoffs.GetOrCreate(dropoffRegion.id) + 1;    
+                                var edge = new Tuple<int, int>(pickupRegion.Idx, dropoffRegion.Idx); //nyc.GetEdge(pickupRegion, dropoffRegion);
+                                EdgeFlow[edge] = EdgeFlow.GetOrCreate(edge) + 1;
+                            }
                         }
                         progress.inc();
                     }
-                    
                     #endregion
 
                     #region SaveDataToFile
-                    //Save results to file
-                    foreach (var region in nyc)
+                    //Save Node results to file
+                    if (processNodes)
                     {
-                        var outflow = Pickups.GetOrCreate(region.id);
-                        var inflow = Dropoffs.GetOrCreate(region.id);
-
-                        //"ID", 
-                        //"DayofWeek", "Date", "Period",                                    /*Global Temprol Data*/
-                        //"Population", "MedianIncome", "Density", "BachelorHigher",        /*Census Data*/
-                        //"Popularity", "LandUse",                                          /*Attraction and land use*/
-                        //"Temp Avg", "Precipitation", "Snow",                              /*Global Weather Data*/
-                        //"OutFlow", "InFlow"
-
-                        writer.WriteLine(string.Join(',',
-                                            region.id,
-                                            date.DayOfWeek, date, period.Key,
-                                            region.Population, region.MedianIncome, region.PopDensity, region.BachelorHigher,
-                                            region.Popularity, region.LandUse,
-                                            weather.TempAvg, weather.Precipitation, weather.SnowDepth,
-                                            outflow, inflow));
+                        foreach (var region in nyc)
+                        {
+                            /** 
+                             * NODE FIELDS:
+                                "ID", "LandUse",
+                                "Population", "MedianIncome", "PopDensity", "BachelorHigher", "Popularity", "Rating", "Places"
+                                "OutFlow"
+                             */
+                            wNode.WriteLine(string.Join(',',
+                                                region.Idx, region.LandUse,
+                                                region.Population / NYCConst.TotalPopulation, region.MedianIncome, region.PopDensity, region.BachelorHigher,
+                                                region.Popularity, region.Rating, region.Places,
+                                                Pickups.GetOrCreate(region.UID)));
+                        }
+                        wNode.Flush();
                     }
+
+
+                    //Save Edge results to file
+                    if (processEdges)
+                    {
+                        foreach (var edge in EdgeFlow)
+                        {
+                            /** 
+                             * EDGE FIELD:
+                                "SenderID", "ReceiverID", "Distance", "InFlow"
+                             */
+                            var dist = nyc.Distance(edge.Key.Item1, edge.Key.Item2) / 3280.84;
+                            wEdge.WriteLine(string.Join(',', edge.Key.Item1, edge.Key.Item2, dist, edge.Value));
+                        }
+                        wEdge.Flush();
+                        wEdge.Close();
+                    }
+
+                    //Save Global results to file
+                    /**
+                     *  GLOBAL FIELD:
+                        "Month", "DayofWeek", "Period", "Temp Avg", "Precipitation", "Snow"
+                     */
+                    if (processGlobals)
+                    {
+                        wGlobal.WriteLine(string.Join(',', date.Month, (int)date.DayOfWeek, period.Key,
+                                            weather.TempAvg, weather.Precipitation, weather.SnowDepth));
+                        wGlobal.Flush();
+                    }
+
                     #endregion
                 }
                 progress.Stop();
-                writer.Flush();
             }
-            writer.Close();
+            if (processGlobals)
+                wGlobal.Close();
+            if (processNodes)
+                wNode.Close();
+
             Console.WriteLine("Execution Time: {0} Seconds\n", (float)stopwatch.ElapsedMilliseconds / 1000);
             #endregion
         }
- 
+
         static void Main(string[] args)
         {
             Stopwatch stopwatch = new Stopwatch();

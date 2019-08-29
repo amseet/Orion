@@ -24,7 +24,8 @@ namespace Orion.Core.DataStructs
 
     public class RegionData
     {
-        public string id;
+        public int Idx;
+        public string UID;
         public double Latitude;
         public double Longitude;
         public double Area;             //Region area
@@ -33,17 +34,20 @@ namespace Orion.Core.DataStructs
         public int MedianIncome;        //Median household income USD (Econimic)
         public float BachelorHigher;      //Bachelor's degree or higher (Social)
         public float PopDensity;         //Population Density per acre (Census)
-        public float Popularity;        //Location user rating based on Google reviews (Social)
+        public int Popularity;          //Number of user reviewed the location based on Google reviews (Social)
+        public double Rating;           //Star rating  based on Google reviews (Social)
         public int Places;              //Number of places that contributed to the popularity value (max 20)
+        public float Attraction;
         public string LandUse;          //Zoning & land use category of location (categorical)
         public double DistCityCenter;   //Distance of location to closest city center (Hub)
 
         public RegionData() { }
-        public RegionData(double lat, double lng, double area, double length, 
-                            CensusData c, RatingData r, string landuse, double distance)
+        public RegionData(int id, double lat, double lng, double area, double length, 
+                            CensusData c, RatingData r, float attraction, string landuse)
         {
             Debug.Assert(c.id == r.id);
-            id = c.id;
+            Idx = id;
+            UID = c.id;
             Latitude = lat;
             Longitude = lng;
             Area = area;
@@ -52,10 +56,11 @@ namespace Orion.Core.DataStructs
             MedianIncome = c.MedianIncome;
             BachelorHigher = c.BachelorHigher;
             PopDensity = c.PopDensity;
-            Popularity = r.Rating * r.TotalUsers;
+            Popularity = r.TotalUsers;
+            Rating = r.Rating;
             Places = r.PlacesCount;
+            Attraction = attraction;
             LandUse = landuse;
-            DistCityCenter = distance;
         }
     }
 
@@ -66,4 +71,10 @@ namespace Orion.Core.DataStructs
         public float SnowDepth;
     }
 
+    public struct Edge
+    {
+        public int SenderID;
+        public int ReceiverID;
+        public double Distance;
+    }
 }

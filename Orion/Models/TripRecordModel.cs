@@ -10,16 +10,16 @@ namespace Orion.Models
 
         public enum TimePeriod
         {
-            Night,          // 0am - 5am
-            EarlyMorning,   // 5am - 7am
-            MorningRush,    // 7am - 9am 
-            Morning,        // 9am - 12am
-            Lunch,          // 12pm - 1pm
-            Afternoon,      // 1pm - 4pm
-            AfternoonRush,  // 4pm - 6pm
-            Evening,        // 6pm - 10am
-            Midnight,       // 10am - 12am
-            Other
+            Night = 0,          // 0am - 5am
+            EarlyMorning = 5,   // 5am - 7am
+            MorningRush = 7,    // 7am - 9am 
+            Morning = 9,        // 9am - 12am
+            Lunch = 12,          // 12pm - 1pm
+            Afternoon = 13,      // 1pm - 4pm
+            AfternoonRush = 16,  // 4pm - 6pm
+            Evening = 18,        // 6pm - 10am
+            Midnight = 22,       // 10am - 12am
+            Other = -1
         }
 
         public static TimePeriod GetTimePeriod(int time)

@@ -28,7 +28,7 @@ namespace Orion.IO
             public string[] Types;
         }
 
-        private string Apikey = "AIzaSyAdx1cGTr3U5Xc4cFoHUagOjGsDb-xQLPo";
+        private string Apikey = "-xQLPo";
         private string base_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
         private string alt_url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?";
 
