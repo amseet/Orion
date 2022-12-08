@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <PackageReference Include="NetTopologySuite.IO.ShapeFile" Version="1.15.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="ProjNET4GeoAPI" Version="1.4.1" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
